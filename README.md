@@ -1,6 +1,6 @@
 # Mehmet Aydın Baytaş
 
-## Current projects:
+## Current Projects
 
 - [Design Disciplne](https://designdisciplin.com)
 
