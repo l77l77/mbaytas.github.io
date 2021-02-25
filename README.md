@@ -1,9 +1,5 @@
 # Mehmet Aydın Baytaş
 
-## Current Projects
-
-- [Design Disciplne](https://designdisciplin.com)
-
 ## Bio
 
 Dr. Mehmet Aydın Baytaş is a scholar of design. Fascinated by science and technology as a child, art and design as a teenager, and economics and philosophy as an aspiring adult, in his work he tries to integrate these fascinations as a writer, strategist, and creative producer.
