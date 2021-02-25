@@ -32,6 +32,8 @@ His academic work began on the inaugural research team of the Koç University De
 
 Dr. Baytaş has degrees in mechanical engineering and economics from Koç University, a high school diploma from Robert College of Istanbul, certification as a yoga teacher, and a collection of credentials in topics related to design, engineering, and business. He grew up in İstanbul, Turkey, and currently resides in Sweden.
 
+[scholar.google.com/citations?user=2ZPGfGYAAAAJ](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)
+
 </div>
 
 </div><!-- .row -->
