@@ -1,7 +1,7 @@
 # Mehmet Aydın Baytaş
 
 <div class="row">
-<div class="col-md-3" markdown="1">
+<div class="col-md-4" markdown="1">
 
 Dr. Mehmet Aydın Baytaş is a scholar of design. Fascinated by science and technology as a child, art and design as a teenager, and economics and philosophy as a potential adult, in his work he tries to integrate these fascinations as a writer, strategist, and creative producer.
 
@@ -10,7 +10,7 @@ Dr. Mehmet Aydın Baytaş is a scholar of design. Fascinated by science and tech
 
 </div>
 
-<div class="col-md-3" markdown="1">
+<div class="col-md-4" markdown="1">
 
 He produces Design Discipline – published as a podcast, YouTube channel, and blog – hosting concepts and conversations on design, documenting and juxtaposing diverse perspectives that include business, craftsmanship, scholarship, and personal growth.
 
@@ -18,11 +18,7 @@ He produces Design Discipline – published as a podcast, YouTube channel, and b
 
 </div>
 
-</div> <!-- .row -->
-
-<div class="row">
-
-<div class="col-md-6" markdown="1">
+<div class="col-md-4" markdown="1">
 
 His academic research is situated at intersections of design and computer science. To date, he has co-authored more than 30 research publications (including ACM DIS Best Paper and ACM CHI Honorable Mention award-winners), as well as research grants which collectively received more than $4M from state, non-profit, and corporate benefactors in Turkey and Sweden. 
 
