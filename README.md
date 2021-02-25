@@ -16,10 +16,7 @@ Dr. Baytaş has degrees in mechanical engineering and economics from Koç Univer
 </div>
 
 <div class="col-md-2" markdown="1">
-twitter.com/doctorBaytas  
-youtube.com/mbaytas  
-instagram.com/doctorBaytas  
-linkedin.com/in/doctorBaytas  
-github.com/mbaytas  
+[twitter.com/doctorBaytas](twitter.com/doctorBaytas)  
+[youtube.com/mbaytas](youtube.com/mbaytas)    
 </div>
 </div>
