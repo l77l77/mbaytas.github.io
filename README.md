@@ -38,8 +38,15 @@ Dr. Baytaş has degrees in mechanical engineering and economics from Koç Univer
 
 <div class="row">
 <div class="col-md-8" markdown="1">
-
-# Scholarly Publications
+  
+<div class="accordion accordion-flush">
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Scholarly Publications</button>
+</h2>
+  
+<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+<div class="accordion-body">
 
 ## 2021
 
@@ -181,5 +188,11 @@ Oğuzhan Özcan, Adviye Ayça Ünlüer, Mehmet Aydın Baytaş, & Barış Serim (
 Rethinking Spherical Media Surfaces by Re-reading Ancient Greek Vases  
 Paper for the ITS ‘12 workshop Beyond Flat Displays: Towards Shaped and Deformable Interactive Surfaces
 
-</div>
-</div><!-- .row -->
+</div><!-- accordion-body -->
+</div><!-- accordion-collapse -->
+
+</div><!-- accordion-item -->
+</div><!-- accordion -->
+
+</div><!-- col -->
+</div><!-- row -->
