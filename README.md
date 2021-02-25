@@ -1,6 +1,6 @@
 # Mehmet Aydın Baytaş
 
-<div class="col-md-6" markdown="1">
+<div class="col-md-5" markdown="1">
 
 ## Bio
 
