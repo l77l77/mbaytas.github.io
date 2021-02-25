@@ -1,5 +1,6 @@
 # Mehmet Aydın Baytaş
 
+<div class="row">
 <div class="col-md-5" markdown="1">
 
 ## Bio
@@ -14,4 +15,13 @@ His academic work began on the inaugural research team of the Koç University De
 
 Dr. Baytaş has degrees in mechanical engineering and economics from Koç University, a high school diploma from Robert College of Istanbul, certification as a yoga teacher, and a collection of credentials in topics related to design, engineering, and business. He grew up in İstanbul, Turkey, and currently resides in Sweden.
 
+</div>
+
+<div class="col-md-2" markdown="1">
+twitter.com/doctorBaytas  
+youtube.com/mbaytas  
+instagram.com/doctorBaytas  
+linkedin.com/in/doctorBaytas  
+github.com/mbaytas  
+</div>
 </div>
