@@ -18,7 +18,7 @@ Dr. Mehmet Aydın Baytaş is a scholar of design. Fascinated by science and tech
 
 <div class="col-md-4" markdown="1">
 
-He produces Design Discipline – published as a podcast, YouTube channel, and blog – hosting concepts and conversations on design, documenting and juxtaposing diverse perspectives that include business, craftsmanship, scholarship, and personal growth.
+He produces Design Discipline – published as a podcast, YouTube channel, and blog – hosting concepts and conversations on design from diverse perspectives such as business, craftsmanship, theory, and personal growth.
 
 [designdisciplin.com](http://designdisciplin.com)  
 
