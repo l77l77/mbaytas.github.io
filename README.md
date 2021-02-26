@@ -1,4 +1,4 @@
-<div class="row my-1">
+<div class="row mt-3">
 <div class="col-md-12" markdown="1">
 
 # Mehmet Aydın Baytaş
