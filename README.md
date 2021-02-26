@@ -6,7 +6,7 @@
 <!-- </div> -->
 <!-- </div> --><!-- .row -->
 
-<div class="row my-3">
+<div class="row">
 <div class="col-md-4" markdown="1">
 
 Dr. Mehmet Aydın Baytaş is a scholar of design. Fascinated by science and technology as a child, art and design as a teenager, and economics and philosophy as a potential adult, in his work he tries to integrate these fascinations as a writer, strategist, and creative producer.
