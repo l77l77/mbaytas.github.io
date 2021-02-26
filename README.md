@@ -9,7 +9,9 @@
 <div class="row">
 <div class="col-md-4" markdown="1">
 
-Dr. Mehmet Aydın Baytaş is a scholar of design. Fascinated by science and technology as a child, art and design as a teenager, and economics and philosophy as a potential adult, in his work he tries to integrate these fascinations as a writer, strategist, and creative producer.
+Dr. Mehmet Aydın Baytaş is a scholar of design.
+
+Fascinated by science and technology as a child, art and design as a teenager, and economics and philosophy as a potential adult, in his work he tries to integrate these fascinations as a writer, strategist, and creative producer.
 
 [twitter.com/doctorBaytas](http://twitter.com/doctorBaytas)  
 [youtube.com/mbaytas](http://youtube.com/mbaytas)    
@@ -18,7 +20,7 @@ Dr. Mehmet Aydın Baytaş is a scholar of design. Fascinated by science and tech
 
 <div class="col-md-4" markdown="1">
 
-He produces Design Discipline – published as a podcast, YouTube channel, and blog – hosting concepts and conversations on design from diverse perspectives such as business, craftsmanship, theory, and personal growth.
+He produces Design Discipline – published as a podcast, YouTube channel, and blog – covering the many facets of design: business, pleasure, theory, craftsmanship, and more.
 
 [designdisciplin.com](http://designdisciplin.com)  
 
