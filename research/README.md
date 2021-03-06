@@ -27,6 +27,7 @@ In The Adjunct Publication of the 33rd Annual ACM Symposium on User Interface So
 Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa (2020)  
 **Azalea: Co-experiencing Embodied Information in Remote Communication**  
 In Proceedings of the 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2020)  
+[\[PDF\]](pub/2020 MobileHCI Azalea.pdf)
 
 Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (eds.) (2020)  
 **Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction**. 
