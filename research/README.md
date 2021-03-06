@@ -22,6 +22,7 @@ Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies
 Florin-Timotei Ghiurãu, Mehmet Aydın Baytaş, & Casper Wickman (2020)  
 **ARCAR: On-Road Driving in Mixed Reality by Volvo Cars**  
 In The Adjunct Publication of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST ‘20 Adjunct)  
+[\[PDF\]](pub/2020 UIST ARCAR.pdf)
 
 Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa (2020)  
 **Azalea: Co-experiencing Embodied Information in Remote Communication**  
