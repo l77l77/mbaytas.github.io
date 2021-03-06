@@ -29,7 +29,8 @@ Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa 
 In Proceedings of the 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2020)  
 
 Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (eds.) (2020)  
-**Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction**
+**Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction**. 
+[\[Proceedings\]](http://ceur-ws.org/Vol-2617/)
 
 Joseph La Delfa, Mehmet Aydın Baytaş, Emma Luke, Ben Koder, & Florian ‘Floyd’ Mueller (2020)  
 **Designing Drone Chi: Unpacking the Thinking and Making of Somaesthetic Human-Drone Interaction**  
@@ -38,7 +39,8 @@ In Proceedings of the 2020 Conference on Designing Interactive Systems (DIS ‘2
 Joseph La Delfa, Mehmet Aydın Baytaş, Rakesh Patibanda, Hazel Ngari, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2020)  
 **Drone Chi: Somaesthetic Human-Drone Interaction**  
 In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20)  
-**\[Honourable Mention Award\]**
+**\[Honourable Mention Award\]**. 
+[\[PDF\]](pub/2020 CHI Drone Chi.pdf)
 
 Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (2020)  
 **iHDI 2020: Interdisciplinary Workshop on Human-Drone Interaction**  
