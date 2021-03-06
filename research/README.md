@@ -6,7 +6,7 @@
 
 Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021)  
 **Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**  
-In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
+In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)
 
 Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Mohammad Obaid, & Morten Fjeld (2021)  
 **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**  
@@ -16,7 +16,8 @@ In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
 
 Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020)  
 **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
-Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies  
+Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies
+[\[PDF\]](pub/2020 NordiCHI WS HDI.pdf)
 
 Florin-Timotei Ghiurãu, Mehmet Aydın Baytaş, & Casper Wickman (2020)  
 **ARCAR: On-Road Driving in Mixed Reality by Volvo Cars**  
