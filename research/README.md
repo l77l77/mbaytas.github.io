@@ -4,7 +4,7 @@
 
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
 **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
-Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI)   
+Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI)  
 [\[PDF\]](pub/2021_HRI_Wisp.pdf)
 
 Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021)  
