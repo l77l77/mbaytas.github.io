@@ -1,5 +1,3 @@
-{% include image-gallery.html folder="/img" %}
-
 # Academic Publications
 
 ## 2021
