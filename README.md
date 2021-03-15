@@ -64,7 +64,7 @@ To work on these and related questions, I authored the "Social Drones" research 
 **How to obviate the trade-off between user experience and security in digital access and authentication?**  
 **How to embody preciousness, sentimental value, and personal imprints in artifacts with digital components?**
 
-To investigate these questions in tandem, I authored the "Precious Keys" research project which funds a PhD researcher at KTH Royal Institute of Technology with an approx. $0.5M grant from the Swedish Research Council (Vetenskapsrådet) between 2020-2023.
+To work on these questions in tandem, I authored the "Precious Keys" research project which funds a PhD researcher at KTH Royal Institute of Technology with an approx. $0.5M grant from the Swedish Research Council (Vetenskapsrådet) between 2020-2023.
 
 **How to synthesize artificial intelligence, digital manufacturing, and handcraft in objects of desire?**  
 
