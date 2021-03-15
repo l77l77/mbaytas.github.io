@@ -17,8 +17,6 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
 \[Forthcoming\]
 
-## 2020
-
 <div class="row">
 <div class="col-md-4">
 <div class="ratio ratio-16x9">
@@ -37,9 +35,7 @@ In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
 </div><!-- .col -->
 </div><!-- .row -->
 
-
-<div class="row">
-<div class="col-md-12" markdown="1">
+## 2020
   
 Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020)  
 **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
@@ -90,9 +86,6 @@ Mehmet Aydın Baytaş, Sara Ljungblad, Joseph La Delfa, & Morten Fjeld (2020)
 **Agent Archetypes for Human-Drone Interaction: Social Robots or Objects with Intent?**  
 In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020)  
 [\[PDF\]](pub/2020_iHDI_Agent.pdf)
-
-</div><!-- .col -->
-</div><!-- .row -->
 
 ## 2019
 
