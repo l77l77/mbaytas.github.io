@@ -87,6 +87,14 @@ Mehmet Aydın Baytaş, Sara Ljungblad, Joseph La Delfa, & Morten Fjeld (2020)
 In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020)  
 [\[PDF\]](pub/2020_iHDI_Agent.pdf)
 
+<div class="row">
+<div class="col-md-4">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/RsGIy-dVxzE" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+</div><!-- .row -->
+
 ## 2019
 
 Mehmet Aydın Baytaş (2019)  
@@ -128,6 +136,14 @@ Mehmet Aydın Baytaş (2019)
 PhD thesis submitted to the Koç University Graduate School of Social Sciences and Humanities  
 [\[PDF\]](pub/2019_PhD_Thesis.pdf)
 
+<div class="row">
+<div class="col-md-4">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/NUwzHB9GPnk" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+</div><!-- .row -->
+
 ## 2018
 
 Mehmet Aydın Baytaş, Aykut Coşkun, Asım Evren Yantaç, & Morten Fjeld (2018)  
@@ -145,6 +161,15 @@ Adviye Ayça Ünlüer, Mehmet Aydın Baytaş, Oğuz Turan Buruk, Zeynep Cemalcı
 **The Effectiveness of Mime‐Based Creative Drama Education for Exploring Gesture‐Based User Interfaces**  
 International Journal of Art & Design Education, 37:3  
 [\[PDF\]](pub/2018_iJADE_Drama.pdf)
+
+
+<div class="row">
+<div class="col-md-4">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/pVLuhdhDazM" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+</div><!-- .row -->
 
 ## 2017
 
@@ -169,6 +194,14 @@ Mehmet Aydın Baytaş, Tilbe Göksun, & Oğuzhan Özcan (2016)
 **The Perception of Live-sequenced Electronic Music via Hearing and Sight**  
 In Proceedings of the 2016 International Conference on New Interfaces for Musical Expression (NIME ‘16)  
 [\[PDF\]](pub/2016_NIME_Techno.pdf)
+
+<div class="row">
+<div class="col-md-4">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/zY2DqQbQCxw" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+</div><!-- .row -->
 
 ## 2014
 
