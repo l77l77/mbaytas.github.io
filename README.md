@@ -52,7 +52,7 @@ His academic work began on the inaugural research team of the Koç University De
 I am currently curious about the following:
 
 **How to be a scholar-entrepreneur, or a "self-employed professor"?**  
-**How to foster a community where entrepreneurs, academics, and craftspeople work in synergy?**
+**How to foster a community where entrepreneurs, academics, and craftspeople think in synergy?**
 
 I produce [Design Discipline](http://designdisciplin.com), a long-term research project and online publication that was born to prove that both of these things are possible.
 
