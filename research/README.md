@@ -19,6 +19,24 @@ In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
 
 ## 2020
 
+<div class="row">
+<div class="col-md-4">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+<div class="col-md-4">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+<div class="col-md-4">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+</div><!-- .row -->
+
 Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020)  
 **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
 Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies  
