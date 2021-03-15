@@ -9,11 +9,13 @@ Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot
 
 Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021)  
 **Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**  
-In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)
+In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
+\[Forthconing\]
 
 Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Mohammad Obaid, & Morten Fjeld (2021)  
 **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**  
-In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)
+In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
+\[Forthconing\]
 
 ## 2020
 
