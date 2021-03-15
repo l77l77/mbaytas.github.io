@@ -91,7 +91,7 @@ In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHD
 
 Mehmet Aydın Baytaş (2019)  
 **Break**  
-interactions 26 (6), 88  
+interactions 26:6  
 [\[PDF\]](pub/2019_interactions_Break.pdf)
 
 Mehmet Aydın Baytaş, Damla Çay, Yuchong Zhang, Mohammad Obaid, Asım Evren Yantaç, & Morten Fjeld (2019)  
@@ -143,7 +143,7 @@ In Proceedings of the 2018 International Conference on New Interfaces for Musica
 
 Adviye Ayça Ünlüer, Mehmet Aydın Baytaş, Oğuz Turan Buruk, Zeynep Cemalcılar, Yücel Yemez, & Oğuzhan Özcan (2018)  
 **The Effectiveness of Mime‐Based Creative Drama Education for Exploring Gesture‐Based User Interfaces**  
-International Journal of Art & Design Education, 37 (3), 353–366  
+International Journal of Art & Design Education, 37:3  
 [\[PDF\]](pub/2018_iJADE_Drama.pdf)
 
 ## 2017
