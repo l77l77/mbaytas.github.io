@@ -18,7 +18,7 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 
 <div class="col-md-4" markdown="1">
 
-He produces Design Discipline: a bi-weekly video podcast on the theory and practice of design.
+He produces Design Discipline: a long-term research project and bi-weekly video podcast on the theory and practice of design.
 
 [designdisciplin.com](http://designdisciplin.com)  
 
@@ -37,6 +37,8 @@ His academic work began on the inaugural research team of the Koç University De
 </div>
 
 </div><!-- .row -->
+
+<hr>
 
 <div class="row">
 <div class="col-md-8" markdown="1">
