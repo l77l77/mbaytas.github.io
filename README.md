@@ -44,31 +44,10 @@ His academic work began on the inaugural research team of the Koç University De
 
 </div><!-- .row -->
 
-<hr>
-
 <div class="row">
 <div class="col-md-8" markdown="1">
   
-I am currently curious about the following:
 
-**How to be a scholar-entrepreneur, or a "self-employed professor"?**  
-**How to foster a community where entrepreneurs, academics, and craftspeople think in synergy?**
-
-I produce [Design Discipline](http://designdisciplin.com), a long-term research project and online publication that was born to prove that both of these things are possible.
-
-**How to build entertaining and refreshing experiences with small, quiet, and safe autonomous drones for home environments?**  
-**How to lower the bar for creatives to build with drones and robots?**  
-
-To work on these and related questions, I authored the "Social Drones" research project which funds a research group at Chalmers University of Technology with an approx. $1.5M grant from The Wallenberg AI, Autonomous Systems and Software Program – Humanities and Society (WASP-HS) between 2020-2024.
-
-**How to obviate the trade-off between user experience and security in digital access and authentication?**  
-**How to embody preciousness, sentimental value, and personal imprints in artifacts with digital components?**
-
-To work on these questions in tandem, I authored the "Precious Keys" research project which funds a PhD researcher at KTH Royal Institute of Technology with an approx. $0.5M grant from the Swedish Research Council (Vetenskapsrådet) between 2020-2023.
-
-**How to synthesize artificial intelligence, digital manufacturing, and handcraft in objects of desire?**  
-
-In an ongoing design and art projects I am prototyping artifacts that digital and handcrafted components in tandem. (Currently in stealth mode.)
   
 </div><!-- col -->
 </div><!-- row -->
