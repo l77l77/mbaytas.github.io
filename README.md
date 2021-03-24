@@ -9,7 +9,7 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 </div><!-- .row -->
 
 
-<div class="row mb-5 row-cols-2 row-cols-sm-3 row-cols-md-4">
+<div class="row mb-5 row-cols-2 row-cols-sm-2 row-cols-md-3">
 
 <div class="col" markdown="1">
   
