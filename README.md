@@ -35,7 +35,7 @@ LinkedIn
 
 <div class="row mb-3" markdown="1">
 
-He produces Design Discipline: a multi-platform publication and long-term research project that illuminates paths to creative fulfillment by covering views on the theory and practice of design, from perspectives including business, technology, art, research, and personal growth.
+He produces Design Discipline: a multi-platform publication and long-term research project that illuminates paths to creative fulfillment through views on the theory and practice of design, from perspectives including business, technology, art, research, and personal growth.
 
 </div><!-- .row -->
 
