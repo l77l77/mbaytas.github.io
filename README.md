@@ -21,11 +21,11 @@ LinkedIn
 </div><!-- col -->
 <div class="col-sm-6 col-md-3" markdown="1">
   
-[Mehmet Aydın Baytaş](http://youtube.com/mbaytas)  ↗
+[Mehmet Aydın Baytaş ↗](http://youtube.com/mbaytas)
 
-[@doctorBaytas](http://twitter.com/doctorBaytas)  ↗
+[@doctorBaytas ↗](http://twitter.com/doctorBaytas)
 
-[@doctorBaytas](https://www.linkedin.com/in/doctorbaytas)  ↗
+[@doctorBaytas ↗](https://www.linkedin.com/in/doctorbaytas)
 
 </div><!-- col -->
 </div><!-- .row -->
@@ -36,7 +36,7 @@ LinkedIn
 <div class="row mb-3">
 <div class="col-md-6" markdown="1">
 
-He produces Design Discipline: a long-term research project and bi-weekly video podcast on the theory and practice of design.
+He produces Design Discipline: a long-term research project and bi-weekly video podcast on the theory and practice of design, from perspectives including business, technology, art, research, and personal growth.
 
 </div><!-- col -->
 </div><!-- .row -->
@@ -58,15 +58,15 @@ Instagram
 </div><!-- col -->
 <div class="col-sm-6 col-md-3" markdown="1">
   
-[designdisciplin.com](http://designdisciplin.com) ↗
+[designdisciplin.com ↗](http://designdisciplin.com)
 
-[Design Discipline](http://podcast.designdisciplin.com)  ↗
+[Design Discipline ↗](http://podcast.designdisciplin.com)
 
-[Design Discipline](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)  ↗
+[Design Discipline ↗](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)
 
-[@designdisciplin](http://twitter.com/designdisciplin)  ↗
+[@designdisciplin ↗](http://twitter.com/designdisciplin)
 
-[@designdisciplin](http://instagram.com/designdisciplin.com)  ↗
+[@designdisciplin ↗](http://instagram.com/designdisciplin.com)
 
 </div><!-- col -->
 </div><!-- .row -->
@@ -98,7 +98,7 @@ Google Scholar
 
 [/research](/research/)
 
-[Mehmet Aydın Baytaş](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ) ↗ 
+[Mehmet Aydın Baytaş ↗](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)
  
 
 </div><!-- col -->
