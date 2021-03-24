@@ -32,7 +32,7 @@ LinkedIn
 [doctorBaytas](https://www.linkedin.com/in/doctorbaytas)
 </dd>
 
-</div><!-- .row -->
+</dl>
 
 
 
@@ -46,34 +46,44 @@ He produces Design Discipline: a long-term research project and bi-weekly video 
 </div><!-- .row -->
 
 
-<div class="row mb-5 row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-<div class="col" markdown="1">
-  
+<dl class="row mb-5">
+
+<dt class="col-4 col-sm-4 col-md-4 col-lg-3">
 Website
-
-Podcast
-
-YouTube
-
-Twitter
-
-Instagram
-
-</div><!-- col -->
-<div class="col" markdown="1">
-  
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
 [designdisciplin.com ↗](http://designdisciplin.com)
+</dd>
 
+<dt class="col-4 col-sm-4 col-md-4 col-lg-3">
+Podcast
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
 [Design Discipline ↗](http://podcast.designdisciplin.com)
+</dd>
 
+<dt class="col-4 col-sm-4 col-md-4 col-lg-3">
+YouTube
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
 [Design Discipline ↗](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)
+</dd>
 
+<dt class="col-4 col-sm-4 col-md-4 col-lg-3">
+Twitter
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
 [designdisciplin ↗](http://twitter.com/designdisciplin)
+</dd>
 
+<dt class="col-4 col-sm-4 col-md-4 col-lg-3">
+Instagram
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
 [designdisciplin ↗](http://instagram.com/designdisciplin.com)
+</dd>
 
-</div><!-- col -->
-</div><!-- .row -->
+</dl>
 
 
 
