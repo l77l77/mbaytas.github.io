@@ -9,26 +9,29 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 </div><!-- .row -->
 
 
-<div class="row mb-5 row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+<dl class="row mb-5">
 
-<div class="col" markdown="1">
-  
+<dt class="col-4 col-sm-4 col-md-4 col-lg-3">
 YouTube
-
-Twitter
-
-LinkedIn
-
-</div><!-- col -->
-<div class="col" markdown="1">
-  
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
 [Mehmet Aydın Baytaş ↗](http://youtube.com/mbaytas)
+</dd>
 
+<dt class="col-4 col-sm-4 col-md-4 col-lg-3">
+Twitter
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
 [doctorBaytas ↗](http://twitter.com/doctorBaytas)
+</dd>
 
+<dt class="col-4 col-sm-4 col-md-4 col-lg-3">
+LinkedIn
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
 [doctorBaytas ↗](https://www.linkedin.com/in/doctorbaytas)
+</dd>
 
-</div><!-- col -->
 </div><!-- .row -->
 
 
