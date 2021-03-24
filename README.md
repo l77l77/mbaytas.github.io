@@ -15,21 +15,21 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 YouTube
 </dt>
 <dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
-[Mehmet Aydın Baytaş ↗](http://youtube.com/mbaytas)
+[Mehmet Aydın Baytaş](http://youtube.com/mbaytas)
 </dd>
 
 <dt class="col-4 col-sm-4 col-md-4 col-lg-3">
 Twitter
 </dt>
 <dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
-[doctorBaytas ↗](http://twitter.com/doctorBaytas)
+[doctorBaytas](http://twitter.com/doctorBaytas)
 </dd>
 
 <dt class="col-4 col-sm-4 col-md-4 col-lg-3">
 LinkedIn
 </dt>
 <dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
-[doctorBaytas ↗](https://www.linkedin.com/in/doctorbaytas)
+[doctorBaytas](https://www.linkedin.com/in/doctorbaytas)
 </dd>
 
 </div><!-- .row -->
