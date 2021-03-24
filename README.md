@@ -100,20 +100,20 @@ His academic work began on the inaugural research team of the Koç University De
 </div><!-- col -->
 </div><!-- row -->
 
-<div class="row mb-5 row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-<div class="col" markdown="1">
+<dl class="row mb-5">
 
-Research Projecs
+<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+Research
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+[/research/](/research/)
+</dd>
 
+<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
 Google Scholar
-
-</div><!-- col -->
-<div class="col" markdown="1">
-
-[/research](/research/)
-
+</dt>
+<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
 [Mehmet Aydın Baytaş ↗](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)
- 
+</dd>
 
-</div><!-- col -->
-</div><!-- .row -->
+</dl>
