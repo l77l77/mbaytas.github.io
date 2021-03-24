@@ -17,7 +17,7 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
 \[Forthcoming\]
 
-<div class="row">
+<div class="row my-5">
 <div class="col-md-4">
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
@@ -87,7 +87,7 @@ Mehmet Aydın Baytaş, Sara Ljungblad, Joseph La Delfa, & Morten Fjeld (2020)
 In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020)  
 [\[PDF\]](pub/2020_iHDI_Agent.pdf)
 
-<div class="row">
+<div class="row my-5">
 <div class="col-md-4">
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/RsGIy-dVxzE" allowfullscreen></iframe>
@@ -136,7 +136,7 @@ Mehmet Aydın Baytaş (2019)
 PhD thesis submitted to the Koç University Graduate School of Social Sciences and Humanities  
 [\[PDF\]](pub/2019_PhD_Thesis.pdf)
 
-<div class="row">
+<div class="row my-5">
 <div class="col-md-4">
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/NUwzHB9GPnk" allowfullscreen></iframe>
@@ -163,7 +163,7 @@ International Journal of Art & Design Education, 37:3
 [\[PDF\]](pub/2018_iJADE_Drama.pdf)
 
 
-<div class="row">
+<div class="row my-5">
 <div class="col-md-4">
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/pVLuhdhDazM" allowfullscreen></iframe>
@@ -195,7 +195,7 @@ Mehmet Aydın Baytaş, Tilbe Göksun, & Oğuzhan Özcan (2016)
 In Proceedings of the 2016 International Conference on New Interfaces for Musical Expression (NIME ‘16)  
 [\[PDF\]](pub/2016_NIME_Techno.pdf)
 
-<div class="row">
+<div class="row my-5">
 <div class="col-md-4">
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/zY2DqQbQCxw" allowfullscreen></iframe>
