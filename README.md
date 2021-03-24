@@ -24,9 +24,9 @@ LinkedIn
   
 [Mehmet Aydın Baytaş ↗](http://youtube.com/mbaytas)
 
-[@doctorBaytas ↗](http://twitter.com/doctorBaytas)
+[doctorBaytas ↗](http://twitter.com/doctorBaytas)
 
-[@doctorBaytas ↗](https://www.linkedin.com/in/doctorbaytas)
+[doctorBaytas ↗](https://www.linkedin.com/in/doctorbaytas)
 
 </div><!-- col -->
 </div><!-- .row -->
@@ -65,9 +65,9 @@ Instagram
 
 [Design Discipline ↗](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)
 
-[@designdisciplin ↗](http://twitter.com/designdisciplin)
+[designdisciplin ↗](http://twitter.com/designdisciplin)
 
-[@designdisciplin ↗](http://instagram.com/designdisciplin.com)
+[designdisciplin ↗](http://instagram.com/designdisciplin.com)
 
 </div><!-- col -->
 </div><!-- .row -->
