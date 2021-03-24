@@ -10,7 +10,7 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 
 
 <div class="row">
-<div class="col-6 col-sm-1" markdown="1">
+<div class="col-6 col-sm-2" markdown="1">
   
 YouTube
 
@@ -19,7 +19,7 @@ Twitter
 LinkedIn
 
 </div><!-- col -->
-<div class="col-6 col-sm-1" markdown="1">
+<div class="col-6 col-sm-2" markdown="1">
   
 [Mehmet Aydın Baytaş](http://youtube.com/mbaytas)  ↗
 
@@ -33,7 +33,7 @@ LinkedIn
 
 
 <div class="row">
-<div class="col-md-4" markdown="1">
+<div class="col-md-6" markdown="1">
 
 He produces Design Discipline: a long-term research project and bi-weekly video podcast on the theory and practice of design.
 
@@ -42,7 +42,7 @@ He produces Design Discipline: a long-term research project and bi-weekly video 
 
 
 <div class="row">
-<div class="col-6 col-sm-1" markdown="1">
+<div class="col-6 col-sm-2" markdown="1">
   
 Website
 
@@ -55,7 +55,7 @@ Twitter
 Instagram
 
 </div><!-- col -->
-<div class="col-6 col-sm-1" markdown="1">
+<div class="col-6 col-sm-2" markdown="1">
   
 [designdisciplin.com](http://designdisciplin.com) ↗
 
@@ -73,7 +73,7 @@ Instagram
 
 
 <div class="row">
-<div class="col-md-4" markdown="1">
+<div class="col-md-6" markdown="1">
 
 His academic research is situated at intersections of design and computer science. To date, he has co-authored more than 30 research publications (including ACM DIS Best Paper and ACM CHI Honorable Mention award-winners), as well as research grants which collectively received more than $4M from state, non-profit, and corporate benefactors in Turkey and Sweden. 
 
@@ -85,14 +85,14 @@ His academic work began on the inaugural research team of the Koç University De
 </div><!-- row -->
 
 <div class="row">
-<div class="col-6 col-sm-1" markdown="1">
+<div class="col-6 col-sm-2" markdown="1">
 
 Research Projecs
 
 Google Scholar
 
 </div><!-- col -->
-<div class="col-6 col-sm-1" markdown="1">
+<div class="col-6 col-sm-2" markdown="1">
 
 [/research](/research/)
 
