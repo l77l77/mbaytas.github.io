@@ -10,7 +10,7 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 
 
 <div class="row">
-<div class="col-6 col-sm-2" markdown="1">
+<div class="col-sm-6 col-md-3" markdown="1">
   
 YouTube
 
@@ -19,7 +19,7 @@ Twitter
 LinkedIn
 
 </div><!-- col -->
-<div class="col-6 col-sm-2" markdown="1">
+<div class="col-sm-6 col-md-3" markdown="1">
   
 [Mehmet Aydın Baytaş](http://youtube.com/mbaytas)  ↗
 
@@ -42,7 +42,7 @@ He produces Design Discipline: a long-term research project and bi-weekly video 
 
 
 <div class="row">
-<div class="col-6 col-sm-2" markdown="1">
+<div class="col-sm-6 col-md-3" markdown="1">
   
 Website
 
@@ -55,7 +55,7 @@ Twitter
 Instagram
 
 </div><!-- col -->
-<div class="col-6 col-sm-2" markdown="1">
+<div class="col-sm-6 col-md-3" markdown="1">
   
 [designdisciplin.com](http://designdisciplin.com) ↗
 
@@ -85,14 +85,14 @@ His academic work began on the inaugural research team of the Koç University De
 </div><!-- row -->
 
 <div class="row">
-<div class="col-6 col-sm-2" markdown="1">
+<div class="col-sm-6 col-md-3" markdown="1">
 
 Research Projecs
 
 Google Scholar
 
 </div><!-- col -->
-<div class="col-6 col-sm-2" markdown="1">
+<div class="col-sm-6 col-md-3" markdown="1">
 
 [/research](/research/)
 
