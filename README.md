@@ -1,5 +1,5 @@
 <div class="row mb-3">
-<div class="col-md-6" markdown="1">
+<div class="col-lg-6" markdown="1">
 
 <p markdown='1'>
 Dr. Mehmet Aydın Baytaş is a scholar of design.
@@ -9,8 +9,9 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 </div><!-- .row -->
 
 
-<div class="row mb-5">
-<div class="col-sm-6 col-md-3" markdown="1">
+<div class="row mb-5 row-cols-2 row-cols-sm-3 row-cols-md-4">
+
+<div class="col" markdown="1">
   
 YouTube
 
@@ -19,7 +20,7 @@ Twitter
 LinkedIn
 
 </div><!-- col -->
-<div class="col-sm-6 col-md-3" markdown="1">
+<div class="col" markdown="1">
   
 [Mehmet Aydın Baytaş ↗](http://youtube.com/mbaytas)
 
@@ -34,7 +35,7 @@ LinkedIn
 
 
 <div class="row mb-3">
-<div class="col-md-6" markdown="1">
+<div class="col-lg-6" markdown="1">
 
 He produces Design Discipline: a long-term research project and bi-weekly video podcast on the theory and practice of design, from perspectives including business, technology, art, research, and personal growth.
 
@@ -75,7 +76,7 @@ Instagram
 
 
 <div class="row mb-3">
-<div class="col-md-6" markdown="1">
+<div class="col-lg-6" markdown="1">
 
 His academic research is situated at intersections of design and computer science. To date, he has co-authored more than 30 research publications (including ACM DIS Best Paper and ACM CHI Honorable Mention award-winners), as well as research grants which collectively received more than $4M from state, non-profit, and corporate benefactors in Turkey and Sweden. 
 
