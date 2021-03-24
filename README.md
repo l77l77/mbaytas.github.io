@@ -1,11 +1,3 @@
-<!-- <div class="row mt-3"> -->
-<!-- <div class="col-md-12" markdown="1"> -->
-
-<!-- # Mehmet Aydın Baytaş -->
-
-<!-- </div> -->
-<!-- </div> --><!-- .row -->
-
 <div class="row">
 <div class="col-md-6" markdown="1">
 
@@ -27,9 +19,6 @@ Twitter
 LinkedIn
 
 </div><!-- col -->
-</div><!-- .row -->
-
-<div class="row">
 <div class="col-6 col-sm-1" markdown="1">
   
 [Mehmet Aydın Baytaş](http://youtube.com/mbaytas)  ↗
@@ -66,9 +55,6 @@ Twitter
 Instagram
 
 </div><!-- col -->
-</div><!-- .row -->
-
-<div class="row">
 <div class="col-6 col-sm-1" markdown="1">
   
 [designdisciplin.com](http://designdisciplin.com) ↗
@@ -98,7 +84,6 @@ His academic work began on the inaugural research team of the Koç University De
 </div><!-- col -->
 </div><!-- row -->
 
-\
 <div class="row">
 <div class="col-6 col-sm-1" markdown="1">
 
@@ -107,9 +92,6 @@ Research Projecs
 Google Scholar
 
 </div><!-- col -->
-</div><!-- .row -->
-
-<div class="row">
 <div class="col-6 col-sm-1" markdown="1">
 
 [/research](/research/)
