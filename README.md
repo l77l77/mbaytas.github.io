@@ -52,35 +52,35 @@ He produces Design Discipline: a long-term research project and bi-weekly video 
 Website
 </dt>
 <dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
-[designdisciplin.com ↗](http://designdisciplin.com)
+[designdisciplin.com](http://designdisciplin.com)
 </dd>
 
 <dt class="col-4 col-sm-4 col-md-4 col-lg-3">
 Podcast
 </dt>
 <dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
-[Design Discipline ↗](http://podcast.designdisciplin.com)
+[Design Discipline](http://podcast.designdisciplin.com)
 </dd>
 
 <dt class="col-4 col-sm-4 col-md-4 col-lg-3">
 YouTube
 </dt>
 <dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
-[Design Discipline ↗](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)
+[Design Discipline](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)
 </dd>
 
 <dt class="col-4 col-sm-4 col-md-4 col-lg-3">
 Twitter
 </dt>
 <dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
-[designdisciplin ↗](http://twitter.com/designdisciplin)
+[designdisciplin](http://twitter.com/designdisciplin)
 </dd>
 
 <dt class="col-4 col-sm-4 col-md-4 col-lg-3">
 Instagram
 </dt>
 <dd class="col-8 col-sm-8 col-md-8 col-lg-9" markdown="1">
-[designdisciplin ↗](http://instagram.com/designdisciplin.com)
+[designdisciplin](http://instagram.com/designdisciplin.com)
 </dd>
 
 </dl>
