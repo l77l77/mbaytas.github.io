@@ -113,7 +113,7 @@ Research
 Google Scholar
 </dt>
 <dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
-[Mehmet Aydın Baytaş ↗](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)
+[Mehmet Aydın Baytaş](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)
 </dd>
 
 </dl>
