@@ -1,7 +1,7 @@
 <div class="row">
 <div class="col-md-6" markdown="1">
 
-<p class='leading' markdown='1'>
+<p class='lead' markdown='1'>
 Dr. Mehmet Aydın Baytaş is a scholar of design.
 </p>
 
