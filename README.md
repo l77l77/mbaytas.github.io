@@ -11,24 +11,24 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 
 <dl class="row mb-5">
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 YouTube
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [Mehmet Aydın Baytaş](http://youtube.com/mbaytas)
 </dd>
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 Twitter
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [doctorBaytas](http://twitter.com/doctorBaytas)
 </dd>
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 LinkedIn
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [doctorBaytas](https://www.linkedin.com/in/doctorbaytas)
 </dd>
 
@@ -48,38 +48,38 @@ He produces Design Discipline: a long-term research project and bi-weekly video 
 
 <dl class="row mb-5">
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 Website
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [designdisciplin.com](http://designdisciplin.com)
 </dd>
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 Podcast
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [Design Discipline](http://podcast.designdisciplin.com)
 </dd>
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 YouTube
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [Design Discipline](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)
 </dd>
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 Twitter
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [designdisciplin](http://twitter.com/designdisciplin)
 </dd>
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 Instagram
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [designdisciplin](http://instagram.com/designdisciplin.com)
 </dd>
 
@@ -102,17 +102,17 @@ His academic work began on the inaugural research team of the Koç University De
 
 <dl class="row mb-5">
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 Research
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
-[/research/](/research/)
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
+[/research](/research/)
 </dd>
 
-<dt class="col-4 col-sm-4 col-md-4 col-lg-2">
+<dt class="col-4 col-sm-4 col-md-3 col-lg-2">
 Google Scholar
 </dt>
-<dd class="col-8 col-sm-8 col-md-8 col-lg-10" markdown="1">
+<dd class="col-8 col-sm-8 col-md-9 col-lg-10" markdown="1">
 [Mehmet Aydın Baytaş ↗](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)
 </dd>
 
