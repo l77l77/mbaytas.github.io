@@ -20,9 +20,9 @@ Dr. Mehmet Aydın Baytaş is a scholar of design.
 <div class="row">
 <div class="col-6 col-sm-1" markdown="1">
   
-Twitter
-
 YouTube
+
+Twitter
 
 LinkedIn
 
@@ -32,9 +32,9 @@ LinkedIn
 <div class="row">
 <div class="col-6 col-sm-1" markdown="1">
   
-[@doctorBaytas](http://twitter.com/doctorBaytas)  ↗
-
 [Mehmet Aydın Baytaş](http://youtube.com/mbaytas)  ↗
+
+[@doctorBaytas](http://twitter.com/doctorBaytas)  ↗
 
 [@doctorBaytas](https://www.linkedin.com/in/doctorbaytas)  ↗
 
