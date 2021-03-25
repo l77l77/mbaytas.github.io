@@ -7,7 +7,7 @@
 </div><!-- .row -->
 
 <div class="row mb-5">
-<div class="col-sm-5" markdown="1">
+<div class="col-sm-8" markdown="1">
 
 ## 2021
 
@@ -26,25 +26,20 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
 \[Forthcoming\]
 
-<div class="row my-5">
-<div class="col-md-4">
-<div class="ratio ratio-16x9">
+</div><!-- .col -->
+
+<div class="col-sm-4">
+<div class="ratio ratio-16x9" width="100%">
 <iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
 </div>
-</div><!-- .col -->
-<div class="col-md-4">
-<div class="ratio ratio-16x9">
+<div class="ratio ratio-16x9" width="100%">
 <iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
 </div>
-</div><!-- .col -->
-<div class="col-md-4">
-<div class="ratio ratio-16x9">
+<div class="ratio ratio-16x9" width="100%">
 <iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
 </div>
 </div><!-- .col -->
-</div><!-- .row -->
 
-</div><!-- .col -->
 </div><!-- .row -->
 
 <div class="row mb-5" markdown="1">
