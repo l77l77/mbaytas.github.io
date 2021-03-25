@@ -43,13 +43,6 @@ He produces Design Discipline: a multi-platform publication and long-term resear
 <dl class="row mb-5">
 
 <dt class="col-4">
-Website
-</dt>
-<dd class="col-8" markdown="1">
-[designdisciplin.com](http://designdisciplin.com)
-</dd>
-
-<dt class="col-4">
 Podcast
 </dt>
 <dd class="col-8" markdown="1">
@@ -61,6 +54,13 @@ YouTube
 </dt>
 <dd class="col-8" markdown="1">
 [Design Discipline](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)
+</dd>
+
+<dt class="col-4">
+Website
+</dt>
+<dd class="col-8" markdown="1">
+[designdisciplin.com](http://designdisciplin.com)
 </dd>
 
 <dt class="col-4">
