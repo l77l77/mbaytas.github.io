@@ -1,3 +1,5 @@
+<div class="container py-5 mx-auto">
+
 <div class="row mb-3" markdown="1">
 
 Dr. Mehmet Aydın Baytaş is a scholar of design.
@@ -111,3 +113,5 @@ Google Scholar
 </dd>
 
 </dl>
+
+</div><!-- .container -->
