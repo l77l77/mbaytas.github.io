@@ -46,23 +46,23 @@
         text-decoration-color: #666;
 
       }
-      .container {
-        max-width: 540px;
+      .container {        
         background-image: url("https://mbaytas.github.io/logo.png");
         background-origin: content-box;
         background-position: right top;
         background-repeat: no-repeat;
         background-size: 38%;
       }
+      .container-narrow {
+        max-width: 540px;
+      }
     </style>
     
   </head>
   <body>
-    <div class="container markdown-body py-5 mx-auto">
 
       {{ content }}
 
-    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
     {% if site.google_analytics %}
