@@ -8,11 +8,15 @@
 </div><!-- .row -->
 
 
+
+
+
 <div class="row mb-3" markdown="1">
 
 ## 2021
 
 </div><!-- .row -->
+
 
 
 <div class="row mb-5" markdown="1">
@@ -36,24 +40,25 @@ In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
 
 </div><!-- .col -->
 
-<div class="col-md-4">
-<div class="row mb-3 ratio ratio-16x9" width="100%">
-<iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
-</div>
-<div class="row mb-3 ratio ratio-16x9" width="100%">
-<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
-</div>
-<div class="row mb-3 ratio ratio-16x9" width="100%">
-<iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
-</div>
-</div><!-- .col -->
-
 </div><!-- .row -->
 
 <div class="row mb-5" markdown="1">
 
 
+
+
+
+<div class="row mb-3" markdown="1">
+
 ## 2020
+
+</div><!-- .row -->
+
+
+
+<div class="row mb-5" markdown="1">
+
+<div class="col-md-8" markdown="1">
   
 Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020)  
 **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
@@ -104,6 +109,26 @@ Mehmet Aydın Baytaş, Sara Ljungblad, Joseph La Delfa, & Morten Fjeld (2020)
 **Agent Archetypes for Human-Drone Interaction: Social Robots or Objects with Intent?**  
 In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020)  
 [\[PDF\]](pub/2020_iHDI_Agent.pdf)
+
+</div><!-- .col -->
+
+<div class="col-md-4">
+<div class="row mb-3 ratio ratio-16x9" width="100%">
+<iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
+</div>
+<div class="row mb-3 ratio ratio-16x9" width="100%">
+<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
+</div>
+<div class="row mb-3 ratio ratio-16x9" width="100%">
+<iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+
+</div><!-- .row -->
+
+
+
+
 
 <div class="row my-5">
 <div class="col-md-4">
