@@ -1,17 +1,6 @@
-<div class="container py-5 mx-auto small">
-
-
-<div class="row mb-5">
-<div class="col-md-8 offset-md-4" markdown="1">
+<div class="container container-narrow py-5 mx-auto small" markdown="1">
 
 # Academic Publications
-
-</div><!-- .col -->
-</div><!-- .row -->
-
-
-<div class="row">
-<div class="col-md-8 offset-md-4" markdown="1">
 
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
 **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
@@ -33,23 +22,18 @@ Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2
 Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies  
 [\[PDF\]](pub/2020_NordiCHI_WS_HDI.pdf)
 
-</div><!-- .col -->
-</div><!-- .row -->
-
-<div class="row">
-
-<div class="col-md-4">
 <div class="ratio ratio-16x9" width="100%">
 <iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
 </div>
-</div><!-- .col -->
-
-<div class="col-md-8 offset-md-4" markdown="1">
 
 Florin-Timotei Ghiurãu, Mehmet Aydın Baytaş, & Casper Wickman (2020)  
 **ARCAR: On-Road Driving in Mixed Reality by Volvo Cars**  
 In The Adjunct Publication of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST ‘20 Adjunct)  
 [\[PDF\]](pub/2020_UIST_ARCAR.pdf)
+
+<div class="row mb-3 ratio ratio-16x9" width="100%">
+<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
+</div>
 
 Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa (2020)  
 **Azalea: Co-experiencing Embodied Information in Remote Communication**  
@@ -64,6 +48,10 @@ Joseph La Delfa, Mehmet Aydın Baytaş, Emma Luke, Ben Koder, & Florian ‘Floyd
 **Designing Drone Chi: Unpacking the Thinking and Making of Somaesthetic Human-Drone Interaction**  
 In Proceedings of the 2020 Conference on Designing Interactive Systems (DIS ‘20)  
 [\[PDF\]](pub/2020_DIS_Drone_Chi.pdf)
+
+<div class="row mb-3 ratio ratio-16x9" width="100%">
+<iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
+</div>
 
 Joseph La Delfa, Mehmet Aydın Baytaş, Rakesh Patibanda, Hazel Ngari, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2020)  
 **Drone Chi: Somaesthetic Human-Drone Interaction**  
@@ -91,41 +79,14 @@ Mehmet Aydın Baytaş, Sara Ljungblad, Joseph La Delfa, & Morten Fjeld (2020)
 In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020)  
 [\[PDF\]](pub/2020_iHDI_Agent.pdf)
 
-</div><!-- .col -->
-</div><!-- .row -->
-
-<div class="col-md-4">
-<div class="row mb-3 ratio ratio-16x9" width="100%">
-<iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
-</div>
-<div class="row mb-3 ratio ratio-16x9" width="100%">
-<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
-</div>
-<div class="row mb-3 ratio ratio-16x9" width="100%">
-<iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
-</div>
-</div><!-- .col -->
-
-</div><!-- .row -->
-
-
-
-
-
-<div class="row my-5">
-<div class="col-md-4">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/RsGIy-dVxzE" allowfullscreen></iframe>
-</div>
-</div><!-- .col -->
-</div><!-- .row -->
-
-## 2019
-
 Mehmet Aydın Baytaş (2019)  
 **Break**  
 interactions 26:6  
 [\[PDF\]](pub/2019_interactions_Break.pdf)
+
+<div class="row mb-3 ratio ratio-16x9" width="100%">
+<iframe src="https://www.youtube.com/embed/RsGIy-dVxzE" allowfullscreen></iframe>
+</div>
 
 Mehmet Aydın Baytaş, Damla Çay, Yuchong Zhang, Mohammad Obaid, Asım Evren Yantaç, & Morten Fjeld (2019)  
 **The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments**  
@@ -161,15 +122,9 @@ Mehmet Aydın Baytaş (2019)
 PhD thesis submitted to the Koç University Graduate School of Social Sciences and Humanities  
 [\[PDF\]](pub/2019_PhD_Thesis.pdf)
 
-<div class="row my-5">
-<div class="col-md-4">
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/NUwzHB9GPnk" allowfullscreen></iframe>
 </div>
-</div><!-- .col -->
-</div><!-- .row -->
-
-## 2018
 
 Mehmet Aydın Baytaş, Aykut Coşkun, Asım Evren Yantaç, & Morten Fjeld (2018)  
 **Towards Materials for Computational Heirlooms: Blockchains and Wristwatches**  
@@ -187,16 +142,9 @@ Adviye Ayça Ünlüer, Mehmet Aydın Baytaş, Oğuz Turan Buruk, Zeynep Cemalcı
 International Journal of Art & Design Education, 37:3  
 [\[PDF\]](pub/2018_iJADE_Drama.pdf)
 
-
-<div class="row my-5">
-<div class="col-md-4">
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/pVLuhdhDazM" allowfullscreen></iframe>
 </div>
-</div><!-- .col -->
-</div><!-- .row -->
-
-## 2017
 
 Mehmet Aydın Baytaş, Asım Evren Yantaç, & Morten Fjeld (2017)  
 **LabDesignAR: Configuring Multi-camera Motion Capture Systems in Augmented Reality**  
@@ -213,34 +161,14 @@ Mehmet Aydın Baytaş, Damla Çay, Asım Evren Yantaç, & Morten Fjeld (2017)
 Poster for the DComm conference Language as a Form of Action  
 [\[PDF\]](pub/2017_DComm_Review.pdf)
 
-<div class="row mb-3" markdown="1">
-
-## 2016
-
-</div><!-- .row -->
-
-
-
 Mehmet Aydın Baytaş, Tilbe Göksun, & Oğuzhan Özcan (2016)  
 **The Perception of Live-sequenced Electronic Music via Hearing and Sight**  
 In Proceedings of the 2016 International Conference on New Interfaces for Musical Expression (NIME ‘16)  
 [\[PDF\]](pub/2016_NIME_Techno.pdf)
 
-<div class="row my-5">
-<div class="col-md-4">
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/zY2DqQbQCxw" allowfullscreen></iframe>
 </div>
-</div><!-- .col -->
-</div><!-- .row -->
-
-<div class="row mb-3" markdown="1">
-
-## 2014
-
-</div><!-- .row -->
-
-
 
 Mehmet Aydın Baytaş, Yücel Yemez, & Oğuzhan Özcan (2014)  
 **Hotspotizer: End-user Authoring of Mid-air Gestural Interactions**  
@@ -256,14 +184,6 @@ Mehmet Aydın Baytaş (2014)
 **End-User Authoring of Mid-Air Gestural Interactions**  
 MA thesis submitted to the Koç University Graduate School of Social Sciences and Humanities  
 [\[Source\]](https://github.com/mbaytas/ma-thesis)
-
-<div class="row mb-3" markdown="1">
-
-## 2012
-
-</div><!-- .row -->
-
-
 
 Oğuzhan Özcan, Adviye Ayça Ünlüer, Mehmet Aydın Baytaş, & Barış Serim (2012)  
 **Rethinking Spherical Media Surfaces by Re-reading Ancient Greek Vases**  
