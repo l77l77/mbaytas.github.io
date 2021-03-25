@@ -36,6 +36,7 @@ Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies
 </div><!-- .col -->
 </div><!-- .row -->
 
+<div class="row">
 
 <div class="col-md-4">
 <div class="ratio ratio-16x9" width="100%">
@@ -43,8 +44,6 @@ Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies
 </div>
 </div><!-- .col -->
 
-
-<div class="row">
 <div class="col-md-8 offset-md-4" markdown="1">
 
 Florin-Timotei Ghiurãu, Mehmet Aydın Baytaş, & Casper Wickman (2020)  
