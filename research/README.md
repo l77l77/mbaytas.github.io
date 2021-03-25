@@ -1,5 +1,7 @@
 <div class="container container-narrow py-5 mx-auto small" markdown="1">
 
+[Dr. Mehmet Aydın Baytaş](https://mbaytas.github.io)
+
 # Academic Publications
 
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
