@@ -1,4 +1,13 @@
+<div class="container py-5 mx-auto small">
+
+<div class="row mb-5" markdown="1">
+
 # Academic Publications
+
+</div><!-- .row -->
+
+<div class="row mb-5">
+<div class="col-sm-5" markdown="1">
 
 ## 2021
 
@@ -34,6 +43,12 @@ In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
 </div>
 </div><!-- .col -->
 </div><!-- .row -->
+
+</div><!-- .col -->
+</div><!-- .row -->
+
+<div class="row mb-5" markdown="1">
+
 
 ## 2020
   
@@ -226,3 +241,5 @@ Oğuzhan Özcan, Adviye Ayça Ünlüer, Mehmet Aydın Baytaş, & Barış Serim (
 **Rethinking Spherical Media Surfaces by Re-reading Ancient Greek Vases**  
 Paper for the ITS ‘12 workshop Beyond Flat Displays: Towards Shaped and Deformable Interactive Surfaces  
 [\[PDF\]](pub/2012_ITS_Spherical.pdf)
+
+</div><!-- .container -->
