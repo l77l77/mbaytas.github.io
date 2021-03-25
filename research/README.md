@@ -22,7 +22,7 @@ Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2
 Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies  
 [\[PDF\]](pub/2020_NordiCHI_WS_HDI.pdf)
 
-<div class="ratio ratio-16x9" width="100%">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
 </div>
 
@@ -31,7 +31,7 @@ Florin-Timotei Ghiurãu, Mehmet Aydın Baytaş, & Casper Wickman (2020)
 In The Adjunct Publication of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST ‘20 Adjunct)  
 [\[PDF\]](pub/2020_UIST_ARCAR.pdf)
 
-<div class="row mb-3 ratio ratio-16x9" width="100%">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
 </div>
 
@@ -49,7 +49,7 @@ Joseph La Delfa, Mehmet Aydın Baytaş, Emma Luke, Ben Koder, & Florian ‘Floyd
 In Proceedings of the 2020 Conference on Designing Interactive Systems (DIS ‘20)  
 [\[PDF\]](pub/2020_DIS_Drone_Chi.pdf)
 
-<div class="row mb-3 ratio ratio-16x9" width="100%">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
 </div>
 
@@ -84,7 +84,7 @@ Mehmet Aydın Baytaş (2019)
 interactions 26:6  
 [\[PDF\]](pub/2019_interactions_Break.pdf)
 
-<div class="row mb-3 ratio ratio-16x9" width="100%">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/RsGIy-dVxzE" allowfullscreen></iframe>
 </div>
 
