@@ -37,13 +37,13 @@ In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
 </div><!-- .col -->
 
 <div class="col-sm-4">
-<div class="ratio ratio-16x9" width="100%">
+<div class="row mb-3 ratio ratio-16x9" width="100%">
 <iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
 </div>
-<div class="ratio ratio-16x9" width="100%">
+<div class="row mb-3 ratio ratio-16x9" width="100%">
 <iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
 </div>
-<div class="ratio ratio-16x9" width="100%">
+<div class="row mb-3 ratio ratio-16x9" width="100%">
 <iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
 </div>
 </div><!-- .col -->
