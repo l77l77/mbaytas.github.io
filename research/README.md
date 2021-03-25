@@ -17,7 +17,7 @@
 
 <div class="row mb-5" markdown="1">
 
-<div class="col-sm-8" markdown="1">
+<div class="col-md-8" markdown="1">
 
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
 **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
@@ -36,7 +36,7 @@ In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
 
 </div><!-- .col -->
 
-<div class="col-sm-4">
+<div class="col-md-4">
 <div class="row mb-3 ratio ratio-16x9" width="100%">
 <iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
 </div>
