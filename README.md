@@ -84,7 +84,7 @@ Instagram
 
 
 
-<div class="row mb-3" markdown="1">
+<div class="row mb-3 small" markdown="1">
 
 His academic research is situated at intersections of design and computer science. To date, he has co-authored more than 30 research publications (including ACM DIS Best Paper and ACM CHI Honorable Mention award-winners), as well as research grants which collectively received more than $4M from state, non-profit, and corporate benefactors in Turkey and Sweden. 
 
