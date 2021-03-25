@@ -1,27 +1,17 @@
 <div class="container py-5 mx-auto small">
 
 
-<div class="row mb-5" markdown="1">
+<div class="row mb-5">
+<div class="col-md-8 offset-md-4" markdown="1">
 
 # Academic Publications
 
+</div><!-- .col -->
 </div><!-- .row -->
 
 
-
-
-
-<div class="row mb-3" markdown="1">
-
-## 2021
-
-</div><!-- .row -->
-
-
-
-<div class="row mb-5" markdown="1">
-
-<div class="col-md-8" markdown="1">
+<div class="row">
+<div class="col-md-8 offset-md-4" markdown="1">
 
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
 **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
@@ -37,33 +27,25 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**  
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
 \[Forthcoming\]
-
-</div><!-- .col -->
-
-</div><!-- .row -->
-
-<div class="row mb-5" markdown="1">
-
-
-
-
-
-<div class="row mb-3" markdown="1">
-
-## 2020
-
-</div><!-- .row -->
-
-
-
-<div class="row mb-5" markdown="1">
-
-<div class="col-md-8" markdown="1">
   
 Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020)  
 **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
 Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies  
 [\[PDF\]](pub/2020_NordiCHI_WS_HDI.pdf)
+
+</div><!-- .col -->
+</div><!-- .row -->
+
+
+<div class="col-md-4">
+<div class="ratio ratio-16x9" width="100%">
+<iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
+</div>
+</div><!-- .col -->
+
+
+<div class="row">
+<div class="col-md-8 offset-md-4" markdown="1">
 
 Florin-Timotei Ghiurãu, Mehmet Aydın Baytaş, & Casper Wickman (2020)  
 **ARCAR: On-Road Driving in Mixed Reality by Volvo Cars**  
@@ -111,6 +93,7 @@ In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHD
 [\[PDF\]](pub/2020_iHDI_Agent.pdf)
 
 </div><!-- .col -->
+</div><!-- .row -->
 
 <div class="col-md-4">
 <div class="row mb-3 ratio ratio-16x9" width="100%">
@@ -231,7 +214,13 @@ Mehmet Aydın Baytaş, Damla Çay, Asım Evren Yantaç, & Morten Fjeld (2017)
 Poster for the DComm conference Language as a Form of Action  
 [\[PDF\]](pub/2017_DComm_Review.pdf)
 
+<div class="row mb-3" markdown="1">
+
 ## 2016
+
+</div><!-- .row -->
+
+
 
 Mehmet Aydın Baytaş, Tilbe Göksun, & Oğuzhan Özcan (2016)  
 **The Perception of Live-sequenced Electronic Music via Hearing and Sight**  
@@ -246,7 +235,13 @@ In Proceedings of the 2016 International Conference on New Interfaces for Musica
 </div><!-- .col -->
 </div><!-- .row -->
 
+<div class="row mb-3" markdown="1">
+
 ## 2014
+
+</div><!-- .row -->
+
+
 
 Mehmet Aydın Baytaş, Yücel Yemez, & Oğuzhan Özcan (2014)  
 **Hotspotizer: End-user Authoring of Mid-air Gestural Interactions**  
@@ -263,7 +258,13 @@ Mehmet Aydın Baytaş (2014)
 MA thesis submitted to the Koç University Graduate School of Social Sciences and Humanities  
 [\[Source\]](https://github.com/mbaytas/ma-thesis)
 
+<div class="row mb-3" markdown="1">
+
 ## 2012
+
+</div><!-- .row -->
+
+
 
 Oğuzhan Özcan, Adviye Ayça Ünlüer, Mehmet Aydın Baytaş, & Barış Serim (2012)  
 **Rethinking Spherical Media Surfaces by Re-reading Ancient Greek Vases**  
