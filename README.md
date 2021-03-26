@@ -43,40 +43,41 @@ By covering diverse perspectives on design – including business, technology, a
 
 
 <dl class="row mb-5">
-
-<dt class="col-4">
+  
+<dt class="col-5 lowkey">
 Podcast
 </dt>
-<dd class="col-8" markdown="1">
-[Design Discipline](http://podcast.designdisciplin.com)
+<dd class="col-7">
+<a href="http://podcast.designdisciplin.com" target="_blank">Design Discipline <small>&#x2197;&#xfe0e;</small></a>
 </dd>
 
-<dt class="col-4">
+
+<dt class="col-5 lowkey">
 YouTube
 </dt>
-<dd class="col-8" markdown="1">
-[Design Discipline](https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w)
+<dd class="col-7">
+<a href="https://www.youtube.com/channel/UCtXM3JdnERaNOiFKaHZJL_w" target="_blank">Design Discipline <small>&#x2197;&#xfe0e;</small></a>
 </dd>
 
-<dt class="col-4">
+<dt class="col-5 lowkey">
 Website
 </dt>
-<dd class="col-8" markdown="1">
-[designdisciplin.com](http://designdisciplin.com)
+<dd class="col-7">
+<a href="https://www.designdisciplin.com" target="_blank">designdisciplin.com <small>&#x2197;&#xfe0e;</small></a>
 </dd>
 
-<dt class="col-4">
+<dt class="col-5 lowkey">
 Twitter
 </dt>
-<dd class="col-8" markdown="1">
-[designdisciplin](http://twitter.com/designdisciplin)
+<dd class="col-7">
+<a href="http://www.twitter.com/designdisciplin" target="_blank">designdisciplin <small>&#x2197;&#xfe0e;</small></a>
 </dd>
 
-<dt class="col-4">
+<dt class="col-5 lowkey">
 Instagram
 </dt>
-<dd class="col-8" markdown="1">
-[designdisciplin](http://instagram.com/designdisciplin.com)
+<dd class="col-7">
+<a href="http://www.instagram.com/designdisciplin" target="_blank">designdisciplin <small>&#x2197;&#xfe0e;</small></a>
 </dd>
 
 </dl>
@@ -95,19 +96,19 @@ His academic work began on the inaugural research team of the Koç University De
 </div><!-- row -->
 
 <dl class="row mb-5">
-
-<dt class="col-4">
+  
+<dt class="col-5 lowkey">
 Research
 </dt>
-<dd class="col-8" markdown="1">
-[/research](/research/)
+<dd class="col-7">
+<a href="/research/" target="_blank">/reserach <small>&#x2192;&#xfe0e;</small></a>
 </dd>
 
-<dt class="col-4">
+<dt class="col-5 lowkey">
 Google Scholar
 </dt>
-<dd class="col-8" markdown="1">
-[Mehmet Aydın Baytaş](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)
+<dd class="col-7">
+<a href="https://scholar.google.com/citations?user=2ZPGfGYAAAAJ" target="_blank">Mehmet Aydın Baytaş <small>&#x2197;&#xfe0e;</small></a>
 </dd>
 
 </dl>
