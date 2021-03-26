@@ -101,7 +101,7 @@ His academic work began on the inaugural research team of the Koç University De
 Research
 </dt>
 <dd class="col-7">
-<a href="/research/" target="_blank">/research <small>&#x2192;&#xfe0e;</small></a>
+<a href="/research/">/research <small>&#x2192;&#xfe0e;</small></a>
 </dd>
 
 <dt class="col-5 lowkey">
