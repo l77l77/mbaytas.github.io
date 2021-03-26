@@ -1,7 +1,7 @@
 <div class="container container-narrow py-5 mx-auto small" markdown="1">
 
 <p style="font-size:1rem;" markdown="1">
-<a href="https://mbaytas.github.io">Dr. Mehmet Aydın Baytaş <small>&#x2190;&#xfe0e;</small</a>
+<a href="/">Dr. Mehmet Aydın Baytaş <small>&#x2190;&#xfe0e;</small</a>
 </p>
 
 # Academic Publications
