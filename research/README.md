@@ -6,7 +6,7 @@ Dr. Baytaş has degrees in mechanical engineering, economics, and design from Ko
 
 # Academic Publications
 
-<small>
+<small markdown="1">
 
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
 **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
