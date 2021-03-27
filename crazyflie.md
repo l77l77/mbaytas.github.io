@@ -50,6 +50,8 @@ The main fly loop...
 
 ## Fence
 
+![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
+
 It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
 
     # Land if drone strays out of bounding box
