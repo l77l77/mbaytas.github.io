@@ -1,4 +1,4 @@
-<div class="container container-narrow py-5 mx-auto">
+<div class="container container-sm py-5 mx-auto">
 
 <div class="row mb-3" markdown="1">
 
