@@ -10,9 +10,7 @@
 
 <div class="col" markdown="1">
 
-Together with colleagues at Chalmers University of Technology, I am developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications.
-
-Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). As design researchers, we find the Crazyflie is a very exciting platform, mainly for two reasons.
+At Chalmers University of Technology, we are developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). As design researchers, we find the Crazyflie is a very exciting platform, mainly for two reasons.
 
 First, the Crazyflie is versatile, programmable, modular and pretty much entirely open-source. We have programming tools for building an endless variety of applications.  We find a variety of "decks" with sensors, lights, etc. to extend the core hardware without adding unnecessary weight. We can publish knowledge and artifacts based on this ecosystem, unconstrained by considerations re: intellectual property. There are challenges to working with this kind of ecosystem; for example, the documentation could benefit from some more centralization. However, all things considered, the Crazyflie is an excellent platform for prototyping creative applications. I liken it to a a flying Arduino.
 
@@ -22,7 +20,7 @@ Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion
 
 <p class="small">Full disclosure: My work is sponsored by Qualisys, but the company does not direct or screen our projects and publications in any way.</p>
 
-The way that we utilize this tech stack is somewhat uncommon. The Crazyflie is commonly found in robotics engineering labs, and the Qualisys motion capture system is popular for human biomechanics. Much of the documentation and resources on these systems is rich with low-level details that speak to these audiences. This tutorial aims to serve as an entry point for hackers and designers who would like to experiment with interactive applications using the Crazyflie, tracked by an external motion capture system.
+The drawback is that way that we utilize this tech stack is somewhat uncommon. The Crazyflie is commonly found in robotics engineering labs, and the Qualisys motion capture system is popular for human biomechanics. Much of the documentation and resources on these systems is rich with low-level details that speak to these audiences. Thus, this tutorial is meant as an entry point for hackers and designers who would like to experiment with interactive applications using the Crazyflie, tracked by an external motion capture system.
 
 </div> <!-- .col -->
 </div> <!-- .row -->
