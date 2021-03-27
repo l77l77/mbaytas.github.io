@@ -29,7 +29,6 @@ We'll build a Python that connects to [QTM](https://www.qualisys.com/software/qu
 
 Main loop, similar to Arduino, Processing, Pygame.
 
-{% highlight python %}
     # Set things up
     ...
 
@@ -46,8 +45,6 @@ Main loop, similar to Arduino, Processing, Pygame.
 
     # Land
     ...
-{% endhighlight %}
-
 
 # Safety First
 
