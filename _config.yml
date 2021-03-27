@@ -1,0 +1,4 @@
+kramdown:
+  syntax_highlighter: coderay
+  coderay_default_lang: python
+  
