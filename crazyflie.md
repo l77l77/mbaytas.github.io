@@ -85,24 +85,23 @@ The main fly loop...
 </div> <!-- .col -->
 </div> <!-- .row -->
 
-<div class="row row-cols-lg-2" markdown="1">
-<div class="col" markdown="1">
+<div class="row" markdown="1">
 
 ## Fence
 
-</div> <!-- .col -->
 </div> <!-- .row -->
 
 <div class="row row-cols-lg-2" markdown="1">
-<div class="col" markdown="1">
-
-![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
-
-</div> <!-- .col -->
 
 <div class="col" markdown="1">
 
 It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
+
+</div> <!-- .col -->
+
+<div class="col" markdown="1">
+
+![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
 
     # Land if drone strays out of bounding box
     if not x_min - safeZone_margin < cf_pose.x < x_max + safeZone_margin
