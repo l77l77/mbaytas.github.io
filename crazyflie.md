@@ -1,10 +1,10 @@
 <div class="container container-lg py-5 mx-auto" markdown="1">
 
 > This post is not done yet.
-> 
-*March 2021*
 
 # Building Interactivity with the Crazyflie and Motion Capture
+
+*March 2021*
 
 At Chalmers University of Technology, we are developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). As design researchers, we find the Crazyflie is a very exciting platform, mainly for two reasons.
 
@@ -14,7 +14,7 @@ Then, the Crazyflie is small. There are other drones – for example, the [Tello
 
 Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion capture system. For many of our prototypes, we do fine with sensors mounted on the drone, such as the [Multi-ranger](https://www.bitcraze.io/products/multi-ranger-deck/) and [Flow](https://www.bitcraze.io/products/flow-deck-v2/) decks. Bitcraze also offers [Loco Positioning System](https://www.bitcraze.io/products/loco-positioning-system/) and [Lighthouse](https://www.bitcraze.io/products/lighthouse-positioning-deck/) integrations, but mocap is uniquely versatile among these options because it gives us the ability to precisely track anything we can put markers onto, within the same calibrated coordinate system as the drone itself.
 
-<p class="small">Full disclosure: My work is sponsored by Qualisys, but the company does not direct or screen our projects and publications in any way.</p>
+*Full disclosure: My work is sponsored by Qualisys, but the company does not direct or screen our projects and publications in any way.*
 
 The drawback is that way that we utilize this tech stack is somewhat uncommon. The Crazyflie is commonly found in robotics engineering labs, and the Qualisys motion capture system is popular for human biomechanics. Much of the documentation and resources on these systems is rich with low-level details that speak to these audiences. Thus, this tutorial is meant as an entry point for hackers and designers who would like to experiment with interactive applications using the Crazyflie, tracked by an external motion capture system.
 
