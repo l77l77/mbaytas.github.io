@@ -19,7 +19,37 @@ The way that we utilize this tech stack is somewhat uncommon. The Crazyflie is c
 
 # Preliminaries
 
-A basic building block for interactive applications with a micro-drone is to have the drone follow another object in real time.
+A basic building block for an interactive drone is to have the drone follow another object in real time.
+
+We'll build a Python that connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/) to receive pose data for the drone and any other tracked objects in real time. It will then periodically let the Crazyflie know where it is for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
+
+## Hardware Setup
+
+## Program Structure
+
+Main loop, similar to Arduino, Processing, Pygame.
+
+    # Set things up
+    ...
+    
+    # Connect to QTM
+    qtm_wrapper = QtmWrapper()
+    
+        with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
+        
+        # Set other things up
+        ...
+        
+        # FLY
+        while(fly == True):
+
+        # Do flying things
+        ...
+
+    # Land
+    ...
+
+    qtm_wrapper.close()
 
 # Safety First
 
