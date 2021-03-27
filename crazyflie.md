@@ -1,4 +1,4 @@
-<div class="container py-5 mx-auto" markdown="1">
+<div class="container container-lg py-5 mx-auto" markdown="1">
 
 > This post is not done yet.
 
