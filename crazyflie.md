@@ -10,7 +10,7 @@
 
 > This post is not done yet.
  
-March 2021
+<p class="small">March 2021</p>
 
 Together with colleagues at Chalmers University of Technology, I am developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications.
 
