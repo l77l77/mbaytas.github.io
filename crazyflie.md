@@ -1,10 +1,10 @@
-<div class="container container-narrow py-5 mx-auto" markdown="1">
+<div class="container py-5 mx-auto" markdown="1">
 
 > This post is not done yet.
  
 March 2021
 
-Together with colleagues at Chalmers University of Technology, I am developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellness-related applications.
+Together with colleagues at Chalmers University of Technology, I am developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications.
 
 Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). As interaction design researchers, we think the Crazyflie is a very exciting platform, mainly because of two reasons.
 
@@ -12,14 +12,27 @@ First, the Crazyflie is versatile, programmable, modular and pretty much entirel
 
 Then, the Crazyflie is small. There are other drones – for example, the Tello EDU – which come with the programming tools we need and we can invent ways of extending the hardware if needed. But drones offering robustness and programmability come in larger packages. The Tello, designed to be able to fly outdoors, measures close to 200mm wide and weighs around 80g. Flown indoors, it produces noise and prop wash (air blown down by the propellers) that is very uncomfortable in close range to the human body, and has the potential to break things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I'm able to come very close to it with my body and my hands without significant discomfort, and having crashed hundreds of times it -- into my head, my hands, my computer screen, and countless other objects -- I can vouch for its safety.
 
+Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion capture system. For many of our prototypes, we do fine with sensors mounted on the drone, such as the [Multi-ranger](https://www.bitcraze.io/products/multi-ranger-deck/) and [Flow](https://www.bitcraze.io/products/flow-deck-v2/) decks. Bitcraze also offers [Loco Positioning System](https://www.bitcraze.io/products/loco-positioning-system/) and [Lighthouse](https://www.bitcraze.io/products/lighthouse-positioning-deck/) integrations, but mocap is uniquely versatile among these options because it gives us the ability to precisely track anything we can put markers onto, within the same calibrated coordinate system as the drone itself.
 
-Qualisys system: tracking Crazyflie and ANY object in the same coordinate system in a seamless fashion.
+<p class="small">Full disclosure: My work is sponsored by Qualisys, but the company does not direct or screen our projects and publications in any way.</p>
 
-Even though the infrastructure we have from Bitcraze and Qualisys is top notch, we found that the way we use it is somewhat rare. And we could not find any documentation that would have helped us as we develop applications. So we decided to write one.
+The way that we utilize this tech stack is somewhat uncommon. The Crazyflie is commonly found in robotics engineering labs, and the Qualisys motion capture system is popular for human biomechanics. Much of the documentation and resources on these systems is rich with low-level details that speak to these audiences. This tutorial aims to serve as an entry point for hackers and designers who would like to experiment with interactive applications using the Crazyflie, tracked by an external motion capture system.
 
-Let's consider the case of the Crazyflie following another object in real time.
+# Preliminaries
+
+A basic building block for interactive applications with a micro-drone is to have the drone follow another object in real time.
+
+# Safety First
 
 PICTURE OF OBJECT FOLLOWING IN BOUNDED SPACE
+
+## Speed
+
+Turn down the speed
+
+    # Slow down
+    cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
+    cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
 
 ## Landing
 
@@ -35,7 +48,7 @@ The main fly loop...
         cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
         time.sleep(0.2)
 
-## Safety
+## Fence
 
 It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
 
@@ -48,12 +61,8 @@ It's always a good idea to have a physical fence aroung the drone. We use a cat 
     # Land if drone disappears
     if cf_trackingLoss > cf_trackingLoss_treshold:
         print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
-
-Turn down the speed
-
-    # Slow down
-    cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
-    cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
+        
+# Interactivity
 
 ## The Pose Class
 
