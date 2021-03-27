@@ -29,22 +29,25 @@ We'll build a Python that connects to [QTM](https://www.qualisys.com/software/qu
 
 Main loop, similar to Arduino, Processing, Pygame.
 
-    # Set things up
+{% highlight python %}
+# Set things up
+...
+
+    with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
+
+    # Set other things up
     ...
-    
-        with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
-        
-        # Set other things up
+
+    # FLY
+    while(fly == True):
+
+        # Do flying things
         ...
-        
-        # FLY
-        while(fly == True):
 
-            # Do flying things
-            ...
+# Land
+...
+{% endhighlight %}
 
-    # Land
-    ...
 
 # Safety First
 
