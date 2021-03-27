@@ -32,9 +32,6 @@ Main loop, similar to Arduino, Processing, Pygame.
     # Set things up
     ...
     
-    # Connect to QTM
-    qtm_wrapper = QtmWrapper()
-    
         with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
         
         # Set other things up
@@ -43,13 +40,11 @@ Main loop, similar to Arduino, Processing, Pygame.
         # FLY
         while(fly == True):
 
-        # Do flying things
-        ...
+            # Do flying things
+            ...
 
     # Land
     ...
-
-    qtm_wrapper.close()
 
 # Safety First
 
