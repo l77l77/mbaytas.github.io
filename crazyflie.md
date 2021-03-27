@@ -1,7 +1,5 @@
 <div class="container py-5 mx-auto" markdown="1">
 
-<a href="/">Dr. Mehmet Aydın Baytaş <small>&#x2190;&#xfe0e;</small></a>
-
 > This post is not done yet.
  
 <small>March 2021</small>
