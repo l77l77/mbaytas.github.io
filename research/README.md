@@ -4,7 +4,7 @@ His academic work began on the inaugural research team of the Koç University De
 
 Dr. Baytaş has degrees in mechanical engineering, economics, and design from Koç University, a high school diploma from Robert College of Istanbul, certification as a yoga teacher, and a collection of credentials in topics related to design, engineering, and business.
 
-# Academic Publications
+# Publications
 
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
 **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
