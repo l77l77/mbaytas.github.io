@@ -21,6 +21,15 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
 \[Forthcoming\]
   
+<div class="ratio ratio-16x9 my-3">
+<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
+</div>
+
+Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa (2020)  
+**Azalea: Co-experiencing Embodied Information in Remote Communication**  
+In Proceedings of the 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2020)  
+[\[PDF\]](pub/2020_MobileHCI_Azalea.pdf)
+
 Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020)  
 **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
 Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies  
@@ -34,15 +43,6 @@ Florin-Timotei Ghiurãu, Mehmet Aydın Baytaş, & Casper Wickman (2020)
 **ARCAR: On-Road Driving in Mixed Reality by Volvo Cars**  
 In The Adjunct Publication of the 33rd Annual ACM Symposium on User Interface Software and Technology (UIST ‘20 Adjunct)  
 [\[PDF\]](pub/2020_UIST_ARCAR.pdf)
-
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
-</div>
-
-Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa (2020)  
-**Azalea: Co-experiencing Embodied Information in Remote Communication**  
-In Proceedings of the 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2020)  
-[\[PDF\]](pub/2020_MobileHCI_Azalea.pdf)
 
 Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (eds.) (2020)  
 **Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction**  
