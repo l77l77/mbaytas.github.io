@@ -4,7 +4,7 @@
  
 <small>March 2021</small>
 
-# Building Interactive Applications with the Bitcraze Crazyflie and Motion Capture: A Tutorial
+# Building Interactivity with the Bitcraze Crazyflie and Motion Capture
 
 <div class="row row-cols-lg-2">
 
