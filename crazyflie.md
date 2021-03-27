@@ -90,6 +90,10 @@ The main fly loop...
 
 ## Fence
 
+</div> <!-- .col -->
+</div> <!-- .row -->
+
+<div class="row row-cols-lg-2" markdown="1">
 <div class="col" markdown="1">
 
 ![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
