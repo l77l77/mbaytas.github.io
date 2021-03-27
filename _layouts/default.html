@@ -33,6 +33,14 @@
         background-color: #e2e3e4;
       }
       
+      .bg {        
+        background-image: url("https://mbaytas.github.io/logo.png");
+        background-origin: padding-box;
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 38%;
+      }
+      
       img {
         width: 100%;
       }
@@ -69,16 +77,10 @@
   </head>
   <body>
     
-    <div class="container py-5 mx-auto">
-      
-      <div class="row mb-5">
-        <div class="col-md-8 offset-md-4">
-          <a href="/"><img class="header-logo" src="https://mbaytas.github.io/logo.png" alt="Logo"></a>
-        </div><!-- .col -->   
-      </div><!-- .row -->  
+    <div class="container my-5 py-5 mx-auto">
       
       <div class="row">
-        <div class="col-md-4 mb-5" markdown="1">
+        <div class="col-md-4 mb-5 pt-5" markdown="1">
           
           <p>
             <a href="/">Home</a>
@@ -95,7 +97,7 @@
           </p>
                     
         </div><!-- .col -->
-        <div class="col-md-8">
+        <div class="col-md-8 bg pt-5">
           
           {{ content }}
           
