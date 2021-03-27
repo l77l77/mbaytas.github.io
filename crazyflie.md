@@ -1,10 +1,10 @@
 ---
-title: Building Interactivity with the Crazyflie and Motion Capture
+title: Human-Drone Interaction with the Crazyflie and Motion Capture
 ---
 
 > WORKING DRAFT, IN PROGRESS
 
-# Building Interactivity with the Crazyflie and Motion Capture
+# Human-Drone Interaction with the Crazyflie and Motion Capture
 
 *March 2021*
 
