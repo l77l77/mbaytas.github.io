@@ -1,18 +1,16 @@
 <div class="container py-5 mx-auto" markdown="1">
 
-<p>
 <a href="/">Dr. Mehmet Aydın Baytaş <small>&#x2190;&#xfe0e;</small></a>
-</p>
-
-<div class="row row-cols-lg-2" markdown="1">
-
-<div class="col" markdown="1">
 
 > This post is not done yet.
  
-<p class="small">March 2021</p>
+<small>March 2021</small>
 
 # Building Interactive Applications with the Bitcraze Crazyflie and Motion Capture: A Tutorial
+
+<div class="row row-cols-lg-2">
+
+<div class="col" markdown="1">
 
 Together with colleagues at Chalmers University of Technology, I am developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications.
 
