@@ -4,6 +4,13 @@
 
 Dr. Mehmet Aydın Baytaş is a scholar of design.
 
+
+First Term
+: This is the definition of the first term.
+
+First Term
+: This is the definition of the first term.
+
 </div><!-- .row -->
 
 
