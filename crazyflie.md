@@ -1,5 +1,3 @@
-<div class="container container-lg py-5 mx-auto" markdown="1">
-
 > This post is not done yet.
 
 # Building Interactivity with the Crazyflie and Motion Capture
