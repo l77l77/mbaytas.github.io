@@ -1,14 +1,8 @@
 <div class="container py-5 mx-auto" markdown="1">
 
 > This post is not done yet.
- 
-<small>March 2021</small>
 
 # Building Interactivity with the Bitcraze Crazyflie and Motion Capture
-
-<div class="row row-cols-lg-2">
-
-<div class="col" markdown="1">
 
 At Chalmers University of Technology, we are developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). As design researchers, we find the Crazyflie is a very exciting platform, mainly for two reasons.
 
@@ -22,21 +16,10 @@ Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion
 
 The drawback is that way that we utilize this tech stack is somewhat uncommon. The Crazyflie is commonly found in robotics engineering labs, and the Qualisys motion capture system is popular for human biomechanics. Much of the documentation and resources on these systems is rich with low-level details that speak to these audiences. Thus, this tutorial is meant as an entry point for hackers and designers who would like to experiment with interactive applications using the Crazyflie, tracked by an external motion capture system.
 
-</div> <!-- .col -->
-</div> <!-- .row -->
-
-<div class="row row-cols-lg-2" markdown="1">
-<div class="col" markdown="1">
 
 # Preliminaries
 
 A basic building block for interactive applications with a micro-drone is to have the drone follow another object in real time.
-
-</div> <!-- .col -->
-</div> <!-- .row -->
-
-<div class="row row-cols-lg-2" markdown="1">
-<div class="col" markdown="1">
 
 # Safety First
 
@@ -62,24 +45,9 @@ The main fly loop...
         cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
         time.sleep(0.2)
 
-</div> <!-- .col -->
-</div> <!-- .row -->
-
-<div class="row" markdown="1">
-
 ## Fence
 
-</div> <!-- .row -->
-
-<div class="row row-cols-lg-2">
-
-<div class="col" markdown="1">
-
 It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
-
-</div> <!-- .col -->
-
-<div class="col" markdown="1">
 
 ![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
 
@@ -93,12 +61,6 @@ It's always a good idea to have a physical fence aroung the drone. We use a cat 
     if cf_trackingLoss > cf_trackingLoss_treshold:
         print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
 
-</div> <!-- .col -->
-</div> <!-- .row -->
-
-<div class="row row-cols-lg-2" markdown="1">
-<div class="col" markdown="1">       
-
 # Interactivity
 
 ## The Pose Class
@@ -111,4 +73,3 @@ To make things a bit easier, we will utilize global variables to keep track of w
     cf_xyz = [0, 0, 0]
     target_xyz = [0, 0, 0]
     
-</div>
