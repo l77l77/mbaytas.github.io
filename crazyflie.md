@@ -1,5 +1,9 @@
 <div class="container py-5 mx-auto" markdown="1">
 
+<div class="row row-cols-lg-2" markdown="1">
+
+<div class="col" markdown="1">
+
 > This post is not done yet.
  
 March 2021
@@ -18,13 +22,31 @@ Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion
 
 The way that we utilize this tech stack is somewhat uncommon. The Crazyflie is commonly found in robotics engineering labs, and the Qualisys motion capture system is popular for human biomechanics. Much of the documentation and resources on these systems is rich with low-level details that speak to these audiences. This tutorial aims to serve as an entry point for hackers and designers who would like to experiment with interactive applications using the Crazyflie, tracked by an external motion capture system.
 
+</div> <!-- .col -->
+</div> <!-- .row -->
+
+<div class="row row-cols-lg-2" markdown="1">
+<div class="col" markdown="1">
+
 # Preliminaries
 
 A basic building block for interactive applications with a micro-drone is to have the drone follow another object in real time.
 
+</div> <!-- .col -->
+</div> <!-- .row -->
+
+<div class="row row-cols-lg-2" markdown="1">
+<div class="col" markdown="1">
+
 # Safety First
 
 PICTURE OF OBJECT FOLLOWING IN BOUNDED SPACE
+
+</div> <!-- .col -->
+</div> <!-- .row -->
+
+<div class="row row-cols-lg-2" markdown="1">
+<div class="col" markdown="1">
 
 ## Speed
 
@@ -33,6 +55,12 @@ Turn down the speed
     # Slow down
     cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
     cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
+    
+</div> <!-- .col -->
+</div> <!-- .row -->
+
+<div class="row row-cols-lg-2" markdown="1">
+<div class="col" markdown="1">
 
 ## Landing
 
@@ -48,9 +76,21 @@ The main fly loop...
         cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
         time.sleep(0.2)
 
+</div> <!-- .col -->
+</div> <!-- .row -->
+
+<div class="row row-cols-lg-2" markdown="1">
+<div class="col" markdown="1">
+
 ## Fence
 
+<div class="col" markdown="1">
+
 ![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
+
+</div> <!-- .col -->
+
+<div class="col" markdown="1">
 
 It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
 
@@ -63,7 +103,13 @@ It's always a good idea to have a physical fence aroung the drone. We use a cat 
     # Land if drone disappears
     if cf_trackingLoss > cf_trackingLoss_treshold:
         print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
-        
+
+</div> <!-- .col -->
+</div> <!-- .row -->
+
+<div class="row row-cols-lg-2" markdown="1">
+<div class="col" markdown="1">       
+
 # Interactivity
 
 ## The Pose Class
