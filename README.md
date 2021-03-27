@@ -2,9 +2,7 @@
 
 Dr. Mehmet Aydın Baytaş is a scholar of design.
 
-He produces Design Discipline: a multi-platform publication and long-term research project illuminating the many facets of design.
-
-By covering diverse perspectives on design – including business, technology, art, craft, research, and personal growth – Design Discipline informs individuals carving their own path to creative fulfillment.
+He produces Design Discipline: a multi-platform publication and long-term research project illuminating the many facets of design. By covering diverse perspectives on design – including business, technology, art, craft, research, and personal growth – Design Discipline informs individuals carving their own path to creative fulfillment.
 
 </div><!-- .row -->
 
