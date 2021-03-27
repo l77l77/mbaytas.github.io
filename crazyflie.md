@@ -40,14 +40,6 @@ A basic building block for interactive applications with a micro-drone is to hav
 
 # Safety First
 
-PICTURE OF OBJECT FOLLOWING IN BOUNDED SPACE
-
-</div> <!-- .col -->
-</div> <!-- .row -->
-
-<div class="row row-cols-lg-2" markdown="1">
-<div class="col" markdown="1">
-
 ## Speed
 
 Turn down the speed
@@ -55,12 +47,6 @@ Turn down the speed
     # Slow down
     cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
     cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
-    
-</div> <!-- .col -->
-</div> <!-- .row -->
-
-<div class="row row-cols-lg-2" markdown="1">
-<div class="col" markdown="1">
 
 ## Landing
 
@@ -85,7 +71,7 @@ The main fly loop...
 
 </div> <!-- .row -->
 
-<div class="row row-cols-lg-2" markdown="1">
+<div class="row row-cols-lg-2">
 
 <div class="col" markdown="1">
 
