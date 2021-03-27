@@ -2,7 +2,7 @@
 
 > This post is not done yet.
 
-# Building Interactivity with the Bitcraze Crazyflie and Motion Capture
+# Building Interactivity with the Crazyflie and Motion Capture
 
 At Chalmers University of Technology, we are developing prototypes with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). As design researchers, we find the Crazyflie is a very exciting platform, mainly for two reasons.
 
