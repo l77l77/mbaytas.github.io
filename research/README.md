@@ -6,11 +6,6 @@ Dr. Baytaş has degrees in mechanical engineering, economics, and design from Ko
 
 # Publications
 
-Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
-**Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
-Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI)  
-[\[PDF\]](pub/2021_HRI_Wisp.pdf)
-
 Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021)  
 **Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**  
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
@@ -20,6 +15,11 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**  
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
 \[Forthcoming\]
+
+Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
+**Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
+Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI)  
+[\[PDF\]](pub/2021_HRI_Wisp.pdf)
   
 <div class="ratio ratio-16x9 my-3">
 <iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
