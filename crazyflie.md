@@ -54,17 +54,28 @@ Our script consists of various functions and classes that keep things structured
 
 ## Safety First
 
-Even though the Crazyflie is small and light, and generally not capable of serious damage; it is very good at hurting itself. So we need to take some safety measures to protect the drone.
+Even though the Crazyflie is small and light, and generally not capable of serious damage; it has a very expensive self-harm habit. So we need to take some safety measures to protect the drone.
 
 ### Speed
 
-The Crazyflie has 
+Using the Crazylie's parameters system, we can set internal limits on how fast it's allowed to go. There are two parameters for the speed limit `xyVelMax` for lateral movement, and `zVelMax` for vertical movement.
 
-*We found that Bitcraze hasn't produced clear documentation for the parameters system at this time, but their [GUI client](https://github.com/bitcraze/crazyflie-clients-python) offers a Parameters tab if you'd like to explore them.*
+The actual value for these is set at the beginning of the script (in a unit of m/s), and passed to `cf.param.set_value()` right before takeoff.
+    
+    # Options: Physical Config
+    cf_max_vel = 0.4 # in m/s
+    
+    ...
 
     # Slow down
     cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
     cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
+    
+A slow speed limit drastically improves stability and safety. It lowers your probability of crashing, as well as the damage done <del>if</del> when you do.
+
+Unfortunately, at this time, there is no way to set a rotational speed limit. It would have been very useful to be able to limit the yaw rate – our #1 reason for crashing at the moment is when the Crazyflie is unable to stabilize itself after rotating a little too eagerly.
+
+*We found that Bitcraze hasn't produced clear documentation for the parameters system at this time, but their [GUI client](https://github.com/bitcraze/crazyflie-clients-python) offers a Parameters tab if you'd like to explore them.*
 
 ### Landing
 
