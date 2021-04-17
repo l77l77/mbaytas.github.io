@@ -6,7 +6,7 @@ title: Human-Drone Interaction with the Crazyflie and Motion Capture
 
 # Building Interactions with the Bitcraze Crazyflie and Motion Capture
 
-*March 2021*
+*April 2021*
 
 In our research we experiment with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/), which serves this purpose well for two reasons.
 
@@ -119,9 +119,9 @@ if cf_trackingLoss > cf_trackingLoss_treshold:
     print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
 ```
 
-# Interactivity
+## Interactivity
 
-## The Pose Class
+### The Pose Class
 
 [Pose](https://en.wikipedia.org/wiki/Pose_(computer_vision)) is the term used in engineering to refer to the combination of position (x, y, z coordinates) and orientation (rotations around x, y, z axes), describing an object's whereabouts in [six degrees of freedom (6DoF)](https://en.wikipedia.org/wiki/Six_degrees_of_freedom).
 
@@ -167,17 +167,6 @@ QTM will be streaming data to our application asynchronously. We will not poll t
 
 *The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we have used.*
 
-We utilize global variables to keep track of where things are at all times.
-
-```python
-# Global vars
-...
-cf_pose = Pose(0, 0, 0)
-controller_poses = []
-for i, controller_body_name in enumerate(controller_body_names):
-	controller_poses[i] = Pose(0, 0, 0)
-```
-
 ### Global Variables
 
 We use global variables to keep track of where things are and expose this data to different parts of our program.
@@ -201,5 +190,5 @@ controller_select = 0
 
 We'll get to `controller_select` in a second, below.
 
-
+### Following a "Controller"
 
