@@ -123,12 +123,57 @@ if cf_trackingLoss > cf_trackingLoss_treshold:
 
 ## The Pose Class
 
-QTM will be streaming data to our application asynchronously. This means that we will not be able to "poll" the motion capture system for data. Handling position data must be done via asynchronous callbacks.
+[Pose](https://en.wikipedia.org/wiki/Pose_(computer_vision)) is the term used in engineering to refer to the combination of position (x, y, z coordinates) and orientation (rotations around x, y, z axes), describing an object's whereabouts in [six degrees of freedom (6DoF)](https://en.wikipedia.org/wiki/Six_degrees_of_freedom).
 
-To make things a bit easier, we will utilize global variables to keep track of where things are at all times.
+To keep the rest of the code clean, I implemented a `Pose` class which we will use to keep track of this information for each object that we are tracking, and to hold some utility functions for dealing with pose data.
+
+We can retrieve pose from QTM in two ways: one represents orientation as [Euler angles](https://en.wikipedia.org/wiki/Euler_angles), and the other provides a 3x3 [rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). Both can be useful for us, so the `Pose` class has [class methods](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner) that can instantiate it from both kinds of information. Within the class, the `roll`, `pitch`, and `yaw` for the Euler angles and the `rot` attribute for the rotation matrix are independent -- updating one does not affect the other. This is counterintuitive, but has no practical bearing for our purpose. I haven't implemented a method to convert between the two because we can retrieve either from QTM at any time.
 
 ```python
-fly = True
-cf_xyz = [0, 0, 0]
-target_xyz = [0, 0, 0]
+class Pose:
+	"""Holds pose data with euler angles and/or rotation matrix"""
+    def __init__(self, x, y, z, roll=None, pitch=None, yaw=None, rot=None):
+        self.x = x
+        self.y = y
+        self.z = z
+        self.roll = roll
+        self.pitch = pitch
+        self.yaw = yaw
+        self.rot = rot
+
+    @classmethod
+    def from_qtm_6d(cls, qtm_6d):
+    	"""Build pose from rigid body data in QTM 6d component"""
+        ...
+
+    @classmethod
+    def from_qtm_6deuler(cls, qtm_6deuler):
+    	"""Build pose from rigid body data in QTM 6deuler component"""
+    	...
+        
+    def distance_to(self, other_point):
+        """Calculate linear distance between two poses"""
+        ...
+        
+    def is_valid(self):
+        """Check if any of the coodinates are NaN."""
+        ...
+
+    def __str__(self):
+        ...
+```
+
+QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
+
+*The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we have used.*
+
+We utilize global variables to keep track of where things are at all times.
+
+```python
+# Global vars
+...
+cf_pose = Pose(0, 0, 0)
+controller_poses = []
+for i, controller_body_name in enumerate(controller_body_names):
+	controller_poses[i] = Pose(0, 0, 0)
 ```
