@@ -31,7 +31,9 @@ Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-ma
 
 ## Program Structure
 
-Main loop, similar to Arduino, Processing, Pygame.
+Our script consists of various functions and classes that keep things structured, globally accessible variables to keep track of options and states, and the business end of the script: a main loop.
+
+*This is a structure that is common in game programming and physical computing, similar to how [Arduino](https://www.arduino.cc/) and [Processing[(https://processing.org/) programs are structured, and how [Pygame](https://www.pygame.org/) works.*
 
     # Set things up
     ...
