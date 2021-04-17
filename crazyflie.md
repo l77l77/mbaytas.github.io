@@ -4,28 +4,28 @@ title: Human-Drone Interaction with the Crazyflie and Motion Capture
 
 > WORKING DRAFT, IN PROGRESS
 
-# Human-Drone Interaction with the Crazyflie and Motion Capture
+# Building Interactions with the Bitcraze Crazyflie and Motion Capture
 
 *March 2021*
 
-At Chalmers University of Technology, we're experimenting with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). As design researchers, the Crazyflie is a very exciting platform for us, mainly for two reasons.
+In our research we experiment with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). The Crazyflie is a very exciting platform for this purpose, mainly for two reasons.
 
-First, the Crazyflie is modular and pretty much entirely open-source. We have programming tools for building an endless variety of applications.  We find a variety of "decks" with sensors, lights, etc. to extend the core hardware without adding unnecessary weight. We can publish knowledge and artifacts based on this ecosystem, unconstrained by IP considerations. There are challenges in this kind of ecosystem; for example, more centralized documentation would make our lives easier. However, all things considered, the Crazyflie is a rich platform for creative applications. I liken it to a a flying Arduino.
+First, it is modular and pretty much entirely open-source. We find a variety of "decks" with sensors, lights, etc. to extend the core hardware without adding unnecessary weight. We can publish knowledge and artifacts based on this ecosystem, unconstrained by IP considerations. There are challenges in this kind of ecosystem; for example, more centralized documentation would make our lives easier. However, all things considered, the Crazyflie is a rich platform for creative applications. I liken it to a a flying Arduino.
 
-Second, the Crazyflie is small. There are other drones – like the [Tello EDU](https://www.ryzerobotics.com/tello-edu) – which come with the programming tools we need, and we can hack on hardware extensions if needed. But the Tello, capable of outdoor flight, is close to 200mm wide and weighs around 80g. Indoors, its noise and prop wash (air blown down by the propellers) are very uncomfortable (especially when close to the human body). It breaks things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I'm able to come very close to it with my body and my hands without discomfort. Having crashed hundreds of times -- into my head, my hands, my computer screen, and countless other objects -- I can vouch for its safety.
+Most importantly, it is small. There are other drones – like the [Tello EDU](https://www.ryzerobotics.com/tello-edu) – which come with programming tools. But the Tello, capable of outdoor flight, is close to 200mm wide and weighs around 80g. Indoors, its noise and prop wash are very uncomfortable, especially when close to the human body. It breaks things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I can come very close to it with my body and my hands without discomfort. Having crashed hundreds of times -- into my head, my hands, my computer screen, and countless other objects -- I can vouch that it is safe.
 
 Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion capture system. For many of our prototypes, we do fine with sensors on the drone, like the [Multi-ranger](https://www.bitcraze.io/products/multi-ranger-deck/) and [Flow](https://www.bitcraze.io/products/flow-deck-v2/) decks. But mocap can precisely track anything we can put markers onto, within the same calibrated coordinate system as the drone itself.
 
 *Full disclosure: My work is sponsored by Qualisys, but the company does not direct or screen our projects and publications in any way.*
 
-The way that we utilize this tech stack is somewhat uncommon. The Crazyflie is common in robotics engineering labs, and the Qualisys mocap system is popular for human biomechanics. The documentation and resources systems speaks to these audiences. I couldn't find a good entry point for hackers and designers to experiment with the Crazyflie, tracked by an external motion capture system. So I decided to write one.
+The way that we utilize this tech stack is somewhat uncommon. The Crazyflie is often used by engineering labs, and the Qualisys is popular for human biomechanics. Their documentation and resources speak to these audiences. We couldn't find a good entry point for hackers and designers to experiment with the Crazyflie, tracked by an external motion capture system. So we decided to write one.
 
 
 # Preliminaries
 
-A basic building block for an interactive drone is to have the drone follow another object in real time.
+A basic building block for an interactive drone is to have the drone follow another object in real time. We use a Python script to do this.
 
-We'll build a Python that connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/) to receive pose data for the drone and any other tracked objects in real time. It will then periodically let the Crazyflie know where it is for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
+Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/), receiving pose data for the drone and any other tracked objects in real time; and stream this data to the Crazyflie: we let the Crazyflie know about its own pose for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
 
 ## Hardware Setup
 
