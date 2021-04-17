@@ -29,6 +29,7 @@
       code, kbd, pre, samp {
         font-family: 'Space Mono';
         font-size: 0.8rem;
+        white-space: pre-wrap;
       }
       p,
       pre,
@@ -93,7 +94,7 @@
       }
       @media (max-width: 1000px) {
         .grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: minmax(1px, 1fr);
         }
       }     
       pre {
