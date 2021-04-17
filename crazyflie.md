@@ -102,7 +102,7 @@ for z in range(5, 0, -1):
     time.sleep(0.2)
 ```
 
-## Fence
+### Fence
 
 It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
 
