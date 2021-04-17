@@ -21,15 +21,15 @@ Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion
 The way that we utilize this tech stack is somewhat uncommon. The Crazyflie is often used by engineering labs, and the Qualisys is popular for human biomechanics. Their documentation and resources speak to these audiences. We couldn't find a good entry point for hackers and designers to experiment with the Crazyflie, tracked by an external motion capture system. So we decided to write one.
 
 
-# Preliminaries
+## Preliminaries
 
 A basic building block for an interactive drone is to have the drone follow another object in real time. We use a Python script to do this.
 
 Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/), receiving pose data for the drone and any other tracked objects in real time; and stream this data to the Crazyflie: we let the Crazyflie know about its own pose for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
 
-## Hardware Setup
+### Hardware Setup
 
-## Program Structure
+### Program Structure
 
 Our script consists of various functions and classes that keep things structured, globally accessible variables to keep track of options and states, and the business end of the script: a main loop.
 
@@ -52,17 +52,21 @@ Our script consists of various functions and classes that keep things structured
     # Land
     ...
 
-# Safety First
+## Safety First
 
-## Speed
+Even though the Crazyflie is small and light, and generally not capable of serious damage; it is very good at hurting itself. So we need to take some safety measures to protect the drone.
 
-Turn down the speed
+### Speed
+
+The Crazyflie has 
+
+*We found that Bitcraze hasn't produced clear documentation for the parameters system at this time, but their [GUI client](https://github.com/bitcraze/crazyflie-clients-python) offers a Parameters tab if you'd like to explore them.*
 
     # Slow down
     cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
     cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
 
-## Landing
+### Landing
 
 The main fly loop...
 
