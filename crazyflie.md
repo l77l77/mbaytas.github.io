@@ -39,16 +39,16 @@ Our script consists of various functions and classes that keep things structured
 # Set things up
 ...
 
-    with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
+with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
 
-    # Set other things up
+# Set other things up
+...
+
+# FLY
+while(fly == True):
+
+    # Do flying things
     ...
-
-    # FLY
-    while(fly == True):
-
-        # Do flying things
-        ...
 
 # Land
 ...
@@ -63,15 +63,17 @@ Even though the Crazyflie is small and light, and generally not capable of serio
 Using the Crazylie's parameters system, we can set internal limits on how fast it's allowed to go. There are two parameters for the speed limit `xyVelMax` for lateral movement, and `zVelMax` for vertical movement.
 
 The actual value for these is set at the beginning of the script (in a unit of m/s), and passed to `cf.param.set_value()` right before takeoff.
-    
-    # Options: Physical Config
-    cf_max_vel = 0.4 # in m/s
-    
-    ...
 
-    # Slow down
-    cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
-    cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
+```python
+# Options: Physical Config
+cf_max_vel = 0.4 # in m/s
+
+...
+
+# Slow down
+cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
+cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
+```
     
 A slow speed limit drastically improves stability and safety. It lowers your probability of crashing, as well as the damage done <del>if</del> when you do.
 
@@ -83,15 +85,17 @@ Unfortunately, at this time, there is no way to set a rotational speed limit. It
 
 The main fly loop...
 
-    while (fly == True):
-        # Do things
-        ...
-    
-    # Land calmly if fly loop is broken
-    print("Landing...")
-    for z in range(5, 0, -1):
-        cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
-        time.sleep(0.2)
+```python
+while (fly == True):
+    # Do things
+    ...
+
+# Land calmly if fly loop is broken
+print("Landing...")
+for z in range(5, 0, -1):
+    cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
+    time.sleep(0.2)
+```
 
 ## Fence
 
@@ -99,6 +103,7 @@ It's always a good idea to have a physical fence aroung the drone. We use a cat 
 
 ![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
 
+```python
     # Land if drone strays out of bounding box
     if not x_min - safeZone_margin < cf_pose.x < x_max + safeZone_margin
     or not y_min - safeZone_margin < cf_pose.y < y_max + safeZone_margin
@@ -108,6 +113,7 @@ It's always a good idea to have a physical fence aroung the drone. We use a cat 
     # Land if drone disappears
     if cf_trackingLoss > cf_trackingLoss_treshold:
         print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
+```
 
 # Interactivity
 
@@ -117,7 +123,8 @@ QTM will be streaming data to our application asynchronously. This means that we
 
 To make things a bit easier, we will utilize global variables to keep track of where things are at all times.
 
-    fly = True
-    cf_xyz = [0, 0, 0]
-    target_xyz = [0, 0, 0]
-    
+```python
+fly = True
+cf_xyz = [0, 0, 0]
+target_xyz = [0, 0, 0]
+```
