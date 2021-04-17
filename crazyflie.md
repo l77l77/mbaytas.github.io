@@ -35,22 +35,24 @@ Our script consists of various functions and classes that keep things structured
 
 *This is a structure that is common in real-time interactive applications like games and physical computing. It's how [Arduino](https://www.arduino.cc/) and [Processing](https://processing.org/) programs are structured, and how [Pygame](https://www.pygame.org/) works.*
 
-    # Set things up
+```python
+# Set things up
+...
+
+    with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
+
+    # Set other things up
     ...
 
-        with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
+    # FLY
+    while(fly == True):
 
-        # Set other things up
+        # Do flying things
         ...
 
-        # FLY
-        while(fly == True):
-
-            # Do flying things
-            ...
-
-    # Land
-    ...
+# Land
+...
+```
 
 ## Safety First
 
