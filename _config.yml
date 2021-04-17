@@ -1,2 +1,2 @@
 kramdown:
-  toc_levels: 2,,6
+  toc_levels: 2..6
