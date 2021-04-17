@@ -8,6 +8,7 @@ title: Human-Drone Interaction with the Crazyflie and Motion Capture
 
 *April 2021*
 
+* TOC
 {:toc}
 
 In our research we experiment with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/), which serves this purpose well for two reasons.
