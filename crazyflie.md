@@ -177,3 +177,29 @@ controller_poses = []
 for i, controller_body_name in enumerate(controller_body_names):
 	controller_poses[i] = Pose(0, 0, 0)
 ```
+
+### Global Variables
+
+We use global variables to keep track of where things are and expose this data to different parts of our program.
+
+```python
+# Global vars
+fly = True
+cf_trackingLoss = 0
+cf_pose = Pose(0, 0, 0)
+controller_poses = []
+for i, controller_body_name in enumerate(controller_body_names):
+	controller_poses[i] = Pose(0, 0, 0)
+controller_select = 0
+```
+
+`fly` is the "on switch" for our drone. Setting this to false at any time will terminate the flight and cause the drone to (hopefully) execute the landing sequence.
+
+`cf_trackingloss` is a counter that is incremented if we receive a packet from QTM which does not contain a valid pose for the Crazyflie. If we don't receive pose from QTM, that means we are not in control anymore. It's actually fine if this happens for a fraction of a second (which it often does), but if we don't get pose for more than a few seconds the drone will become unstable. To prevent this from happening we constantly check this counter against the `cf_trackingLoss_treshold` option that we set in the beginning. If `cf_trackingloss` exceeds `cf_trackingLoss_treshold`, it's time to land.
+
+`cf_pose` and `controller_poses` hold the pose data for all the things we're tracking.
+
+We'll get to `controller_select` in a second, below.
+
+
+
