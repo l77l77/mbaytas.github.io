@@ -83,7 +83,9 @@ Unfortunately, at this time, there is no way to set a rotational speed limit. It
 
 ### Landing
 
-The main fly loop...
+Other than crashes, a frequent reason why the Crazyflie is prone to hurting itself is that it doesn't automatically perform a calm landing when we stop sending commands to it. For this reason, we must program a landing sequence into our script.
+
+The landing sequence initiates whenever we break out of the flight loop for whatever reason, and by using the `cf.commander.send_hover_setpoint()` command it is able to cut thrust gradually, even if the tracking (and thereby closed loop control) is disrupted.
 
 ```python
 while (fly == True):
@@ -101,18 +103,20 @@ for z in range(5, 0, -1):
 
 It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
 
+We also build a virtual fence in our code.
+
 ![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
 
 ```python
-    # Land if drone strays out of bounding box
-    if not x_min - safeZone_margin < cf_pose.x < x_max + safeZone_margin
-    or not y_min - safeZone_margin < cf_pose.y < y_max + safeZone_margin
-    or not z_min - safeZone_margin < cf_pose.z < z_max + safeZone_margin:
-        print("DRONE HAS LEFT SAFE ZONE!")
-        break
-    # Land if drone disappears
-    if cf_trackingLoss > cf_trackingLoss_treshold:
-        print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
+# Land if drone strays out of bounding box
+if not x_min - safeZone_margin < cf_pose.x < x_max + safeZone_margin
+or not y_min - safeZone_margin < cf_pose.y < y_max + safeZone_margin
+or not z_min - safeZone_margin < cf_pose.z < z_max + safeZone_margin:
+    print("DRONE HAS LEFT SAFE ZONE!")
+    break
+# Land if drone disappears
+if cf_trackingLoss > cf_trackingLoss_treshold:
+    print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
 ```
 
 # Interactivity
