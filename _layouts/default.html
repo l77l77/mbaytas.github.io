@@ -87,7 +87,12 @@
         grid-template-columns: 1fr 7fr;
         max-width: 1200px;
         padding: 4rem 0;
-      }     
+      }
+      @media (max-width: 1000px) {
+        .container {
+            grid-template-columns: 1fr;
+        }
+      }
       
       pre {
         padding: 1.6rem;
