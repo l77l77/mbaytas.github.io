@@ -44,18 +44,18 @@ Our script consists of various functions and classes that keep things structured
 
 with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
 
-# Set other things up
-...
+	# Set other things up
+	...
 
-# FLY
-while(fly == True):
+	# FLY
+	while(fly == True):
 
-    # Do flying things
-    ...
+		# Do flying things
+		...
 
-# Land
-...
-```
+	# Land
+	...
+	```
 
 ## Safety First
 
@@ -92,14 +92,14 @@ The landing sequence initiates whenever we break out of the flight loop for what
 
 ```python
 while (fly == True):
-    # Do things
-    ...
+	# Do flying things
+	...
 
 # Land calmly if fly loop is broken
 print("Landing...")
 for z in range(5, 0, -1):
-    cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
-    time.sleep(0.2)
+	cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
+	time.sleep(0.2)
 ```
 
 ### Fence
@@ -115,11 +115,11 @@ We also build a virtual fence in our code.
 if not x_min - safeZone_margin < cf_pose.x < x_max + safeZone_margin
 or not y_min - safeZone_margin < cf_pose.y < y_max + safeZone_margin
 or not z_min - safeZone_margin < cf_pose.z < z_max + safeZone_margin:
-    print("DRONE HAS LEFT SAFE ZONE!")
-    break
+	print("DRONE HAS LEFT SAFE ZONE!")
+	break
 # Land if drone disappears
 if cf_trackingLoss > cf_trackingLoss_treshold:
-    print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
+	print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
 ```
 
 ## Interactivity
@@ -135,35 +135,35 @@ We can retrieve pose from QTM in two ways: one represents orientation as [Euler 
 ```python
 class Pose:
 	"""Holds pose data with euler angles and/or rotation matrix"""
-    def __init__(self, x, y, z, roll=None, pitch=None, yaw=None, rot=None):
-        self.x = x
-        self.y = y
-        self.z = z
-        self.roll = roll
-        self.pitch = pitch
-        self.yaw = yaw
-        self.rot = rot
+	def __init__(self, x, y, z, roll=None, pitch=None, yaw=None, rot=None):
+		self.x = x
+		self.y = y
+		self.z = z
+		self.roll = roll
+		self.pitch = pitch
+		self.yaw = yaw
+		self.rot = rot
 
-    @classmethod
-    def from_qtm_6d(cls, qtm_6d):
-    	"""Build pose from rigid body data in QTM 6d component"""
-        ...
+	@classmethod
+	def from_qtm_6d(cls, qtm_6d):
+		"""Build pose from rigid body data in QTM 6d component"""
+		...
 
-    @classmethod
-    def from_qtm_6deuler(cls, qtm_6deuler):
-    	"""Build pose from rigid body data in QTM 6deuler component"""
-    	...
+	@classmethod
+	def from_qtm_6deuler(cls, qtm_6deuler):
+		"""Build pose from rigid body data in QTM 6deuler component"""
+		...
         
-    def distance_to(self, other_point):
-        """Calculate linear distance between two poses"""
-        ...
+	def distance_to(self, other_point):
+		"""Calculate linear distance between two poses"""
+		...
         
-    def is_valid(self):
-        """Check if any of the coodinates are NaN."""
-        ...
+	def is_valid(self):
+		"""Check if any of the coodinates are NaN."""
+		...
 
-    def __str__(self):
-        ...
+	def __str__(self):
+		...
 ```
 
 QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
