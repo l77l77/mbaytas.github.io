@@ -15,7 +15,7 @@ In our research we experiment with autonomous "drones" -- or flying robots -- fo
 
 First, it is modular and pretty much entirely open-source. We find a variety of "decks" with sensors, lights, etc. to extend the core hardware without adding unnecessary weight. We can publish knowledge and artifacts based on this ecosystem, unconstrained by IP considerations. There are challenges in this kind of ecosystem; for example, more centralized documentation would make our lives easier. However, all things considered, the Crazyflie is a rich platform for creative applications. I liken it to a a flying Arduino.
 
-Most importantly, it is small. There are other drones – like the [Tello EDU](https://www.ryzerobotics.com/tello-edu) – which come with programming tools. But the Tello, capable of outdoor flight, is close to 200mm wide and weighs around 80g. Indoors, its noise and prop wash are very uncomfortable, especially when close to the human body. It breaks things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I can come very close to it with my body and my hands without discomfort. Having crashed hundreds of times -- into my head, my hands, my computer screen, and countless other objects -- I can vouch that it is safe.
+Most importantly, it is small. There are other drones – like the [Tello EDU](https://www.ryzerobotics.com/tello-edu) – which come with programming tools. But the Tello, capable of outdoor flight, is close to 200mm wide and weighs around 80g. Indoors, its noise and prop wash are very uncomfortable, especially when close to the human body. It breaks things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I can come very close to it with my body and my hands without discomfort. Having crashed hundreds of times -- into my head, my hands, my computer screen, and countless other objects -- I can vouch that it is safe.
 
 Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion capture system. For many of our prototypes, we do fine with sensors on the drone, like the [Multi-ranger](https://www.bitcraze.io/products/multi-ranger-deck/) and [Flow](https://www.bitcraze.io/products/flow-deck-v2/) decks. But mocap can precisely track anything we can put markers onto, within the same calibrated coordinate system as the drone itself.
 
@@ -44,18 +44,18 @@ Our script consists of various functions and classes that keep things structured
 
 with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
 
-	# Set other things up
-	...
+# Set other things up
+...
 
-	# FLY
-	while(fly == True):
+# FLY
+while(fly == True):
 
-		# Do flying things
-		...
+    # Do flying things
+    ...
 
-	# Land
-	...
-	```
+# Land
+...
+```
 
 ## Safety First
 
@@ -92,14 +92,14 @@ The landing sequence initiates whenever we break out of the flight loop for what
 
 ```python
 while (fly == True):
-	# Do flying things
-	...
+    # Do things
+    ...
 
 # Land calmly if fly loop is broken
 print("Landing...")
 for z in range(5, 0, -1):
-	cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
-	time.sleep(0.2)
+    cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
+    time.sleep(0.2)
 ```
 
 ### Fence
@@ -115,11 +115,11 @@ We also build a virtual fence in our code.
 if not x_min - safeZone_margin < cf_pose.x < x_max + safeZone_margin
 or not y_min - safeZone_margin < cf_pose.y < y_max + safeZone_margin
 or not z_min - safeZone_margin < cf_pose.z < z_max + safeZone_margin:
-	print("DRONE HAS LEFT SAFE ZONE!")
-	break
+    print("DRONE HAS LEFT SAFE ZONE!")
+    break
 # Land if drone disappears
 if cf_trackingLoss > cf_trackingLoss_treshold:
-	print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
+    print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
 ```
 
 ## Interactivity
@@ -135,35 +135,35 @@ We can retrieve pose from QTM in two ways: one represents orientation as [Euler 
 ```python
 class Pose:
 	"""Holds pose data with euler angles and/or rotation matrix"""
-	def __init__(self, x, y, z, roll=None, pitch=None, yaw=None, rot=None):
-		self.x = x
-		self.y = y
-		self.z = z
-		self.roll = roll
-		self.pitch = pitch
-		self.yaw = yaw
-		self.rot = rot
+    def __init__(self, x, y, z, roll=None, pitch=None, yaw=None, rot=None):
+        self.x = x
+        self.y = y
+        self.z = z
+        self.roll = roll
+        self.pitch = pitch
+        self.yaw = yaw
+        self.rot = rot
 
-	@classmethod
-	def from_qtm_6d(cls, qtm_6d):
-		"""Build pose from rigid body data in QTM 6d component"""
-		...
+    @classmethod
+    def from_qtm_6d(cls, qtm_6d):
+    	"""Build pose from rigid body data in QTM 6d component"""
+        ...
 
-	@classmethod
-	def from_qtm_6deuler(cls, qtm_6deuler):
-		"""Build pose from rigid body data in QTM 6deuler component"""
-		...
+    @classmethod
+    def from_qtm_6deuler(cls, qtm_6deuler):
+    	"""Build pose from rigid body data in QTM 6deuler component"""
+    	...
         
-	def distance_to(self, other_point):
-		"""Calculate linear distance between two poses"""
-		...
+    def distance_to(self, other_point):
+        """Calculate linear distance between two poses"""
+        ...
         
-	def is_valid(self):
-		"""Check if any of the coodinates are NaN."""
-		...
+    def is_valid(self):
+        """Check if any of the coodinates are NaN."""
+        ...
 
-	def __str__(self):
-		...
+    def __str__(self):
+        ...
 ```
 
 QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
@@ -194,4 +194,3 @@ controller_select = 0
 We'll get to `controller_select` in a second, below.
 
 ### Following a "Controller"
-
