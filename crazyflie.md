@@ -19,7 +19,7 @@ Most importantly, it is small. There are other drones – like the [Tello EDU](h
 
 Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion capture system. For many of our prototypes, we do fine with sensors on the drone, like the [Multi-ranger](https://www.bitcraze.io/products/multi-ranger-deck/) and [Flow](https://www.bitcraze.io/products/flow-deck-v2/) decks. But mocap can precisely track anything we can put markers onto, within the same calibrated coordinate system as the drone itself.
 
-*Disclosure: My work is sponsored by Qualisys, but the company does not direct or screen our projects and publications in any way.*
+*Disclosure: My work is sponsored by Qualisys, but the company does not direct or screen our projects and publications.*
 
 The way that we utilize this tech stack is somewhat uncommon. The Crazyflie is often used by engineering labs, and the Qualisys is popular for human biomechanics. Their documentation and resources speak to these audiences. We couldn't find a good entry point for hackers and designers to experiment with the Crazyflie, tracked by an external motion capture system. So we decided to write this one.
 
