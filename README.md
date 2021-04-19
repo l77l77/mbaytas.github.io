@@ -24,7 +24,7 @@ Dr. Mehmet Aydın Baytaş is a scholar, engineer, designer, teacher, writer, str
 [Conversation with Timmy Ghiurãu on Innovating in Virtual Reality](https://youtu.be/jMaEjm7L_wU)
 : Video
 
-[Drone Chi: Somaesthetic Human-Drone Interaction](research/pub/2020_CHI_Drone_Chi.pdf)] (CHI 2020 Hon. Mention Award)
+[Drone Chi: Somaesthetic Human-Drone Interaction](research/pub/2020_CHI_Drone_Chi.pdf) (Best Paper Hon. Mention)
 : Research
 
 2019
@@ -37,7 +37,7 @@ Dr. Mehmet Aydın Baytaş is a scholar, engineer, designer, teacher, writer, str
 
 2018
 
-[Towards Materials for Computational Heirlooms](research/pub/2018_DIS_Heirlooms.pdf) (DIS 2018 Best Paper Award)
+[Towards Materials for Computational Heirlooms](research/pub/2018_DIS_Heirlooms.pdf) (Best Paper Award)
 : Research
 
 2014
