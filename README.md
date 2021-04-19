@@ -6,7 +6,7 @@ Dr. Mehmet Aydın Baytaş is a scholar, engineer, designer, teacher, writer, str
 
 2021
 
-[The Three Faces of Design Research]
+The Three Faces of Design Research
 : [Essay](https://www.designdisciplin.com/the-three-faces-of-design-research/), [Video](https://youtu.be/CIKtqj389dI)
 
 Publication Strategy for Interaction Design Research
