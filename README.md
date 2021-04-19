@@ -19,9 +19,12 @@ Video
 
 Video
 : [Social Drones as Material for Design and Research](https://youtu.be/V3NFn936gzY)
+
 Video
 : [Conversation with Timmy Ghiurãu on Innovating in Virtual Reality](https://youtu.be/jMaEjm7L_wU)
-Research: [Drone Chi: Somaesthetic Human-Drone Interaction](research/pub/2020_CHI_Drone_Chi.pdf)] (CHI 2020 Hon. Mention Award)
+
+Research
+: [Drone Chi: Somaesthetic Human-Drone Interaction](research/pub/2020_CHI_Drone_Chi.pdf)] (CHI 2020 Hon. Mention Award)
 
 2019
 
