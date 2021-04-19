@@ -6,40 +6,41 @@ Dr. Mehmet Aydın Baytaş is a scholar, engineer, designer, teacher, writer, str
 
 2021
 
-Essay
-: [The Three Faces of Design Research](https://www.designdisciplin.com/the-three-faces-of-design-research/)
+[The Three Faces of Design Research](https://www.designdisciplin.com/the-three-faces-of-design-research/)
+: Essay
 
-Video
-: [The Three Faces of Design Research](https://youtu.be/CIKtqj389dI)
 
-Video
-: [Publication Strategy for Interaction Design Research](https://youtu.be/eoOrOZymdmg)
+[The Three Faces of Design Research](https://youtu.be/CIKtqj389dI)
+: Video
+
+[Publication Strategy for Interaction Design Research](https://youtu.be/eoOrOZymdmg)
+: Video
 
 2020
 
-Video
-: [Social Drones as Material for Design and Research](https://youtu.be/V3NFn936gzY)
+[Social Drones as Material for Design and Research](https://youtu.be/V3NFn936gzY)
+: Video
 
-Video
-: [Conversation with Timmy Ghiurãu on Innovating in Virtual Reality](https://youtu.be/jMaEjm7L_wU)
+[Conversation with Timmy Ghiurãu on Innovating in Virtual Reality](https://youtu.be/jMaEjm7L_wU)
+: Video
 
-Research
-: [Drone Chi: Somaesthetic Human-Drone Interaction](research/pub/2020_CHI_Drone_Chi.pdf)] (CHI 2020 Hon. Mention Award)
+[Drone Chi: Somaesthetic Human-Drone Interaction](research/pub/2020_CHI_Drone_Chi.pdf)] (CHI 2020 Hon. Mention Award)
+: Research
 
 2019
 
-Research
-: [The Design of Social Drones](research/pub/2019_CHI_Drones.pdf)
+[The Design of Social Drones](research/pub/2019_CHI_Drones.pdf)
+: Research
 
-Essay
-: [Religion for Machines: Humanism and Dataism as Perspectives on the Design of Machine Learning Systems](pub/2019_CHI_WS_HCML_Religion.pdf)
+[Religion for Machines: Humanism and Dataism as Perspectives on the Design of Machine Learning Systems](pub/2019_CHI_WS_HCML_Religion.pdf)
+: Essay
 
 2018
 
-Research
-: [Towards Materials for Computational Heirlooms](research/pub/2018_DIS_Heirlooms.pdf) (DIS 2018 Best Paper Award)
+[Towards Materials for Computational Heirlooms](research/pub/2018_DIS_Heirlooms.pdf) (DIS 2018 Best Paper Award)
+: Research
 
 2014
 
-Research
-: [Hotspotizer: End-user Authoring of Mid-air Gestural Interactions](research/pub/2014_NordiCHI_Hotspotizer.pdf)
+[Hotspotizer: End-user Authoring of Mid-air Gestural Interactions](research/pub/2014_NordiCHI_Hotspotizer.pdf)
+: Research, Software
