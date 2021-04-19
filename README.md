@@ -30,6 +30,7 @@ Research
 
 Research
 : [The Design of Social Drones](research/pub/2019_CHI_Drones.pdf)
+
 Essay
 : [Religion for Machines: Humanism and Dataism as Perspectives on the Design of Machine Learning Systems](pub/2019_CHI_WS_HCML_Religion.pdf)
 
