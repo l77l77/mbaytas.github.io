@@ -24,7 +24,7 @@ Social Drones as Material for Design and Research
 Conversation with Timmy Ghiurãu on Innovating in Virtual Reality
 : [Video](https://youtu.be/jMaEjm7L_wU)
 
-Drone Chi: Somaesthetic Human-Drone Interaction (Best Paper Hon. Mention)
+Drone Chi: Somaesthetic Human-Drone Interaction
 : [Research](research/pub/2020_CHI_Drone_Chi.pdf)
 
 *2019*
@@ -37,7 +37,7 @@ Religion for Machines: Humanism and Dataism as Perspectives on the Design of Mac
 
 *2018*
 
-Towards Materials for Computational Heirlooms (Best Paper Award)
+Towards Materials for Computational Heirlooms
 : [Research](research/pub/2018_DIS_Heirlooms.pdf) 
 
 *2014*
