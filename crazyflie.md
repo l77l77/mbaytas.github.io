@@ -32,6 +32,8 @@ Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-ma
 
 ### Hardware Setup
 
+TBD
+
 ### Program Structure
 
 Our script consists of various functions and classes that keep things structured, globally accessible variables to keep track of options and states, and the business end of the script: a main loop.
@@ -194,3 +196,5 @@ controller_select = 0
 We'll get to `controller_select` in a second, below.
 
 ### Following a "Controller"
+
+TBD
