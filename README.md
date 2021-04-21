@@ -32,7 +32,7 @@ Drone Chi: Somaesthetic Human-Drone Interaction
 The Design of Social Drones
 : [Research](research/pub/2019_CHI_Drones.pdf)
 
-Religion for Machines: Humanism and Dataism as Perspectives on the Design of Machine Learning Systems
+Humanism and Dataism as Perspectives on the Design of Software Systems
 : [Essay](pub/2019_CHI_WS_HCML_Religion.pdf)
 
 *2018*
