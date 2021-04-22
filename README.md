@@ -10,6 +10,9 @@ Design Disciplin
 
 *2021*
 
+Human-Drone Interaction Showcase by Qualisys x Chalmers University of Technology
+: [Video](https://www.youtube.com/watch?v=IVMFvLN44Ts)
+
 The Three Faces of Design Research
 : [Essay](https://www.designdisciplin.com/the-three-faces-of-design-research/), [Video](https://youtu.be/CIKtqj389dI)
 
