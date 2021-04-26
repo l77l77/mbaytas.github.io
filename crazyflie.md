@@ -72,7 +72,7 @@ while(fly == True):
 
 ## Safety First
 
-Even though the Crazyflie is small and light, and generally not capable of serious damage; it has a very expensive self-harm habit. So we need to take some safety measures to protect the drone.
+Even though the Crazyflie is small and light, and generally not capable of serious damage; it has a very expensive self-harm habit – it's very effective at destroying its own bits and pieces when it crashes into walls and other things. We need to take some safety measures to protect the drone.
 
 ### Speed
 
@@ -95,13 +95,13 @@ A slow speed limit drastically improves stability and safety. It lowers your pro
 
 Unfortunately, at this time, there is no way to set a rotational speed limit. It would have been very useful to be able to limit the yaw rate – our #1 reason for crashing at the moment is when the Crazyflie is unable to stabilize itself after rotating a little too eagerly.
 
-*We found that Bitcraze hasn't produced clear documentation for the parameters system at this time, but their [GUI client](https://github.com/bitcraze/crazyflie-clients-python) offers a Parameters tab if you'd like to explore them.*
+*We haven't found a complete documentation for the parameters system at this time, but Bitcraze's [GUI client](https://github.com/bitcraze/crazyflie-clients-python) offers a Parameters tab if you'd like to explore them.*
 
 ### Landing
 
-Other than crashes, a frequent reason why the Crazyflie is prone to hurting itself is that it doesn't automatically perform a calm landing when we stop sending commands to it. For this reason, we must program a landing sequence into our script.
+Other than crashes, a frequent reason why the Crazyflie is prone to hurting itself is that it doesn't automatically perform a calm landing when we stop sending commands to it. It simply stops its motors mid-air and drops to the floor. To minimize damage to the drone, we must program a landing sequence into our script.
 
-The landing sequence initiates whenever we break out of the flight loop for whatever reason, and by using the `cf.commander.send_hover_setpoint()` command it is able to cut thrust gradually, even if the tracking (and thereby closed loop control) is disrupted.
+The landing sequence initiates whenever we break out of the flight loop for whatever reason. We use the `cf.commander.send_setpoint()` command to cut thrust gradually, even if the tracking (and thereby closed loop control) is disrupted. (More on the various ways of sending control setpoints below.)
 
 ```python
 while (fly == True):
@@ -209,3 +209,27 @@ We'll get to `controller_select` in a second, below.
 ### Following a "Controller"
 
 TBD
+
+## Useful Information
+
+There is a whole bunch of information that didn't fit in the "flow" of the tutorial above, but would have been useful to us if we knew these from the start.
+
+### Functions for Sending Control Setpoints
+
+The [`Commander` class in the Crazyflie Python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/cflib/crazyflie/commander.py) provides us with different kinds of functions that can be used to send various kinds of control signals to the Crazyflie. While these may look like they are interchangeable, in fact they all have particular hardware configurations and use cases that they work best with, and these are not always obvious.
+
+`send_setpoint(self, roll, pitch, yaw, thrust)`
+
+`def send_velocity_world_setpoint(self, vx, vy, vz, yawrate):`
+
+`def send_zdistance_setpoint(self, roll, pitch, yawrate, zdistance):`
+
+`def send_hover_setpoint(self, vx, vy, yawrate, zdistance):`
+
+`def send_position_setpoint(self, x, y, z, yaw):`
+
+### High-level Commander
+
+
+
+
