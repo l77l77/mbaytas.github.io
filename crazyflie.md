@@ -221,13 +221,13 @@ The [`Commander` class in the Crazyflie Python library](https://github.com/bitcr
 
 `send_setpoint(self, roll, pitch, yaw, thrust)`
 
-`def send_velocity_world_setpoint(self, vx, vy, vz, yawrate):`
+`send_velocity_world_setpoint(self, vx, vy, vz, yawrate):`
 
-`def send_zdistance_setpoint(self, roll, pitch, yawrate, zdistance):`
+`send_zdistance_setpoint(self, roll, pitch, yawrate, zdistance):`
 
-`def send_hover_setpoint(self, vx, vy, yawrate, zdistance):`
+`send_hover_setpoint(self, vx, vy, yawrate, zdistance):`
 
-`def send_position_setpoint(self, x, y, z, yaw):`
+`send_position_setpoint(self, x, y, z, yaw):`
 
 ### High-level Commander
 
