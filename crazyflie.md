@@ -30,9 +30,20 @@ A basic building block for an interactive drone is to have the drone follow anot
 
 Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/), receiving pose data for the drone and any other tracked objects in real time; and stream this data to the Crazyflie: we let the Crazyflie know about its own pose for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
 
-### Hardware Setup
+![The front of the Crazyflie must point to the positive x-direction of the QTM coordinate system](/img/crazyflie_orientation.png)
 
-TBD
+### Setup
+
+We used a Windows computer to run all of the software since [QTM](https://www.qualisys.com/software/qualisys-track-manager/) is currently built exclusively for Windows.
+
+In QTM, the rigid body that corresponds to the Crazyflie quadcopter have custom Euler angle definitions:
+
+- First Rotation Axis: Z, Positive Rotation: Clockwise, Name: Yaw, Angle Range: -180 to 180 deg.
+- Second Rotation Axis: Y, Positive Rotation: Counterclockwise, Name: Pitch
+- Third Rotation Axis: X, Positive Rotation: Clockwise, Name: Roll, Angle Range: -180 to 180 deg.
+
+The Crazyflie has to be positioned in a specific way, before each takeoff, in order to fly correctly: the front of the Crazyflie must point to the positive x-direction of the QTM coordinate system. It stability is predicated on correct initial alignment: if the front of the drone is not aligned with the x-direction it will lose control and crash. A few degrees of error is fine, but more than that will give you trouble.
+
 
 ### Program Structure
 
