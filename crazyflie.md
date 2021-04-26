@@ -34,7 +34,7 @@ Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-ma
 
 ### Setup
 
-We used a Windows computer to run all of the software since [QTM](https://www.qualisys.com/software/qualisys-track-manager/) is currently built exclusively for Windows.
+We used a Windows computer to run all of the software (since [QTM](https://www.qualisys.com/software/qualisys-track-manager/) is currently built exclusively for Windows).
 
 In QTM, the rigid body that corresponds to the Crazyflie quadcopter have custom Euler angle definitions:
 
