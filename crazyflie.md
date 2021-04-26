@@ -115,13 +115,14 @@ for z in range(5, 0, -1):
     time.sleep(0.2)
 ```
 
+![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
+
 ### Fence
 
 It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
 
 We also build a virtual fence in our code.
 
-![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
 
 ```python
 # Land if drone strays out of bounding box
