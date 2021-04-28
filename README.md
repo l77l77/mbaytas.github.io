@@ -13,7 +13,7 @@ Design Disciplin
 Human-Drone Interaction Showcase by Qualisys x Chalmers University of Technology
 : [Video](https://www.youtube.com/watch?v=IVMFvLN44Ts)
 
-Drone Chi featured in The Washington Post
+The Washington Post: Fitness drones are coming, if inventors can get all the kinks out of them
 : [Press](https://www.washingtonpost.com/science/drones-for-exercising/2021/04/16/c459c7fe-882d-11eb-82bc-e58213caa38e_story.html)
 
 The Three Faces of Design Research
