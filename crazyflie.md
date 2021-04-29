@@ -47,7 +47,7 @@ In QTM, the rigid body that corresponds to the Crazyflie quadcopter have custom 
 The Crazyflie has to be positioned in a specific way, before each takeoff, in order to fly correctly: the front of the Crazyflie must point to the positive x-direction of the QTM coordinate system. It stability is predicated on correct initial alignment: if the front of the drone is not aligned with the x-direction it will lose control and crash. A few degrees of error is fine, but more than that will give you trouble.
 
 
-![The script is structured around a main loop](/img/crazyflie_orientation.png)
+![The script is structured around a main loop](/img/crazyflie_structure.png)
 
 
 ### Program Structure
