@@ -141,6 +141,7 @@ while (fly == True):
     target_pose.y = max(y_min, min(target.y, y_max))
     target_pose.z = max(z_min, min(target.z, z_max))
 ```
+![Speed kills](/img/crazyflie_limit.png)
 
 ### Speed Limit
 
@@ -166,6 +167,10 @@ This is handy because we will be controlling the drone with position setpoint co
 Unfortunately, at this time, there is no way to set a rotational speed limit. It would have been very useful to be able to limit the yaw rate – our #1 reason for crashing at the moment is when the Crazyflie is unable to stabilize itself after rotating a little too eagerly.
 
 *We haven't found a complete documentation for the parameters system at this time, but Bitcraze's [GUI client](https://github.com/bitcraze/crazyflie-clients-python) offers a Parameters tab if you'd like to explore them.*
+
+
+![Landing calmly](/img/crazyflie_landing.png)
+
 
 ### Landing
 
