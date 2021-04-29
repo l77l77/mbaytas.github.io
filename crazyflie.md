@@ -255,7 +255,7 @@ controller_select = 0
 We'll get to `controller_select` in a second, below.
 
 
-### Tracking and Following a "Controller"
+### Tracking and Controllers
 
 QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
 
