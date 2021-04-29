@@ -252,7 +252,7 @@ controller_select = 0
 
 `cf_pose` and `controller_poses` hold the pose data for all the things we're tracking.
 
-We'll get to `controller_select` in a second, below.
+`controller_select` specifies which controller body the Crazyflie should follow. Obviously, the drone can only follow one target at a time, and this variable says which one.
 
 
 ### Tracking and Controllers
