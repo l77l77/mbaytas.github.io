@@ -85,11 +85,11 @@ We crashed our drones a lot while developing our prototypes, because the way tha
 ![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
 
 
-### Fencing and Tracking Loss
+### Fencing and Tracking Quality
 
 It's always a good idea to have a physical fence around the flight volume. During development we used netting we bought from a pet store. However, obviously it's better to ensure that the drone never flies where it shouldn't. For this we build a virtual fence in our code.
 
-This is extremely important since we are using an "outside-in" mocap system: <del>if</del> when the drone flies outside of the volume that is "seen" by the mocap cameras, if we keep sending control signals to the drone, it will destabilize and crash. Out of the box, the SDK does not ensure that we can't send the drone outside the tracking volume. We need to make sure of two things:
+This is extremely important since we are using an "outside-in" mocap system: <del>if</del> when the drone flies outside of the volume that is "seen" by the mocap cameras, if we keep sending control signals to the drone, it will destabilize and crash. Out of the box, the SDK does not ensure that we can't send the drone outside the tracking volume; it's totally possible to send the drone to a coordinate outside of it. We need to make sure of two things:
 
 1. We never send a control signal to the drone that tells it to fly outside a safe volume.
 2. If the drone happens to fly outside the safe volume, we stop sending control signals and land immediately.
@@ -98,8 +98,9 @@ We define the boundaries of a 3D fence in our options. Then, in every iteration 
 
 We also set a `cf_trackingLoss_treshold` option and a global `cf_trackingLoss` variable to keep tabs on the mocap tracking quality. We will be receiving data from QTM continuously, and if that data does not contain valid tracking for the Crazyflie, we will increment the `cf_trackingLoss` counter. Whenever we receive good tracking data, we reset the counter. (More on this later.) We compare the counter to a threshold we set in the beginning, to make sure that tracking is fine.
 
-*Notice that the fence boundaries are defined with respect to the QTM coordinate system. Be careful if you recalibrate!*
+Now, the above makes sure that the drone lands safely if we lose tracking. In order to make sure that we don't send the drone outside the tracking volume, we need to do one more thing: to make sure that the target coordinate stays inside the fence. So we simply clamp the target coordinates to fence boundaries. This is where the `fence_margin` option comes into play. Though we clamp the control signal inside the fence, it's still possible for the drone to slightly overshoot when it's right at boundary. So the actual safety fence needs to be slightly larger than the control signal's fence.
 
+*Notice that the fence boundaries are defined with respect to the QTM coordinate system. Be careful if you recalibrate!*
 
 ```python
 # Options: Physical Config
@@ -136,9 +137,9 @@ while (fly == True):
     ...
     
     # Keep target inside fence
-        target_pose.x = max(x_min, min(target.x, x_max))
-        target_pose.y = max(y_min, min(target.y, y_max))
-        target_pose.z = max(z_min, min(target.z, z_max))
+    target_pose.x = max(x_min, min(target.x, x_max))
+    target_pose.y = max(y_min, min(target.y, y_max))
+    target_pose.z = max(z_min, min(target.z, z_max))
 ```
 
 ### Speed Limit
