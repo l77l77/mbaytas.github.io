@@ -85,11 +85,18 @@ We crashed our drones a lot while developing our prototypes, because the way tha
 ![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
 
 
-### Fencing
+### Fencing and Tracking Loss
 
-It's always a good idea to have a physical fence around the flight volume. During development we used netting we bought from a pet store. However, obviously it's better to ensure that the drone never flies where it shouldn't. This is extremely important since we are using an "outside-in" mocap system: <del>if</del> when the drone flies outside of the volume that is "seen" by the mocap cameras, we will lose tracking and crash. For this we build a virtual fence in our code.
+It's always a good idea to have a physical fence around the flight volume. During development we used netting we bought from a pet store. However, obviously it's better to ensure that the drone never flies where it shouldn't. For this we build a virtual fence in our code.
 
-We define the boundaries of a 3D fence in our options. Then, in every iteration of the main loop, we check to see that the drone is indeed in there.
+This is extremely important since we are using an "outside-in" mocap system: <del>if</del> when the drone flies outside of the volume that is "seen" by the mocap cameras, if we keep sending control signals to the drone, it will destabilize and crash. Out of the box, the SDK does not ensure that we can't send the drone outside the tracking volume. We need to make sure of two things:
+
+1. We never send a control signal to the drone that tells it to fly outside a safe volume.
+2. If the drone happens to fly outside the safe volume, we stop sending control signals and land immediately.
+
+We define the boundaries of a 3D fence in our options. Then, in every iteration of the main loop, we check to see that the drone is inside the boundaries of the fence. If the drone has gone astray, we break the main loop and land.
+
+We also set a `cf_trackingLoss_treshold` option and a global `cf_trackingLoss` variable to keep tabs on the mocap tracking quality. We will be receiving data from QTM continuously, and if that data does not contain valid tracking for the Crazyflie, we will increment the `cf_trackingLoss` counter. Whenever we receive good tracking data, we reset the counter. (More on this later.) We compare the counter to a threshold we set in the beginning, to make sure that tracking is fine.
 
 *Notice that the fence boundaries are defined with respect to the QTM coordinate system. Be careful if you recalibrate!*
 
@@ -107,6 +114,12 @@ cf_trackingLoss_treshold = 100
 
 ...
 
+# Global vars
+fly = True
+cf_trackingLoss = 0
+
+...
+
 while (fly == True):
 
     # Land if drone strays out of fence
@@ -119,17 +132,16 @@ while (fly == True):
     if cf_trackingLoss > cf_trackingLoss_treshold:
         print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
 	break
-```
-
-```python
-while (fly == True):
+	
+    ...
+    
     # Keep target inside fence
         target_pose.x = max(x_min, min(target.x, x_max))
         target_pose.y = max(y_min, min(target.y, y_max))
         target_pose.z = max(z_min, min(target.z, z_max))
 ```
 
-### Speed
+### Speed Limit
 
 Using the Crazylie's parameters system, we can set internal limits on how fast it's allowed to go. There are two parameters for the speed limit `xyVelMax` for lateral movement, and `zVelMax` for vertical movement.
 
