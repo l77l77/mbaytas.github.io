@@ -266,7 +266,6 @@ To handle our connection with QTM, we built a `QtmConnector` class which subclas
 `_connect()` is called once, when we initialize the connection. After establishing a connection, we check if the rigid bodies set up in QTM correspond to what our script is expecting to find. At the beginning of the script, we hae specified what the QTM rigid body names are for the Crazyflie as well as any controller objects. Rigid bodies with those same names must be present in the QTM project. If they are not, we abort the script. If we find them, we continue and begin streaming 6DOF data.
 
 ```python
-
 # Options: QTM rigid body names
 cf_body_name = 'cf'
 controller_body_names = ['traqr', 'tello']
