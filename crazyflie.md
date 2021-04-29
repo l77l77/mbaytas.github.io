@@ -47,7 +47,7 @@ In QTM, the rigid body that corresponds to the Crazyflie quadcopter have custom 
 The Crazyflie has to be positioned in a specific way, before each takeoff, in order to fly correctly: the front of the Crazyflie must point to the positive x-direction of the QTM coordinate system. It stability is predicated on correct initial alignment: if the front of the drone is not aligned with the x-direction it will lose control and crash. A few degrees of error is fine, but more than that will give you trouble.
 
 
-![The program structure is based on a main loop](/img/crazyflie_orientation.png)
+![The script is structured around a main loop](/img/crazyflie_orientation.png)
 
 
 ### Program Structure
@@ -78,6 +78,56 @@ while(fly == True):
 ## Safety First
 
 Even though the Crazyflie is small and light, and generally not capable of serious damage; it has a very expensive self-harm habit – it's very effective at destroying its own bits and pieces when it crashes into walls and other things. We need to take some safety measures to protect the drone.
+
+We crashed our drones a lot while developing our prototypes, because the way that the Crazyflie's flight control is implemented out of the box is sensitive to tracking loss and sudden inputs. Thus, our safety measures concentrate on making sure that the drone stays in the mocap tracking volume, doesn't move too fast for it's own sake, and still manages to keeps calm if either of things fail.
+
+
+![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
+
+
+### Fencing
+
+It's always a good idea to have a physical fence around the flight volume. During development we used netting we bought from a pet store. However, obviously it's better to ensure that the drone never flies where it shouldn't. This is extremely important since we are using an "outside-in" mocap system: <del>if</del> when the drone flies outside of the volume that is "seen" by the mocap cameras, we will lose tracking and crash. For this we build a virtual fence in our code.
+
+We define the boundaries of a 3D fence in our options. Then, in every iteration of the main loop, we check to see that the drone is indeed in there.
+
+*Notice that the fence boundaries are defined with respect to the QTM coordinate system. Be careful if you recalibrate!*
+
+
+```python
+# Options: Physical Config
+x_min = -1.0 # in m
+x_max = 1.0 # in m
+y_min = -1.0 # in m
+y_max = 1.0 # in m
+z_min = 0.0 # in m
+z_max = 1.5 # in m
+fence_margin = 0.2 # in m
+cf_trackingLoss_treshold = 100
+
+...
+
+while (fly == True):
+
+    # Land if drone strays out of fence
+    if not x_min - fence_margin < cf_pose.x < x_max + fence_margin
+    or not y_min - fence_margin < cf_pose.y < y_max + fence_margin
+    or not z_min - fence_margin < cf_pose.z < z_max + fence_margin:
+        print("DRONE HAS LEFT SAFE ZONE!")
+        break
+    # Land if drone disappears
+    if cf_trackingLoss > cf_trackingLoss_treshold:
+        print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
+	break
+```
+
+```python
+while (fly == True):
+    # Keep target inside fence
+        target_pose.x = max(x_min, min(target.x, x_max))
+        target_pose.y = max(y_min, min(target.y, y_max))
+        target_pose.z = max(z_min, min(target.z, z_max))
+```
 
 ### Speed
 
@@ -120,26 +170,7 @@ for z in range(5, 0, -1):
     time.sleep(0.2)
 ```
 
-![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
 
-### Fence
-
-It's always a good idea to have a physical fence aroung the drone. We use a cat net we bought from a pet store.
-
-We also build a virtual fence in our code.
-
-
-```python
-# Land if drone strays out of bounding box
-if not x_min - safeZone_margin < cf_pose.x < x_max + safeZone_margin
-or not y_min - safeZone_margin < cf_pose.y < y_max + safeZone_margin
-or not z_min - safeZone_margin < cf_pose.z < z_max + safeZone_margin:
-    print("DRONE HAS LEFT SAFE ZONE!")
-    break
-# Land if drone disappears
-if cf_trackingLoss > cf_trackingLoss_treshold:
-    print("TRACKING LOST FOR " + str(cf_trackingLoss_treshold) + " FRAMES!")
-```
 
 ## Interactivity
 
