@@ -158,8 +158,10 @@ cf_max_vel = 0.4 # in m/s
 cf.param.set_value('posCtlPid.xyVelMax', cf_max_vel)
 cf.param.set_value('posCtlPid.zVelMax', cf_max_vel)
 ```
-    
+
 A slow speed limit drastically improves stability and safety. It lowers your probability of crashing, as well as the damage done <del>if</del> when you do.
+
+This is handy because we will be controlling the drone with position setpoint commands – we will tell it where to go, not how to go there. It's also handy because the speed limit set with internal parameters stays in effect even if tracking fails – so if we crash, we'll crash slow.
 
 Unfortunately, at this time, there is no way to set a rotational speed limit. It would have been very useful to be able to limit the yaw rate – our #1 reason for crashing at the moment is when the Crazyflie is unable to stabilize itself after rotating a little too eagerly.
 
@@ -167,7 +169,7 @@ Unfortunately, at this time, there is no way to set a rotational speed limit. It
 
 ### Landing
 
-Other than crashes, a frequent reason why the Crazyflie is prone to hurting itself is that it doesn't automatically perform a calm landing when we stop sending commands to it. It simply stops its motors mid-air and drops to the floor. To minimize damage to the drone, we must program a landing sequence into our script.
+Other than crashes, one reason why the Crazyflie is prone to hurting itself is that it doesn't automatically perform a calm landing when we stop sending commands to it. It simply stops its motors mid-air and drops to the floor. To minimize damage to the drone, we must program a landing sequence into our script.
 
 The landing sequence initiates whenever we break out of the flight loop for whatever reason. We use the `cf.commander.send_setpoint()` command to cut thrust gradually, even if the tracking (and thereby closed loop control) is disrupted. (More on the various ways of sending control setpoints below.)
 
@@ -193,7 +195,7 @@ for z in range(5, 0, -1):
 
 To keep the rest of the code clean, I implemented a `Pose` class which we will use to keep track of this information for each object that we are tracking, and to hold some utility functions for dealing with pose data.
 
-We can retrieve pose from QTM in two ways: one represents orientation as [Euler angles](https://en.wikipedia.org/wiki/Euler_angles), and the other provides a 3x3 [rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). Both can be useful for us, so the `Pose` class has [class methods](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner) that can instantiate it from both kinds of information. Within the class, the `roll`, `pitch`, and `yaw` for the Euler angles and the `rot` attribute for the rotation matrix are independent -- updating one does not affect the other. This is counterintuitive, but has no practical bearing for our purpose. I haven't implemented a method to convert between the two because we can retrieve either from QTM at any time.
+We can retrieve pose from QTM in two ways: one represents orientation as [Euler angles](https://en.wikipedia.org/wiki/Euler_angles), and the other provides a 3x3 [rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). Both can be useful for us, so the `Pose` class has [class methods](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner) that can instantiate it from both kinds of information. Within the class, the `roll`, `pitch`, and `yaw` for the Euler angles and the `rot` attribute for the rotation matrix are independent -- updating one does not affect the other. This is counterintuitive, but it's fine as long as you're aware of it. (I haven't implemented a method to convert between the two because we can retrieve either from QTM at any time.)
 
 ```python
 class Pose:
@@ -229,10 +231,6 @@ class Pose:
         ...
 ```
 
-QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
-
-*The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we have used.*
-
 ### Global Variables
 
 We use global variables to keep track of where things are and expose this data to different parts of our program.
@@ -258,7 +256,9 @@ We'll get to `controller_select` in a second, below.
 
 ### Following a "Controller"
 
-TBD
+QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
+
+*The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we have used.*
 
 ## Useful Information
 
