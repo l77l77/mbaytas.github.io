@@ -233,7 +233,7 @@ class Pose:
 
 ### Global Variables
 
-We use global variables to keep track of where things are and expose this data to different parts of our program.
+We use global variables to keep track of where things are and expose this data to different parts of our program. This is handy because interactivity features like receiving tracking data from QTM and listening to the keyboard will be done on their own threads, and we need to be able to share data between these threads.
 
 ```python
 # Global vars
@@ -254,7 +254,7 @@ controller_select = 0
 
 We'll get to `controller_select` in a second, below.
 
-### Following a "Controller"
+### Tracking and Following a "Controller"
 
 QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
 
