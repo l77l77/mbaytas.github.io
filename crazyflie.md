@@ -1,5 +1,5 @@
 ---
-title: Human-Drone Interaction with the Crazyflie and Motion Capture
+title: Building Interactions with the Bitcraze Crazyflie and Motion Capture
 ---
 
 *WORKING DRAFT, IN PROGRESS*
