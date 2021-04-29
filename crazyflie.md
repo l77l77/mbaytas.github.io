@@ -181,7 +181,7 @@ while (fly == True):
 # Land calmly if fly loop is broken
 print("Landing...")
 for z in range(5, 0, -1):
-    cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
+    cf.commander.send_setpoint(0, 0, 0, float(z) / 10)
     time.sleep(0.2)
 ```
 
@@ -261,6 +261,96 @@ QTM will be streaming data to our application asynchronously. We will not poll t
 
 *The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we have used.*
 
+To handle our connection with QTM, we built a `QtmConnector` class which subclasses `Thread`. Unfortunately we can't cover all the details about how this works in this tutorial, but luckily there are many resources on the internet (including the official [**threading** module docs](https://docs.python.org/3/library/threading.html#thread-objects)) where you can learn more about threading. I'll focus on the `_connect()` and `_on_packet()` asynchronous functions that we define in this class, which are important for how we implement interaction.
+
+`_connect()` is called once, when we initialize the connection. After establishing a connection, we check if the rigid bodies set up in QTM correspond to what our script is expecting to find. At the beginning of the script, we hae specified what the QTM rigid body names are for the Crazyflie as well as any controller objects. Rigid bodies with those same names must be present in the QTM project. If they are not, we abort the script. If we find them, we continue and begin streaming 6DOF data.
+
+```python
+
+# Options: QTM rigid body names
+cf_body_name = 'cf'
+controller_body_names = ['traqr', 'tello']
+
+... 
+
+class QtmConnector(Thread):
+    """Run QTM connection on its own thread."""
+    
+    ...
+    
+    async def _connect(self):
+        
+	...
+
+        if cf_body_name in self.bodyToIdx:
+            print("Crazyflie body '" + cf_body_name + "' found in QTM 6DOF bodies.")
+        else:
+            print("Crazyflie body '" + cf_body_name + "' not found in QTM 6DOF bodies!")
+            print("Aborting...")
+            self._stay_open = False
+
+         for controller_body_name in controller_body_names:
+         	if controller_body_name in self.bodyToIdx:
+	            print("Controller body '" + controller_body_name + "' found in QTM 6DOF bodies.")
+	        else:
+	            print("Controller body '" + controller_body_name + "' not found in QTM 6DOF bodies!")
+	            print("Aborting...")
+            	self._stay_open = False
+
+        await self.connection.stream_frames(components=['6d', '6deuler'], on_packet=self._on_packet)
+```
+
+`_on_packet()` is triggered continuously, whenever QTM sends 6DOF data our way. This is one of the most important components of this script: it receives data about where everything is in the physical world, and writes that to the global variables which can be read at anytime, anywhere in the program.
+
+```python
+# Global vars
+cf_trackingLoss = 0
+cf_pose = Pose(0, 0, 0)
+controller_poses = []
+for i, controller_body_name in enumerate(controller_body_names):
+	controller_poses[i] = Pose(0, 0, 0)
+
+class QtmConnector(Thread):
+    
+    ...
+
+    def _on_packet(self, packet):
+        global cf_pose, controller_poses, cf_trackingLoss
+        # We need the 6d component to send full pose to Crazyflie,
+        # and the 6deuler component for convenient calculations
+        header, component_6d = packet.get_6d()
+        header, component_6deuler = packet.get_6d_euler()
+
+        if component_6d is None:
+            print('No 6d component in QTM packet!')
+            return              
+        
+        if component_6deuler is None:
+            print('No 6deuler component in QTM packet!')
+            return      
+
+        # Get 6DOF data for Crazyflie
+        cf_6d = component_6d[self.bodyToIdx[cf_body_name]]
+        # Store in temp until validity is checked
+        _cf_pose = Pose.from_qtm_6d(cf_6d)
+        # Check validity
+        if _cf_pose.is_valid():
+        	# Update global var for pose
+        	cf_pose = _cf_pose
+            # Stream full pose to Crazyflie
+            if self.on_cf_pose:
+                self.on_cf_pose([cf_pose.x, cf_pose.y, cf_pose.z, cf_pose.rot])
+                cf_trackingLoss = 0
+        else:
+        	cf_trackingLoss += 1
+
+        # Get 6DOF data for controllers and update globals
+        for i, controller_body_name in enumerate(controller_body_names):
+	        controller_6deuler = qtm_6deuler[self.bodyToIdx[controller_body_name]]
+	        _controller_pose = Pose.from_qtm_6deuler(controller_6deuler)
+	        if _controller_pose.is_valid():
+	        	controller_poses[i] = _controller_pose
+```
 
 ### Keyboard
 
