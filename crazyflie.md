@@ -254,11 +254,16 @@ controller_select = 0
 
 We'll get to `controller_select` in a second, below.
 
+
 ### Tracking and Following a "Controller"
 
 QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
 
 *The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we have used.*
+
+
+## Keyboard
+
 
 ## Useful Information
 
