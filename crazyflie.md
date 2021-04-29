@@ -262,7 +262,7 @@ QTM will be streaming data to our application asynchronously. We will not poll t
 *The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we have used.*
 
 
-## Keyboard
+### Keyboard
 
 TBD
 
