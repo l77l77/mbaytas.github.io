@@ -13,9 +13,9 @@ title: Human-Drone Interaction with the Crazyflie and Motion Capture
 
 In our research we experiment with autonomous "drones" -- or flying robots -- for at-home leisure and wellnes applications. Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/), which serves this purpose well for two reasons.
 
-First, it is modular and pretty much entirely open-source. We find a variety of "decks" with sensors, lights, etc. to extend the core hardware without adding unnecessary weight. We can publish knowledge and artifacts based on this ecosystem, unconstrained by IP considerations. There are challenges in this kind of ecosystem; for example, more centralized documentation would make our lives easier. However, all things considered, the Crazyflie is a rich platform for creative applications. I liken it to a a flying Arduino.
+First: the Crazyflie is small. There are other drones – like the [Tello EDU](https://www.ryzerobotics.com/tello-edu) – which come with programming tools. But the Tello, capable of outdoor flight, is close to 200mm wide and weighs around 80g. Indoors, its noise and prop wash are very uncomfortable, especially when close to the human body. It breaks things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I can come very close to it with my body and my hands without discomfort. Having crashed hundreds of times -- into my head, my hands, my computer screen, and countless other objects -- I can vouch that it is safer.
 
-Most importantly, it is small. There are other drones – like the [Tello EDU](https://www.ryzerobotics.com/tello-edu) – which come with programming tools. But the Tello, capable of outdoor flight, is close to 200mm wide and weighs around 80g. Indoors, its noise and prop wash are very uncomfortable, especially when close to the human body. It breaks things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I can come very close to it with my body and my hands without discomfort. Having crashed hundreds of times -- into my head, my hands, my computer screen, and countless other objects -- I can vouch that it is safe.
+Then, the ecoysystem: the Crazyflie is modular and pretty much entirely open-source. We find a variety of "decks" with sensors, lights, etc. to extend the core hardware without doing too much work and adding too much weight. We can publish knowledge and artifacts based on this ecosystem, unconstrained by IP considerations. There are challenges to this kind of ecosystem; for example, more centralized documentation would make our lives easier. However, all things considered, the Crazyflie is a rich platform for creative applications. I liken it to a a flying Arduino.
 
 Another part of our tech stack is a [Qualisys](https://www.qualisys.com/) motion capture system. For many of our prototypes, we do fine with sensors on the drone, like the [Multi-ranger](https://www.bitcraze.io/products/multi-ranger-deck/) and [Flow](https://www.bitcraze.io/products/flow-deck-v2/) decks. But mocap can precisely track anything we can put markers onto, within the same calibrated coordinate system as the drone itself.
 
@@ -30,7 +30,9 @@ A basic building block for an interactive drone is to have the drone follow anot
 
 Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/), receiving pose data for the drone and any other tracked objects in real time; and stream this data to the Crazyflie: we let the Crazyflie know about its own pose for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
 
+
 ![The front of the Crazyflie must point to the positive x-direction of the QTM coordinate system](/img/crazyflie_orientation.png)
+
 
 ### Setup
 
@@ -43,6 +45,9 @@ In QTM, the rigid body that corresponds to the Crazyflie quadcopter have custom 
 - Third Rotation Axis: X, Positive Rotation: Clockwise, Name: Roll, Angle Range: -180 to 180 deg.
 
 The Crazyflie has to be positioned in a specific way, before each takeoff, in order to fly correctly: the front of the Crazyflie must point to the positive x-direction of the QTM coordinate system. It stability is predicated on correct initial alignment: if the front of the drone is not aligned with the x-direction it will lose control and crash. A few degrees of error is fine, but more than that will give you trouble.
+
+
+![The program structure is based on a main loop](/img/crazyflie_orientation.png)
 
 
 ### Program Structure
