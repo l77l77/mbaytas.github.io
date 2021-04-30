@@ -39,7 +39,7 @@ The Design of Social Drones
 : [Research](research/pub/2019_CHI_Drones.pdf)
 
 Humanism and Dataism as Perspectives on the Design of Software Systems
-: [Essay](pub/2019_CHI_WS_HCML_Religion.pdf)
+: [Essay](research/pub/2019_CHI_WS_HCML_Religion.pdf)
 
 *2018*
 
