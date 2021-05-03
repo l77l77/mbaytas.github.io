@@ -1,4 +1,4 @@
-Dr. Mehmet Aydın Baytaş conducts academic research situated at intersections of design and computer science. To date, he has co-authored more than 30 research publications (including ACM DIS Best Paper and ACM CHI Honorable Mention award-winners), as well as research grants which collectively received more than $4M from state, non-profit, and corporate benefactors in Turkey and Sweden.
+Dr. Mehmet Aydın Baytaş conducts scholarly research situated at intersections of design and computer science. To date, he has co-authored more than 30 research publications (including ACM DIS Best Paper and ACM CHI Honorable Mention award-winners), as well as research grants which collectively received more than $4M from state, non-profit, and corporate benefactors in Turkey and Sweden.
 
 His current research theme is: artifacts for the home we want to live in.
 
