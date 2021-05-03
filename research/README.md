@@ -29,6 +29,10 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
 \[Forthcoming\]
 
+<div class="ratio ratio-16x9 my-3">
+<iframe src="https://www.youtube.com/embed/1mekOd4zGBU" allowfullscreen></iframe>
+</div>
+
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
 **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
 Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI)  
