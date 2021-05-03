@@ -30,6 +30,8 @@ A basic building block for an interactive drone is to have the drone follow anot
 
 Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/), receiving pose data in real time; and streams this data to the Crazyflie: we let the Crazyflie know about its own pose for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
 
+For the rest of this tutorial, as well as in the code, we refer to the target object as a "controller" and we'll use the word "target" for the actual coordinate that the drone flies to. As you might imagine, if we target the drone exactly where the controller is, we'll crash into the controller. So the target and the controller will be separated by a certain offset. We'll be able to adjust this offset in real time with keyboard commands, which also essentially enables us to fly the drone with the keyboard.
+
 
 ![The front of the Crazyflie must point to the positive x-direction of the QTM coordinate system](/img/crazyflie_orientation.png)
 
@@ -196,13 +198,15 @@ for z in range(5, 0, -1):
 
 [Pose](https://en.wikipedia.org/wiki/Pose_(computer_vision)) is the term used in engineering to refer to the combination of position (x, y, z coordinates) and orientation (rotations around x, y, z axes), describing an object's whereabouts in [six degrees of freedom (6DoF)](https://en.wikipedia.org/wiki/Six_degrees_of_freedom).
 
-To keep the rest of the code clean, I implemented a `Pose` class which we will use to keep track of this information for each object that we are tracking, and to hold some utility functions for dealing with pose data.
+To keep the rest of the code clean, we implemented a `Pose` class to keep track of this information for each object that we are tracking, and to hold some utility functions for dealing with pose data.
 
-We can retrieve pose from QTM in two ways: one represents orientation as [Euler angles](https://en.wikipedia.org/wiki/Euler_angles), and the other provides a 3x3 [rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). Both can be useful for us, so the `Pose` class has [class methods](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner) that can instantiate it from both kinds of information. Within the class, the `roll`, `pitch`, and `yaw` for the Euler angles and the `rot` attribute for the rotation matrix are independent -- updating one does not affect the other. This is counterintuitive, but it's fine as long as you're aware of it. (I haven't implemented a method to convert between the two because we can retrieve either from QTM at any time.)
+We can retrieve pose from QTM in two ways: one represents orientation as [Euler angles](https://en.wikipedia.org/wiki/Euler_angles), and the other provides a 3x3 [rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix). Both can be useful for us, so the `Pose` class has [class methods](https://stackoverflow.com/questions/12179271/meaning-of-classmethod-and-staticmethod-for-beginner) that can instantiate it from both kinds of information.
+
+One thing to watch out for is that the `roll`, `pitch`, and `yaw` for the Euler angles and the `rot` attribute for the rotation matrix are independent -- updating one does not affect the other. This is counterintuitive, but it's fine as long as you're aware of it. (We haven't implemented a method to convert between the two because it's better to retrieve either from QTM at any time.)
 
 ```python
 class Pose:
-	"""Holds pose data with euler angles and/or rotation matrix"""
+    """Holds pose data with euler angles and/or rotation matrix"""
     def __init__(self, x, y, z, roll=None, pitch=None, yaw=None, rot=None):
         self.x = x
         self.y = y
@@ -223,14 +227,15 @@ class Pose:
     	...
         
     def distance_to(self, other_point):
-        """Calculate linear distance between two poses"""
+        """Calculate linear distance between two pose objects"""
         ...
         
     def is_valid(self):
-        """Check if any of the coodinates are NaN."""
+        """Check if any of the coodinates are NaN"""
         ...
 
     def __str__(self):
+        """Print nicely"""
         ...
 ```
 
@@ -260,13 +265,13 @@ controller_select = 0
 
 ### Tracking and Controllers
 
-QTM will be streaming data to our application asynchronously. We will not poll the motion capture system for data. Handling position data must be done via asynchronous callbacks.
+QTM will stream data to us asynchronously. We don't poll the motion capture system for data, we use asynchronous callbacks instead.
 
-*The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we have used.*
+*The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we use.*
 
-To handle our connection with QTM, we built a `QtmConnector` class which subclasses `Thread`. Unfortunately we can't cover all the details about how this works in this tutorial, but luckily there are many resources on the internet (including the official [**threading** module docs](https://docs.python.org/3/library/threading.html#thread-objects)) where you can learn more about threading. I'll focus on the `_connect()` and `_on_packet()` asynchronous functions that we define in this class, which are important for how we implement interaction.
+To handle our connection with QTM, we built a `QtmConnector` class which subclasses `Thread`. We can't cover everything about threading in this tutorial – luckily there are many resources (including the official [**threading** module docs](https://docs.python.org/3/library/threading.html#thread-objects)) if you wish to learn more. We'll focus on the `_connect()` and `_on_packet()` asynchronous functions that we define in this class, which are important for how we implement interactivity.
 
-`_connect()` is called once, when we initialize the connection. After establishing a connection, we check if the rigid bodies set up in QTM correspond to what our script is expecting to find. At the beginning of the script, we hae specified what the QTM rigid body names are for the Crazyflie as well as any controller objects. Rigid bodies with those same names must be present in the QTM project. If they are not, we abort the script. If we find them, we continue and begin streaming 6DOF data.
+`_connect()` is called once, when we initialize the connection. Here we check if the rigid bodies set up in QTM correspond to what our script is expecting to find. At the beginning of the script, we specify what the QTM rigid body names are for the Crazyflie as well as any controller objects. Rigid bodies with those names must be present in the QTM project. If they are not, we abort the script.
 
 ```python
 # Options: QTM rigid body names
