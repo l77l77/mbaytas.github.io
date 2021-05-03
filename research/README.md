@@ -1,10 +1,13 @@
 Dr. Mehmet Aydın Baytaş conducts academic research situated at intersections of design and computer science. To date, he has co-authored more than 30 research publications (including ACM DIS Best Paper and ACM CHI Honorable Mention award-winners), as well as research grants which collectively received more than $4M from state, non-profit, and corporate benefactors in Turkey and Sweden.
 
-His current work is on:
+His current research theme is: artifacts for the home that we want to live in.
 
-- Interactive micro-UAVs (drones) as a design material for entertainment and wellness applications 
-- Integrating tangible computing and blockchain technologies for access and authentication applications
-- Aesthetics of software and consumer electronics for longevity, material engagement, and sentimental value
+In collaboration with other designer/scholars who focus on UX design and fabrication, they analyze practices that cultivate health and benevolence – meditation, yoga, breathwork, huddling around a campfire, sharing a cup of tea… They fabricate designs from computer-driven materials that embody their qualities. They look back at experiences – the designers' as well as the users' – through the lens of philosophy and qualitative analysis to make contributions that serve designers.
+
+His current research projects are on:
+
+- Interactive micro-UAVs (drones) as a design material for entertainment and wellness applications at home (funded by [WASP-HS](https://wasp-hs.org/))
+- Aesthetics of software and consumer electronics for longevity, material engagement, and sentimental value, with a focus on physical computing and blockchain technology (funded by [the Swedish Research Council](https://www.vr.se/))
 
 His academic work began on the inaugural research team of the Koç University Design Lab, where he received the first graduate degree granted by the university’s innovative Design, Technology & Society program. He then served as the founding coordinator of Koç University – Arçelik Research Center for Creative Industries (KUAR), completed a Marie Skłodowska-Curie PhD fellowship hosted by Qualisys AB, held a postdoctoral research and teaching position at Chalmers University of Technology’s t2i Lab, taught at the University of Gothenburg, and supervised research at KTH Royal Institute of Technology.
 
