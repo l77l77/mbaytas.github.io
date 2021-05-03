@@ -4,10 +4,10 @@ His current research theme is: artifacts for the home we want to live in.
 
 In collaboration with other designer/scholars who focus on UX design and fabrication, they analyze practices that cultivate health and benevolence – meditation, yoga, breathwork, huddling around a campfire, sharing a cup of tea… They fabricate designs from computer-driven materials that embody their qualities. They look back at experiences – the designers' as well as the users' – through the lens of philosophy and qualitative analysis to make contributions that serve creative work.
 
-His current research projects are on:
+*His current research projects are on:*
 
-- Interactive micro-quadcopters as a design material for entertainment and wellness applications at home (funded by [WASP-HS](https://wasp-hs.org/))
-- Aesthetics of software and consumer electronics for longevity, material engagement, and sentimental value, with a focus on physical computing and blockchain technology (funded by [the Swedish Research Council](https://www.vr.se/))
+- *Interactive micro-quadcopters as a design material for entertainment and wellness applications at home (funded by [WASP-HS](https://wasp-hs.org/))*
+- *Aesthetics of software and consumer electronics for longevity, material engagement, and sentimental value, with a focus on physical computing and blockchain technology (funded by [the Swedish Research Council](https://www.vr.se/))*
 
 In addition to the above "research through design" work, he produces [Design Disciplin](https://www.designdisciplin.com/) – a contemporary form of "research into design."
 
