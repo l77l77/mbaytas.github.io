@@ -269,7 +269,7 @@ QTM will stream data to us asynchronously. We don't poll the motion capture syst
 
 *The [QTM real-time protocol](https://docs.qualisys.com/qtm-rt-protocol/) does allow polling if that's what you'd like to do, but the best-documented examples for the [Qualisys Python SDK](https://github.com/qualisys/qualisys_python_sdk) are all built on asynchronous streaming, so that's what we use.*
 
-To handle our connection with QTM, we built a `QtmConnector` class which subclasses `Thread`. We can't cover everything about threading in this tutorial – luckily there are many resources (including the official [**threading** module docs](https://docs.python.org/3/library/threading.html#thread-objects)) if you wish to learn more. We'll focus on the `_connect()` and `_on_packet()` asynchronous functions that we define in this class, which are important for how we implement interactivity.
+To handle our connection with QTM, we built a `QtmConnector` class which subclasses `Thread`. We can't cover everything about threading in this tutorial – luckily there are many resources (including the official [threading module docs](https://docs.python.org/3/library/threading.html#thread-objects)) if you wish to learn more. We'll focus on the `_connect()` and `_on_packet()` asynchronous functions that we define in this class, which are important for how we implement interactivity.
 
 `_connect()` is called once, when we initialize the connection. Here we check if the rigid bodies set up in QTM correspond to what our script is expecting to find. At the beginning of the script, we specify what the QTM rigid body names are for the Crazyflie as well as any controller objects. Rigid bodies with those names must be present in the QTM project. If they are not, we abort the script.
 
@@ -307,7 +307,7 @@ class QtmConnector(Thread):
         await self.connection.stream_frames(components=['6d', '6deuler'], on_packet=self._on_packet)
 ```
 
-`_on_packet()` is triggered continuously, whenever QTM sends 6DOF data our way. This is one of the most important components of this script: it receives data about where everything is in the physical world, and writes that to the global variables which can be read at anytime, anywhere in the program.
+`_on_packet()` is triggered continuously, whenever QTM sends 6DOF data our way. This is one of the most important components of this script: it receives data about where everything is in the physical world, and writes that to the global variables which can be read elsewhere in the program.
 
 ```python
 # Global vars
@@ -368,7 +368,7 @@ TBD
 
 There is a whole bunch of information that didn't fit in the "flow" of the tutorial above, but would have been useful to us if we knew these from the start.
 
-### Functions for Sending Control Setpoints
+### Functions for Sending Setpoints
 
 The [`Commander` class in the Crazyflie Python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/cflib/crazyflie/commander.py) provides us with different kinds of functions that can be used to send various kinds of control signals to the Crazyflie. While these may look like they are interchangeable, in fact they all have particular hardware configurations and use cases that they work best with, and these are not always obvious.
 
