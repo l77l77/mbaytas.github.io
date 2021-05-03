@@ -1,6 +1,6 @@
 Dr. Mehmet Aydın Baytaş conducts academic research situated at intersections of design and computer science. To date, he has co-authored more than 30 research publications (including ACM DIS Best Paper and ACM CHI Honorable Mention award-winners), as well as research grants which collectively received more than $4M from state, non-profit, and corporate benefactors in Turkey and Sweden.
 
-His current research theme is: artifacts for the home that we want to live in.
+His current research theme is: artifacts for the home we want to live in.
 
 In collaboration with other designer/scholars who focus on UX design and fabrication, they analyze practices that cultivate health and benevolence – meditation, yoga, breathwork, huddling around a campfire, sharing a cup of tea… They fabricate designs from computer-driven materials that embody their qualities. They look back at experiences – the designers' as well as the users' – through the lens of philosophy and qualitative analysis to make contributions that serve designers.
 
