@@ -2,16 +2,18 @@ Dr. Mehmet Aydın Baytaş conducts academic research situated at intersections o
 
 His current research theme is: artifacts for the home we want to live in.
 
-In collaboration with other designer/scholars who focus on UX design and fabrication, they analyze practices that cultivate health and benevolence – meditation, yoga, breathwork, huddling around a campfire, sharing a cup of tea… They fabricate designs from computer-driven materials that embody their qualities. They look back at experiences – the designers' as well as the users' – through the lens of philosophy and qualitative analysis to make contributions that serve future design work.
+In collaboration with other designer/scholars who focus on UX design and fabrication, they analyze practices that cultivate health and benevolence – meditation, yoga, breathwork, huddling around a campfire, sharing a cup of tea… They fabricate designs from computer-driven materials that embody their qualities. They look back at experiences – the designers' as well as the users' – through the lens of philosophy and qualitative analysis to make contributions that serve creative work.
 
 His current research projects are on:
 
 - Interactive micro-quadcopters as a design material for entertainment and wellness applications at home (funded by [WASP-HS](https://wasp-hs.org/))
 - Aesthetics of software and consumer electronics for longevity, material engagement, and sentimental value, with a focus on physical computing and blockchain technology (funded by [the Swedish Research Council](https://www.vr.se/))
 
-His academic work began on the inaugural research team of the Koç University Design Lab, where he received the first graduate degree granted by the university’s innovative Design, Technology & Society program. He then served as the founding coordinator of Koç University – Arçelik Research Center for Creative Industries (KUAR), completed a Marie Skłodowska-Curie PhD fellowship hosted by Qualisys AB, held a postdoctoral research and teaching position at Chalmers University of Technology’s t2i Lab, taught at the University of Gothenburg, and supervised research at KTH Royal Institute of Technology.
+In addition to the above "research through design" work, he produces [Design Disciplin](https://www.designdisciplin.com/): a contemporary form of "research into design" published as a blog, podcast, and video series. Design Disciplin presents concepts and conversations on design, covering diverse perspectives – business, technology, art, craft, research, and personal growth – to inform individual paths for creative fulfillment.
 
-Dr. Baytaş has degrees in mechanical engineering, economics, and design from Koç University, a high school diploma from Robert College of Istanbul, certification as a yoga teacher, and a collection of credentials in topics related to design, engineering, and business.
+**Dr. Baytaş began his academic work on the inaugural research team of the Koç University Design Lab, where he received the first graduate degree granted by the university’s innovative Design, Technology & Society program. He then served as the founding coordinator of Koç University – Arçelik Research Center for Creative Industries (KUAR), completed a Marie Skłodowska-Curie PhD fellowship hosted by Qualisys AB, held a postdoctoral research and teaching position at Chalmers University of Technology’s t2i Lab, taught at the University of Gothenburg, and supervised research at KTH Royal Institute of Technology.**
+
+**Dr. Baytaş has degrees in mechanical engineering, economics, and design from Koç University, a high school diploma from Robert College of Istanbul, certification as a yoga teacher, and a collection of credentials in topics related to design, engineering, and business.**
 
 ---
 
