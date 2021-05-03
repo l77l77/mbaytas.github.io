@@ -2,7 +2,7 @@ Dr. Mehmet Aydın Baytaş conducts academic research situated at intersections o
 
 His current research theme is: artifacts for the home we want to live in.
 
-In collaboration with other designer/scholars who focus on UX design and fabrication, they analyze practices that cultivate health and benevolence – meditation, yoga, breathwork, huddling around a campfire, sharing a cup of tea… They fabricate designs from computer-driven materials that embody their qualities. They look back at experiences – the designers' as well as the users' – through the lens of philosophy and qualitative analysis to make contributions that serve designers.
+In collaboration with other designer/scholars who focus on UX design and fabrication, they analyze practices that cultivate health and benevolence – meditation, yoga, breathwork, huddling around a campfire, sharing a cup of tea… They fabricate designs from computer-driven materials that embody their qualities. They look back at experiences – the designers' as well as the users' – through the lens of philosophy and qualitative analysis to make contributions that serve future design work.
 
 His current research projects are on:
 
