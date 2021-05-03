@@ -26,9 +26,9 @@ The way that we use this tech stack is not common. The Crazyflie is popular in e
 
 ## Preliminaries
 
-A basic building block for an interactive drone is to have the drone follow another object in real time. We use a Python script to do this.
+A basic building block for an interactive drone is to have the drone follow another object in real time. We created a Python script to do this.
 
-Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/), receiving pose data for the drone and any other tracked objects in real time; and stream this data to the Crazyflie: we let the Crazyflie know about its own pose for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
+Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-manager/), receiving pose data in real time; and streams this data to the Crazyflie: we let the Crazyflie know about its own pose for [closed loop control](https://en.wikipedia.org/wiki/Control_theory), and set a target for it to move to, based on the position of another object.
 
 
 ![The front of the Crazyflie must point to the positive x-direction of the QTM coordinate system](/img/crazyflie_orientation.png)
@@ -36,9 +36,7 @@ Our script connects to [QTM](https://www.qualisys.com/software/qualisys-track-ma
 
 ### Setup
 
-We used a Windows computer to run all of the software (since [QTM](https://www.qualisys.com/software/qualisys-track-manager/) is currently built exclusively for Windows).
-
-In QTM, the rigid body that corresponds to the Crazyflie quadcopter have custom Euler angle definitions:
+In QTM, the rigid body for the Crazyflie must have custom Euler angle definitions, configured under 6DOF Tracking in Project Options:
 
 - First Rotation Axis: Z, Positive Rotation: Clockwise, Name: Yaw, Angle Range: -180 to 180 deg.
 - Second Rotation Axis: Y, Positive Rotation: Counterclockwise, Name: Pitch
@@ -52,7 +50,7 @@ The Crazyflie has to be positioned in a specific way, before each takeoff, in or
 
 ### Program Structure
 
-Our script consists of various functions and classes that keep things structured, globally accessible variables to keep track of options and states, and the business end of the script: a main loop.
+Our script consists of various functions and classes that keep things structured, globally accessible variables to keep track of options and states, and the business end: a main loop.
 
 *This is a structure that is common in real-time interactive applications like games and physical computing. It's how [Arduino](https://www.arduino.cc/) and [Processing](https://processing.org/) programs are structured, and how [Pygame](https://www.pygame.org/) works.*
 
@@ -62,24 +60,24 @@ Our script consists of various functions and classes that keep things structured
 
 with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
 
-# Set other things up
-...
-
-# FLY
-while(fly == True):
-
-    # Do flying things
+    # Set other things up
     ...
 
-# Land
-...
+    # FLY
+    while(fly == True):
+
+        # Do flying things
+        ...
+
+    # Land
+    ...
 ```
 
 ## Safety First
 
-Even though the Crazyflie is small and light, and generally not capable of serious damage; it has a very expensive self-harm habit – it's very effective at destroying its own bits and pieces when it crashes into walls and other things. We need to take some safety measures to protect the drone.
+Even though the Crazyflie is small and light, and generally not capable of serious damage; it has a very expensive self-harm habit – it's very effective at destroying its own bits and pieces when it crashes. We need to take some safety measures to protect the drone.
 
-We crashed our drones a lot while developing our prototypes, because the way that the Crazyflie's flight control is implemented out of the box is sensitive to tracking loss and sudden inputs. Thus, our safety measures concentrate on making sure that the drone stays in the mocap tracking volume, doesn't move too fast for it's own sake, and still manages to keeps calm if either of things fail.
+We crashed our drones a lot during development, because the way that the Crazyflie implements flight control out of the box is sensitive to tracking loss and sudden inputs. Thus, our safety measures concentrate on making sure that the drone stays in the mocap tracking volume, doesn't move too fast for it's own sake, and still manages to keeps calm if things go wrong.
 
 
 ![Virtual fence confining drone to a safe zone](/img/crazyflie_fence.png)
@@ -87,18 +85,18 @@ We crashed our drones a lot while developing our prototypes, because the way tha
 
 ### Fencing and Tracking Quality
 
-It's always a good idea to have a physical fence around the flight volume. We use netting we got from a pet store. Obviously, it's better to ensure that the drone never flies where it shouldn't. For this we build a virtual fence in our code.
+It's always a good idea to have a physical fence around the flight volume. We bought netting from a pet store, but obviously it's better to ensure the drone doesn't fly where it shouldn't. For this we build a virtual fence in code.
 
-This is extremely important since we are using an "outside-in" tracking system: if we send control signals to the drone while it's outside the volume that's "seen" by mocap, it will destabilize and crash. Out of the box, the SDK doesn't ensure that this doesn't happen: it's totally possible to send the drone to a location that's not tracked, and to destabilize it while it's there. We need to make sure of two things:
+This is extremely important since we are using an "outside-in" mocap that works in a finite volume. If we send control signals to the drone while it's outside the mocap volume, it will destabilize and crash. Out of the box, the SDK doesn't ensure that this doesn't happen: it's easy to send the drone to a location that's not tracked, and to destabilize while it's there. We need to make sure of two things:
 
-1. We never send a control signal to the drone that tells it to fly outside the mocap volume.
-2. If we're not tracking the drone, we don't send control signals and land immediately.
+1. We never send a setpoint outside the mocap volume.
+2. If the drone is outside the safe volume, we land.
 
 We define the boundaries of a 3D fence in our options. Then, in every iteration of the main loop, we check to see that the drone is inside the boundaries of the fence. If the drone has gone astray, we break the main loop and land.
 
-We also set a `cf_trackingLoss_treshold` option and a global `cf_trackingLoss` variable to keep tabs on the mocap tracking quality. We will be receiving data from QTM continuously, and if that data doesn't contain valid tracking for the Crazyflie, we increment the `cf_trackingLoss` counter. When we get good tracking data, we reset the counter. (More on this later.) We compare the counter to a threshold we set in the beginning, to make sure that tracking is fine.
+We also set a `cf_trackingLoss_treshold` option and a global `cf_trackingLoss` variable to keep tabs on the mocap tracking quality. We will receive data from QTM continuously, and if that data doesn't contain valid tracking for the Crazyflie, we increment the `cf_trackingLoss` counter. When we get good tracking data, we reset the counter. (More on this later.) We compare the counter to a threshold we set in the beginning, to make sure that tracking is fine.
 
-Now, the above makes sure that the drone lands safely if we lose tracking. In order to make sure that we don't send the drone outside the tracking volume, we need to do one more thing: to make sure that the target coordinate stays inside the fence. So we simply clamp the target coordinates to fence boundaries. This is where the `fence_margin` option comes into play. Though we clamp the control signal inside the fence, it's still possible for the drone to slightly overshoot when it's right at boundary. So the actual safety fence needs to be slightly larger than the control signal's fence.
+The above makes sure that the drone lands safely if we lose tracking. To make sure that we don't send the drone outside the mocap volume, we need one more thing: have the target coordinate stay inside the fence. So we simply clamp the target setpoints to fence boundaries. This is where the `fence_margin` option comes into play. Though we clamp the control signal inside the fence, it's still possible for the drone to slightly overshoot when it's right at boundary. So the actual safety fence is slightly larger than the setpoints' fence.
 
 *Notice that the fence boundaries are defined with respect to the QTM coordinate system. Be careful if you recalibrate!*
 
@@ -176,7 +174,7 @@ Unfortunately, at this time, there is no way to set a rotational speed limit. It
 
 Other than crashes, one reason why the Crazyflie is prone to hurting itself is that it doesn't automatically perform a calm landing when we stop sending commands to it. It simply stops its motors mid-air and drops to the floor. To minimize damage to the drone, we must program a landing sequence into our script.
 
-The landing sequence initiates whenever we break out of the flight loop for whatever reason. We use the `cf.commander.send_setpoint()` command to cut thrust gradually, even if the tracking (and thereby closed loop control) is disrupted. (More on the various ways of sending control setpoints below.)
+The landing sequence initiates whenever we break out of the flight loop for whatever reason. We use the `cf.commander.send_setpoint()` command to cut thrust gradually, even if tracking is disrupted. (More on the various ways of sending control setpoints below.)
 
 ```python
 while (fly == True):
