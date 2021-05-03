@@ -24,6 +24,9 @@ Publication Strategy for Interaction Design Research
 
 *2020*
 
+Hackster.io: Drone + Tai Chi = Drone Chi
+: [Press](https://www.hackster.io/news/drone-tai-chi-drone-chi-410521b6da65)
+
 Social Drones as Material for Design and Research
 : [Video](https://youtu.be/V3NFn936gzY)
 
