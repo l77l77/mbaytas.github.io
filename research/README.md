@@ -9,7 +9,7 @@ His current research projects are on:
 - Interactive micro-quadcopters as a design material for entertainment and wellness applications at home (funded by [WASP-HS](https://wasp-hs.org/))
 - Aesthetics of software and consumer electronics for longevity, material engagement, and sentimental value, with a focus on physical computing and blockchain technology (funded by [the Swedish Research Council](https://www.vr.se/))
 
-In addition to the above "research through design" work, he produces [Design Disciplin](https://www.designdisciplin.com/): a contemporary form of "research into design" published as a blog, podcast, and video series.
+In addition to the above "research through design" work, he produces [Design Disciplin](https://www.designdisciplin.com/) – a contemporary form of "research into design."
 
 **Dr. Baytaş began his academic work on the inaugural research team of the Koç University Design Lab, where he received the first graduate degree granted by the university’s innovative Design, Technology & Society program. He then served as the founding coordinator of Koç University – Arçelik Research Center for Creative Industries (KUAR), completed a Marie Skłodowska-Curie PhD fellowship hosted by Qualisys AB, held a postdoctoral research and teaching position at Chalmers University of Technology’s t2i Lab, taught at the University of Gothenburg, and supervised research at KTH Royal Institute of Technology.**
 
