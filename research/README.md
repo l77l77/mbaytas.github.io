@@ -17,15 +17,19 @@ In addition to the above "research through design" work, he produces [Design Dis
 
 # Publications
 
+<div class="ratio ratio-16x9 my-3">
+<iframe src="https://www.youtube.com/embed/eefroz8oGX8" allowfullscreen></iframe>
+</div>
+
 Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021)  
 **Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**  
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
-\[Forthcoming\]
+[\[PDF\]](pub/2021_CHI_Azalea.pdf)
 
 Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Mohammad Obaid, & Morten Fjeld (2021)  
 **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**  
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
-\[Forthcoming\]
+[\[PDF\]](pub/2021_CHI?Professional.pdf)
 
 <div class="ratio ratio-16x9 my-3">
 <iframe src="https://www.youtube.com/embed/1mekOd4zGBU" allowfullscreen></iframe>
