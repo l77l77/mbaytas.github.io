@@ -10,14 +10,14 @@ Design Disciplin
 
 *2021*
 
+Azalea
+: [Research](https://www.baytas.net/research/pub/2021_CHI_Azalea.pdf)
+
 Human-Drone Interaction Showcase by Qualisys x Chalmers University of Technology
 : [Video](https://www.youtube.com/watch?v=IVMFvLN44Ts)
 
 The Washington Post: Fitness Drones Are Coming
 : [Press](https://www.washingtonpost.com/science/drones-for-exercising/2021/04/16/c459c7fe-882d-11eb-82bc-e58213caa38e_story.html)
-
-The Three Faces of Design Research
-: [Essay](https://www.designdisciplin.com/the-three-faces-of-design-research/), [Video](https://youtu.be/CIKtqj389dI)
 
 Publication Strategy for Interaction Design Research
 : [Video](https://youtu.be/eoOrOZymdmg)
