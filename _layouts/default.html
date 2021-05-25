@@ -91,7 +91,7 @@
       /* Rastersystem */
       .grid {        
         display: grid;
-        grid-gap: 2vmin;
+        grid-gap: 1rem;
         grid-template-columns: 1fr minmax(1rem, 4fr);
         max-width: 1000px;
         margin: 0 auto;
@@ -108,11 +108,12 @@
       
       dl {
         display: grid;
-        grid-column-gap: 2vmin;
-        grid-template-columns: 4fr 1fr;
+        grid-column-gap: 1rem;
+        grid-template-columns: minmax(1rem, 4fr) 1fr;
         font-size: 0.8rem;
       }
       dt {
+        overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
       }
