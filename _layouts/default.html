@@ -108,17 +108,31 @@
       
       dl {
         display: grid;
-        grid-column-gap: 2rem;
         grid-template-columns: 1fr 8rem;
         font-size: 0.8rem;
       }
-      dt {
+      dl dt {
         overflow: hidden;
+        padding-right: 2rem;
         text-overflow: ellipsis;
         white-space: nowrap;
+
       }
-      dd {
+      dl dd {
         margin: 0;
+      }
+      
+      dl dd,
+      dl dt {
+        border-top: 1px solid #bbb;
+      }
+      dl dd:last--of-type,
+      dl dt:last-of-type {
+        border-bottom: 1px solid #bbb;
+      }
+      dl dd a,
+      dl dt a {
+        text-decoration: none;
       }
       
       hr {
