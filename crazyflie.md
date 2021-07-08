@@ -361,4 +361,44 @@ class QtmConnector(Thread):
 
 ### Keyboard
 
-TBD
+We capture keyboard input for three purposes: to have an emergency landing button, and to adjust parameters like the controller-target offset in real time. We use the [pynput ](https://pypi.org/project/pynput/) to monitor the keyboard, which runs on its own thread.
+
+If you wish to have multiple controller objects and select between them in real time, that also can be handled via keyboard interaction and global variables.
+
+```python
+def on_press(key):
+    """React to keyboard."""
+    global fly, controller_offset_x, controller_offset_y, controller_offset_z
+    if key == keyboard.Key.esc:
+        fly = False
+    if hasattr(key, 'char'):
+        if key.char == "a":
+            controller_offset_x -= 0.1
+        if key.char == "d":
+            controller_offset_x += 0.1
+        if key.char == "s":
+            controller_offset_y -= 0.1
+        if key.char == "w":
+            controller_offset_y += 0.1
+        if key.char == "z":
+            controller_offset_z -= 0.1
+        if key.char == "x":
+            controller_offset_z += 0.1
+        print("Offset: X: {:5.2f}  Y: {:5.2f}  Z: {:5.2f}".format(
+                controller_offset_x, controller_offset_y, controller_offset_z))
+
+...
+
+
+with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
+    cf = scf.cf
+
+    listener = keyboard.Listener(on_press=on_press)
+    listener.start()
+```
+
+## Conclusion
+
+You can find the full script on GitHub, along with [some of the other code that we have been experimenting with](https://github.com/socialdrones/crazyflie-scripts): [github.com/socialdrones/crazyflie-scripts/blob/main/cf-qualisys.py](https://github.com/socialdrones/crazyflie-scripts/blob/main/cf-qualisys.py)
+
+The Crazyflie is a great platform, but experimental applications like real-time object tracking require, well, experimentation. We went through a lot of trial and error to come up with our implementation, and it's still possible that you'll find 
