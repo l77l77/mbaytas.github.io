@@ -399,6 +399,10 @@ with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
 
 ## Conclusion
 
+<div class="ratio ratio-16x9 my-3">
+<iframe src="https://www.youtube.com/embed/1mekOd4zGBU" allowfullscreen></iframe>
+</div>
+
 You can find the full script on GitHub, along with [some of the other code that we have been experimenting with](https://github.com/socialdrones/crazyflie-scripts): [github.com/socialdrones/crazyflie-scripts/blob/main/cf-qualisys.py](https://github.com/socialdrones/crazyflie-scripts/blob/main/cf-qualisys.py)
 
 The Crazyflie is a great platform, but experimental applications like real-time object tracking require, well, experimentation. We went through a lot of trial and error to come up with our implementation, and it's still possible that you'll find 
