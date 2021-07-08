@@ -176,7 +176,7 @@ Unfortunately, at this time, there is no way to set a rotational speed limit. It
 
 Other than crashes, one reason why the Crazyflie is prone to hurting itself is that it doesn't automatically perform a calm landing when we stop sending commands to it. It simply stops its motors mid-air and drops to the floor. To minimize damage to the drone, we must program a landing sequence into our script.
 
-The landing sequence initiates whenever we break out of the flight loop for whatever reason. We use the `cf.commander.send_setpoint()` command to cut thrust gradually, even if tracking is disrupted. (More on the various ways of sending control setpoints below.)
+The landing sequence initiates whenever we break out of the flight loop for whatever reason. We use the `cf.commander.send_setpoint()` command to cut thrust gradually, which we found to work reasonably even when tracking is disrupted.
 
 ```python
 while (fly == True):
@@ -186,8 +186,8 @@ while (fly == True):
 # Land calmly if fly loop is broken
 print("Landing...")
 for z in range(5, 0, -1):
-    cf.commander.send_setpoint(0, 0, 0, float(z) / 10)
-    time.sleep(0.2)
+    cf.commander.send_hover_setpoint(0, 0, 0, float(z) / 10)
+    time.sleep(0.15)
 ```
 
 
@@ -362,28 +362,3 @@ class QtmConnector(Thread):
 ### Keyboard
 
 TBD
-
-
-## Useful Information
-
-There is a whole bunch of information that didn't fit in the "flow" of the tutorial above, but would have been useful to us if we knew these from the start.
-
-### Functions for Sending Setpoints
-
-The [`Commander` class in the Crazyflie Python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/cflib/crazyflie/commander.py) provides us with different kinds of functions that can be used to send various kinds of control signals to the Crazyflie. While these may look like they are interchangeable, in fact they all have particular hardware configurations and use cases that they work best with, and these are not always obvious.
-
-`send_setpoint(self, roll, pitch, yaw, thrust)`
-
-`send_velocity_world_setpoint(self, vx, vy, vz, yawrate)`
-
-`send_zdistance_setpoint(self, roll, pitch, yawrate, zdistance)`
-
-`send_hover_setpoint(self, vx, vy, yawrate, zdistance)`
-
-`send_position_setpoint(self, x, y, z, yaw)`
-
-### High-level Commander
-
-
-
-
