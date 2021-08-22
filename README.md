@@ -1,4 +1,4 @@
-Dr. Mehmet Aydın Baytaş is a scholar, engineer, designer, strategist, and creative producer working at intersections of design and computer science.
+Dr. Mehmet Aydın Baytaş is a scholar of design and technology. 
 
 ---
 ---
@@ -12,6 +12,9 @@ Design Disciplin
 
 Azalea
 : [Research](https://www.baytas.net/research/pub/2021_CHI_Azalea.pdf)
+
+Practices of Professional Drone Pilots
+: [Research](https://www.baytas.net/research/pub/2021_CHI_Professional.pdf)
 
 Human-Drone Interaction Showcase by Qualisys x Chalmers University of Technology
 : [Video](https://www.youtube.com/watch?v=IVMFvLN44Ts)
