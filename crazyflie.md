@@ -4,7 +4,7 @@ title: Building Interactions with the Bitcraze Crazyflie and Motion Capture
 
 # Building Interactions with the Bitcraze Crazyflie and Motion Capture
 
-*Mehmet Aydın Baytaş | 2021*
+*Mehmet Aydın Baytaş ::: 2021*
 
 * TOC
 {:toc}
