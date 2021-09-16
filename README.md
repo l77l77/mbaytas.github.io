@@ -1,9 +1,6 @@
 Dr. Mehmet Aydın Baytaş is a scholar of design and technology. 
 
 ---
----
-
-### *Selected Work*
 
 Design Disciplin
 : [designdisciplin.com](https://www.designdisciplin.com/)
