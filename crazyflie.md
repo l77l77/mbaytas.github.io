@@ -2,25 +2,22 @@
 title: Building Interactions with the Bitcraze Crazyflie and Motion Capture
 ---
 
-*WORKING DRAFT, IN PROGRESS*
-
 # Building Interactions with the Bitcraze Crazyflie and Motion Capture
 
-*June 2021*
+*Mehmet Aydın Baytaş | 2021*
 
 * TOC
 {:toc}
 
-In our research we build prototypes with autonomous quadcopter drones, for leisure and wellnes applications at the home. Together with our collaborators at [Qualisys](https://www.qualisys.com/) and [Lindholmen Science Park](https://www.lindholmen.se/), we recently produced a that showcases some of our work-in-progress:
+In our research, we build prototypes with autonomous drones for leisure and wellnes applications at home. With collaborators at [Qualisys](https://www.qualisys.com/) and [Lindholmen Science Park](https://www.lindholmen.se/), we recently produced a that showcases some of our work-in-progress:
 
 <div class="ratio ratio-16x9 my-3">
 <iframe src="https://www.youtube.com/embed/1mekOd4zGBU" allowfullscreen></iframe>
 </div>
 
-This tutorial covers how we implemented the flight behaviors which we performed with the drone on this video. This implementation is also very similar to how our previous projects like [Drone Chi](https://youtu.be/w6CFGl-Plug) (designed by [Joseph La Delfa](https://www.cafeciaojoe.com/)) work behind the scenes. You can find [the full script on GitHub]((https://github.com/socialdrones/crazyflie-scripts/blob/main/cf-qualisys.py)), along with [some of the other code that we have been experimenting with](https://github.com/socialdrones/crazyflie-scripts).
+This tutorial covers how we implemented the drone's flight behaviors in this video. It's also very similar to how our previous projects like [Drone Chi](https://youtu.be/w6CFGl-Plug) (designed by [Joseph La Delfa](https://www.cafeciaojoe.com/)) work behind the scenes. You can find the full script – along with some of the other code that we are experimenting with – [on GitHub](https://github.com/socialdrones/crazyflie-scripts).
 
-
-Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/), which serves us well for two reasons. First, the Crazyflie is small. There are other drones – like the [Tello EDU](https://www.ryzerobotics.com/tello-edu) – that come with programming tools. But the Tello, capable of outdoor flight, is close to 200mm wide and weighs around 80g. Indoors, its noise and prop wash are very uncomfortable. It breaks things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I can come very close to it with my body and my hands without discomfort. Having crashed hundreds of times -- into my hands, my computer screen, and other objects -- I can vouch that it is safer. Then, the ecoysystem: the Crazyflie is modular and pretty much entirely open-source. We find a variety of "decks" with sensors, lights, etc. to extend the core hardware without doing too much work and adding too much weight. We can publish knowledge and artifacts, unconstrained by IP considerations. There are challenges to this kind of ecosystem; for example, the documentation is decentralized and harder to navigate. But all things considered, it's great for creative applications. I liken it to a a flying Arduino.
+Our tech stack is based on the [Bitcraze Crazyflie](https://www.bitcraze.io/). It serves us well for two reasons. First, the Crazyflie is small. There are other drones – like the [Tello EDU](https://www.ryzerobotics.com/tello-edu) – that come with programming tools. But the Tello, capable of outdoor flight, is close to 200mm wide and weighs around 80g. Indoors, its noise and prop wash are very uncomfortable. It breaks things on impact. The Crazyflie is under 100mm motor-to-motor, and weighs less than 30g. I can come very close to it with my body and my hands without discomfort. Having crashed hundreds of times -- into my hands, my computer screen, and other objects -- I can vouch that it's safer. Then, the ecoysystem: the Crazyflie is modular and pretty much entirely open-source. We find a variety of "decks" with sensors, lights, etc. to extend the core hardware without doing too much work and adding too much weight. We can publish knowledge and artifacts, unconstrained by IP considerations. There are challenges to this kind of ecosystem; for example, decentralized documentation is harder to navigate. But all things considered, it's great for creative applications. It's like a flying Arduino.
 
 We also use a [Qualisys](https://www.qualisys.com/) motion capture (mocap) system. Most of the time, we do fine with sensors on the drone, like the [Multi-ranger](https://www.bitcraze.io/products/multi-ranger-deck/) and [Flow](https://www.bitcraze.io/products/flow-deck-v2/) decks. But mocap can precisely track anything we put markers onto, within the same calibrated coordinate system as the drone, so we can build applications with interactivity and precise flight – like [Drone Chi](https://www.hackster.io/news/drone-tai-chi-drone-chi-410521b6da65).
 
