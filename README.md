@@ -7,6 +7,9 @@ Design Disciplin
 
 *2021*
 
+Building Interactions with the Bitcraze Crazyflie and Motion Capture
+: [Tutorial](https://www.baytas.net/crazyflie)
+
 Azalea
 : [Research](https://www.baytas.net/research/pub/2021_CHI_Azalea.pdf)
 
