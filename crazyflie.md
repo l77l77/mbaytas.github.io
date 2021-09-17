@@ -403,9 +403,11 @@ with SyncCrazyflie(cf_uri, cf=Crazyflie(rw_cache='./cache')) as scf:
 
 The Crazyflie is a great platform, but experimental applications like real-time object tracking require, well, experimentation. We went through a lot of trial and error to come up with our implementation, and it's still possible that you'll find rough edges as you go through it. If you'd like to provide any comments, suggestions, corrections, or just chat, free to hit me up on [Twitter](https://twitter.com/doctorBaytas) or [LinkedIn](https://www.linkedin.com/in/doctorbaytas/), or drop an issue on [the source for this page on GitHub](https://github.com/mbaytas/mbaytas.github.io/blob/main/crazyflie.md).
 
-## Acknowledgements and Research References
+## Acknowledgements
 
 This tutorial is derived from work in our ongoing research project on "social drones," funded by the [The Wallenberg AI, Autonomous Systems and Software Program – Humanities and Society (WASP-HS)](https://wasp-hs.org/) and led by professors Morten Fjeld and Sara Ljungblad at Chalmers University of Technology. We're grateful for the support we receive from [Bitcraze](https://www.bitcraze.io/) and [Qualisys](https://www.qualisys.com), where Kimberly McGuire, Kristoffer Richardsson, Magnus Berlander, Martin Holmberg, Fred Helmesjö, Erwin Schoonderwaldt, Katarina Hjältman, Daniel Thompson, Helen Holmqvist Rydén and others have been very generous with their time and resources. We'd also like to thank our collaborators at [Lindholmen Science Park](https://www.lindholmen.se/) – including but not limited to Daniel William Abrahammson, Catrine Henriksson, Åsa Andblad, Peter Andersson – as well as [Atvis](https://atvis.se/) and Peter Wallberg, for lending us the facilities and support to take our projects to the next level.
+
+## Research References
 
 Our research on and with drones so far has yielded the following publications, and [more is on the way](https://www.baytas.net/research/):
 
