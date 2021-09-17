@@ -411,24 +411,24 @@ This tutorial is derived from work in our ongoing research project on "social dr
 
 Our research on and with drones so far has yielded the following publications, and [more is on the way](https://www.baytas.net/research/):
 
-- Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Mohammad Obaid, & Morten Fjeld (2021). **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21). [\[PDF\]](pub/2021_CHI?Professional.pdf)
-- Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021). **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**. Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI). [\[PDF\]](pub/2021_HRI_Wisp.pdf)
+Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Mohammad Obaid, & Morten Fjeld (2021). **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21). [\[PDF\]](pub/2021_CHI?Professional.pdf)
 
-- Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020). **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**. Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies. [\[PDF\]](pub/2020_NordiCHI_WS_HDI.pdf)
+Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021). **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**. Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI). [\[PDF\]](pub/2021_HRI_Wisp.pdf)
 
-- Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (eds.) (2020). **Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction**. [\[Proceedings\]](http://ceur-ws.org/Vol-2617/)
+Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020). **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**. Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies. [\[PDF\]](pub/2020_NordiCHI_WS_HDI.pdf)
 
-- Joseph La Delfa, Mehmet Aydın Baytaş, Emma Luke, Ben Koder, & Florian ‘Floyd’ Mueller (2020). **Designing Drone Chi: Unpacking the Thinking and Making of Somaesthetic Human-Drone Interaction**. In Proceedings of the 2020 Conference on Designing Interactive Systems (DIS ‘20). [\[PDF\]](pub/2020_DIS_Drone_Chi.pdf)
+Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (eds.) (2020). **Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction**. [\[Proceedings\]](http://ceur-ws.org/Vol-2617/)
 
-- Joseph La Delfa, Mehmet Aydın Baytaş, Rakesh Patibanda, Hazel Ngari, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2020). **Drone Chi: Somaesthetic Human-Drone Interaction**. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20). [\[PDF\]](pub/2020_CHI_Drone_Chi.pdf)
+Joseph La Delfa, Mehmet Aydın Baytaş, Emma Luke, Ben Koder, & Florian ‘Floyd’ Mueller (2020). **Designing Drone Chi: Unpacking the Thinking and Making of Somaesthetic Human-Drone Interaction**. In Proceedings of the 2020 Conference on Designing Interactive Systems (DIS ‘20). [\[PDF\]](pub/2020_DIS_Drone_Chi.pdf)
 
-- Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (2020). **iHDI 2020: Interdisciplinary Workshop on Human-Drone Interaction**. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA ‘20). [\[PDF\]](pub/2020_CHI_EA_iHDI.pdf)
+Joseph La Delfa, Mehmet Aydın Baytaş, Rakesh Patibanda, Hazel Ngari, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2020). **Drone Chi: Somaesthetic Human-Drone Interaction**. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20). [\[PDF\]](pub/2020_CHI_Drone_Chi.pdf)
 
-- Mehmet Aydın Baytaş, Sara Ljungblad, Joseph La Delfa, & Morten Fjeld (2020). **Agent Archetypes for Human-Drone Interaction: Social Robots or Objects with Intent?**. In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020). [\[PDF\]](pub/2020_iHDI_Agent.pdf)
+Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (2020). **iHDI 2020: Interdisciplinary Workshop on Human-Drone Interaction**. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA ‘20). [\[PDF\]](pub/2020_CHI_EA_iHDI.pdf)
 
-- Mehmet Aydın Baytaş, Damla Çay, Yuchong Zhang, Mohammad Obaid, Asım Evren Yantaç, & Morten Fjeld (2019). **The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments**. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19). [\[PDF\]](pub/2019_CHI_Drones.pdf)
+Mehmet Aydın Baytaş, Sara Ljungblad, Joseph La Delfa, & Morten Fjeld (2020). **Agent Archetypes for Human-Drone Interaction: Social Robots or Objects with Intent?**. In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020). [\[PDF\]](pub/2020_iHDI_Agent.pdf)
 
-- Joseph La Delfa, Mehmet Aydın Baytaş, Olivia Wichtowski, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2019). **Are Drones Meditative?**  
-In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA ‘19). [\[PDF\]](pub/2019_CHI_EA_Meditative.pdf)
+Mehmet Aydın Baytaş, Damla Çay, Yuchong Zhang, Mohammad Obaid, Asım Evren Yantaç, & Morten Fjeld (2019). **The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments**. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19). [\[PDF\]](pub/2019_CHI_Drones.pdf)
 
-- Mehmet Aydın Baytaş, Mohammad Obaid, Joseph La Delfa, Asım Evren Yantaç, & Morten Fjeld (2019). **Integrated Apparatus for Empirical Studies with Embodied Autonomous Social Drones**. In Proceedings of the International Workshop on Human-Drone Interaction (iHDI). [\[PDF\]](pub/2019_CHI_WS_iHDI_Apparatus.pdf)
+Joseph La Delfa, Mehmet Aydın Baytaş, Olivia Wichtowski, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2019). **Are Drones Meditative?**. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA ‘19). [\[PDF\]](pub/2019_CHI_EA_Meditative.pdf)
+
+Mehmet Aydın Baytaş, Mohammad Obaid, Joseph La Delfa, Asım Evren Yantaç, & Morten Fjeld (2019). **Integrated Apparatus for Empirical Studies with Embodied Autonomous Social Drones**. In Proceedings of the International Workshop on Human-Drone Interaction (iHDI). [\[PDF\]](pub/2019_CHI_WS_iHDI_Apparatus.pdf)
