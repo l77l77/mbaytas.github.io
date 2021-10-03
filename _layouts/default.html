@@ -18,24 +18,36 @@
     
     <style>
       
-      /* Microtypography */
+      /* Type */
+      
+      :root {
+        --leading: 1.61803398875rem;
+        --smaller: 0.85410196625em;
+        --textfont: neue-haas-grotesk-text, "Helvetica Neue", "Helvetica", sans-serif;
+        --dispfont: neue-haas-grotesk-display, "Helvetica Neue", "Helvetica", sans-serif;
+        --monofont: 'Space Mono', monospace;
+      }
       
       body {
-        font-family: neue-haas-grotesk-text, "Helvetica Neue", "Helvetica", sans-serif;
+        font-family: var(--textfont);
         font-size: 1rem;
         font-weight: 400;
-        line-height: 1.62em;
+        line-height: var(--leading);
         text-underline-offset: 0.1em;
       }
          
       code, kbd, pre, samp {
-        font-family: 'Space Mono', monospace;
-        font-size: 0.8rem;
+        font-family: var(--monofont);
+        font-size: var(--d-smaller);
         overflow: auto;
       }
       
       a {
         text-decoration: none;
+      }
+      
+      em {
+        font-size: var(--smaller);
       }
       
       h1,
@@ -49,7 +61,7 @@
       dl,
       ol,
       ul {
-        margin: 1.6rem 0;
+        margin: var(--leading) 0;
       }
       h1,
       h2,
@@ -58,21 +70,20 @@
       h5,
       h6 {
         font-weight: 700;
-        margin-top: 3.2rem;
       }
       h1,
       h2 {
-        font-family: neue-haas-grotesk-display, "Helvetica Neue", "Helvetica", sans-serif;
+        font-family: var(--dispfont);
       }
       h1 {
         font-size: 2rem;
-        line-height: 3.2rem;
-        margin-top: 1.6rem;
+        line-height: calc(2*var(--leading));
       }
       h2 {
-        font-size: 1.6rem;
-        line-height: 3.2rem;
+        font-size: var(--leading);
+        line-height: calc(2*var(--leading));
       }
+      
       em,
       nav {
         font-style: inherit;
@@ -94,13 +105,18 @@
       
       /* Color */
       
+      :root {
+        --c-halfwhite: rgba(255, 255, 255, 50%);
+        --c-dimturquo: hsl(190, 100%, 85%);
+      }
+      
       body {
         color: #fff;
         background-color: #000;
       }
       
       a {
-        color: hsl(190, 100%, 85%); 
+        color: var(--c-dimturquo); 
       }
       
       nav a {
@@ -110,6 +126,10 @@
       em,
       nav {
         opacity: 0.6;
+      }
+      
+      hr {
+        border-bottom: 1px solid var(--c-halfwhite);
       }
       
       /* Rastersystem */
