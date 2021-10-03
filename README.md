@@ -1,4 +1,4 @@
-Dr. Mehmet Aydın Baytaş is a scholar of design and technology. 
+<h2 class="lightweight">Dr. Mehmet Aydın Baytaş</h2>
 
 <h1 class="lightweight"><strong>Designer</strong> + <strong>Computer Scientist</strong></h1>
 
