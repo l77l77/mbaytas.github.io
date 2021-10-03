@@ -103,21 +103,24 @@
       /* Color */
       
       :root {
-        --c-halfwhite: rgba(255, 255, 255, 50%);
-        --c-dimturquo: hsl(190, 100%, 85%);
+        --c-background: #000;
+        --c-foreground: #fff;
+        --c-halfforeground: rgba(0, 0, 0, 50%);
+        --c-liteforeground: rgba(0, 0, 0, 20%);
+        --c-dimaccent: hsl(190, 100%, 15%);
       }
       
       body {
-        color: #fff;
-        background-color: #000;
+        color: var(--c-foreground);
+        background-color: var(--c-background);
       }
       
       a {
-        color: var(--c-dimturquo); 
+        color: var(--c-dimaccent); 
       }
       
       nav a {
-        color: #fff;
+        color: var(--c-foreground);
       }
       
       /**/
@@ -175,11 +178,11 @@
       dl dd,
       dl dt,
       hr {
-        border-top: 1px solid var(--c-halfwhite);
+        border-top: 1px solid var(--c-halfforeground);
       }
       dl dd:last-of-type,
       dl dt:last-of-type {
-        border-bottom: 1px solid var(--c-halfwhite);
+        border-bottom: 1px solid var(--c-halfforeground);
       }
       
       nav #markdown-toc {
@@ -213,7 +216,7 @@
       }
       
       p code {
-        background: rgba(255, 255, 255, 20%);
+        background: var(--c-liteforeground);
         padding: 0.08rem 0.32rem;
       }
       
