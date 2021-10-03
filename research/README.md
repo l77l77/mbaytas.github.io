@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Research | Mehmet Aydın Baytaş
 ---
 
