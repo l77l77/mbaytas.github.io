@@ -1,6 +1,6 @@
 <h1 class="lightweight">
 <small>Dr. Mehmet Aydın Baytaş</small><br>
-:: <strong>Designer</strong> + <strong>Computer Scientist</strong>
+::: <strong>Designer</strong> + <strong>Computer Scientist</strong>
 </h1>
 
 ---
