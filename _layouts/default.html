@@ -46,16 +46,11 @@
         text-decoration: none;
       }
       
-      em {
+      em, small {
         font-size: var(--smaller);
       }
       
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
+      h1, h2, h3, h4, h5, h6,
       p,
       pre,
       dl,
@@ -63,22 +58,20 @@
       ul {
         margin: var(--leading) 0;
       }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
+      
+      h1, h2, h3, h4, h5, h6 {
         font-weight: 700;
       }
-      h1,
-      h2 {
+      
+      h1, h2 {
         font-family: var(--dispfont);
       }
+      
       h1 {
         font-size: 2rem;
         line-height: calc(2*var(--leading));
       }
+      
       h2 {
         font-size: var(--leading);
         line-height: calc(2*var(--leading));
@@ -88,13 +81,16 @@
       nav {
         font-style: inherit;
       }
+      
       dl dt {
         font-weight: inherit;
       }
+      
       ul {
         list-style-type: square;
         padding: inherit;
       }
+      
       ul ul {
         padding: revert;
       }
