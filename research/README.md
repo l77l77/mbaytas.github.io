@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research | Mehmet Aydın Baytaş
+title: "Research | Mehmet Aydın Baytaş"
 ---
 
 # Bio
