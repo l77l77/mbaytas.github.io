@@ -106,25 +106,25 @@
         color: #bbb; 
       }
       
-      @-webkit-keyframes TurquoiseGlow {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
+      @-webkit-keyframes DiagonalGlow {
+        0%{background-position:0% 0%}
+        50%{background-position:100% 100%}
+        100%{background-position:0% 0%}
       }
-      @-moz-keyframes TurquoiseGlow {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
+      @-moz-keyframes DiagonalGlow {
+        0%{background-position:0% 0%}
+        50%{background-position:100% 100%}
+        100%{background-position:0% 0%}
       }
-      @keyframes TurquoiseGlow {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
+      @keyframes DiagonalGlow {
+        0%{background-position:0% 0%}
+        50%{background-position:100% 100%}
+        100%{background-position:0% 0%}
       }
       
       dl dt {
         background-color: transparent;
-        background-image: linear-gradient(120deg, hsl(190, 100%, 80%), #fff);
+        background-image: linear-gradient(120deg, hsl(190, 100%, 80%), hsl(190, 100%, 90%));
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -132,9 +132,9 @@
         text-fill-color: transparent;
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
-        -webkit-animation: TurquoiseGlow 21s ease infinite;
-        -moz-animation: TurquoiseGlow 21s ease infinite;
-        animation: TurquoiseGlow 21s ease infinite;
+        -webkit-animation: DiagonalGlow 20s ease infinite;
+        -moz-animation: DiagonalGlow 20s ease infinite;
+        animation: DiagonalGlow 20s ease infinite;
       }
       
       /* Rastersystem */
