@@ -3,7 +3,7 @@
 <strong>Designer</strong> + <strong>Computer Scientist</strong>
 </h1>
 
----
+  
 
 **Selected Work**
 
