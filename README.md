@@ -1,6 +1,4 @@
-<h2 class="lightweight">Dr. Mehmet Aydın Baytaş</h2>
-
-<h1 class="lightweight"><strong>Designer</strong> + <strong>Computer Scientist</strong></h1>
+<h1 class="lightweight">Dr. Mehmet Aydın Baytaş :: <strong>Designer</strong> + <strong>Computer Scientist</strong></h1>
 
 ---
 
