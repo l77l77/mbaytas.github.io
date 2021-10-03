@@ -1,3 +1,7 @@
+---
+title: Research | Mehmet Aydın Baytaş
+---
+
 # Bio
 
 Dr. Mehmet Aydın Baytaş conducts research in design and computer science.
