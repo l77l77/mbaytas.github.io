@@ -1,3 +1,5 @@
+# Bio
+
 Dr. Mehmet Aydın Baytaş conducts research at intersections of design and computer science.
 
 *To date, he has co-authored 30+ research publications, as well as research grants which collectively received $4M+ from state, non-profit, and corporate benefactors in Turkey and Sweden.*
