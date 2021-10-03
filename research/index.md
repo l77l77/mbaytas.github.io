@@ -12,6 +12,8 @@ Dr. Mehmet Aydın Baytaş conducts research in design and computer science.
 
 *He has degrees in mechanical engineering, economics, and design, certification as a yoga teacher, and a collection of credentials in design, engineering, and business topics.*
 
+&nbsp;
+
 ---
 
 # Publications
