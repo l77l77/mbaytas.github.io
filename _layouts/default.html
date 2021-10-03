@@ -123,11 +123,9 @@
         color: #fff;
       }
       
-      hr {
-        border-bottom: 1px solid var(--c-halfwhite);
-      }
-      
+      /**/
       /* Rastersystem */
+      /**/
       
       .grid {        
         display: grid;
@@ -135,7 +133,7 @@
         grid-template-columns: 1fr minmax(1rem, 4fr);
         max-width: 1000px;
         margin: 0 auto;
-        padding: 8rem 1.6rem;
+        padding: 8rem var(--leading);
       }
       @media (max-width: 1000px) {
         .grid {
@@ -143,13 +141,13 @@
         }
       }     
       pre {
-        padding: 1.6rem;
+        padding: var(--leading);
       }
       
       dl {
         display: grid;
         grid-template-columns: 1fr 10rem;
-        font-size: 0.8rem;
+        font-size: var(--smaller);
       }
       dl dt {
         overflow: hidden;
@@ -161,28 +159,31 @@
       dl dd {
         margin: 0;
       }
+           
+      img {
+        width: 100%;
+        margin-top: var(--leading);
+      }
       
-      dl dd,
-      dl dt {
-        border-top: 1px solid rgba(255, 255, 255, 50%);
-      }
-      dl dd:last-of-type,
-      dl dt:last-of-type {
-        border-bottom: 1px solid rgba(255, 255, 255, 50%);
-      }
+      /**/
+      /* Misc */
+      /**/
       
       hr {
         border: none;
         height: 0;
-        margin: 1.6rem 0;
+        margin: var(--leading) 0;
       }
       
-      img {
-        width: 100%;
-        margin-top: 1.6rem;
+      dl dd,
+      dl dt,
+      hr {
+        border-top: 1px solid var(--c-halfwhite);
       }
-      
-      /* Misc */
+      dl dd:last-of-type,
+      dl dt:last-of-type {
+        border-bottom: 1px solid var(--c-halfwhite);
+      }
       
       nav #markdown-toc {
         margin-top: 16rem;
@@ -195,7 +196,7 @@
       nav #markdown-toc li ul {
         font-weight: normal;
         list-style-type: none;
-        margin-bottom: 1.6rem;
+        margin-bottom: var(--leading);
         margin-top: 0;
         padding: 0;
       }
