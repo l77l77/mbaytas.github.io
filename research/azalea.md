@@ -16,12 +16,16 @@ Through Azalea, we aim to inspire fellow designers to creatively leverage the �
 
 ![image](https://user-images.githubusercontent.com/1661078/135835100-006f1bc1-da5f-4547-94a6-7c567cceed35.png)
 
+---
+
 ## Methodology
 
 Diminished Reality  
 Research through Design  
 Somaesthetics  
 Experience Characterization
+
+---
 
 ## Credits
 
@@ -32,7 +36,11 @@ Mafalda Samuelsson-Gamboa
 Chalmers University of Technology  
 RISE Interactive
 
+---
+
 ![image](https://user-images.githubusercontent.com/1661078/135834888-4d9c2942-4a87-466e-a38d-7a1cfe1c2a08.png)
+
+---
 
 ## Exhibitions and Publications
 
@@ -47,6 +55,8 @@ Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa 
 **Azalea: Co-experiencing Embodied Information in Remote Communication**  
 In Proceedings of the 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2020)  
 [\[PDF\]](pub/2020_MobileHCI_Azalea.pdf)
+
+---
 
 ![image](https://user-images.githubusercontent.com/1661078/135835565-fe3011ca-62b7-4901-851e-c1f0be785578.png)
 
