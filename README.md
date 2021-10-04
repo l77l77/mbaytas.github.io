@@ -1,7 +1,5 @@
-<h1 class="lightweight">
-<small>Dr. Mehmet Aydın Baytaş &mdash;</small><br>
-<strong>Designer</strong> + <strong>Computer Scientist</strong>
-</h1>
+# Dr. Mehmet Aydın Baytaş &mdash;  
+**Designer** + **Computer Scientist**
 
 &nbsp;
 
