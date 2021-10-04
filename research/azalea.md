@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 
-In response to social distancing due to the pandemic, we sought new ways to create a sense of "togetherness” while in physically distant. The result was Azalea: a smartphone-based design that consist of a bespoke app and a tactile cushion which envelops the phone.
+In response to social distancing due to the pandemic, we sought new ways to create a sense of "togetherness” while physically distant. The result was Azalea: a smartphone-based design that consist of a bespoke app and a tactile cushion which envelops the phone.
 
 A pair of Azaleas can be used by two people to enrich a phone call. The artifact is brought to life by inserting the phone, running the Azalea app, into the cushion. Doing so, the user "sacrifices" the phone, invoking a "magical" communication experience where the mediating hardware is out of sight.
 
