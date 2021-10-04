@@ -14,8 +14,8 @@ Through Azalea, we aim to inspire the public and fellow designers to creatively 
 
 ## Credits
 
-Sjoerd Hendriks
-Simon Mare
+Sjoerd Hendriks  
+Simon Mare  
 Mafalda Samuelsson-Gamboa
 
 RISE Interactive
