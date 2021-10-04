@@ -1,5 +1,7 @@
 # **Azalea**
 
+> Co-experience in Remote Conversations via Diminished Reality + Somaesthetic Interaction Design
+
 ![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 
 In response to the consequences of social distancing caused by the pandemic, we looked for new ways of creating a sense of “togetherness” with another person whilst in social isolation. The findings of this search manifested itself in a product called Azalea.
