@@ -1,4 +1,4 @@
-# Dr. Mehmet Aydın Baytaş &mdash; <br> **Designer** + **Computer Scientist**
+# Mehmet Aydın Baytaş &mdash; <br> **Designer** + **Computer Scientist**
 
 &nbsp;
 
