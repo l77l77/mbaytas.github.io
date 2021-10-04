@@ -1,6 +1,6 @@
 # **Azalea**
 
-> Co-experience in Remote Conversations via Diminished Reality + Somaesthetic Interaction Design
+**Co-experience in Remote Conversations via Diminished Reality + Somaesthetic Interaction Design**
 
 ![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 
