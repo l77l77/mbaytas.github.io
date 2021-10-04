@@ -1,6 +1,6 @@
 # **Azalea**
 
-![image](https://user-images.githubusercontent.com/1661078/135834888-4d9c2942-4a87-466e-a38d-7a1cfe1c2a08.png)
+![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 
 In response to the consequences of social distancing caused by the pandemic, we looked for new ways of creating a sense of “togetherness” with another person whilst in social isolation. The findings of this search manifested itself in a product called Azalea.
 
@@ -21,7 +21,7 @@ Mafalda Samuelsson-Gamboa
 Chalmers University of Technology  
 RISE Interactive
 
-![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
+![image](https://user-images.githubusercontent.com/1661078/135834888-4d9c2942-4a87-466e-a38d-7a1cfe1c2a08.png)
 
 ## Exhibitions and Publications
 
