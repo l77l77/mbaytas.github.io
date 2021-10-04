@@ -1,4 +1,4 @@
-# Azalea
+# **Azalea**
 
 ![image](https://user-images.githubusercontent.com/1661078/135834888-4d9c2942-4a87-466e-a38d-7a1cfe1c2a08.png)
 
