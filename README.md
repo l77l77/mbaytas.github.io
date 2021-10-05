@@ -4,7 +4,7 @@
 
 ---
 
-## Selected Design Projects
+## **Selected Design Projects**
 
 <div class="gallery" markdown="1">
 
@@ -20,7 +20,7 @@ Coming soon.
 
 ---
 
-## Research Visions
+## **Research Visions**
 
 <div class="gallery" markdown="1">
 
@@ -30,7 +30,7 @@ Coming soon.
 
 ---
 
-## Selected Publications and Appearances
+## **Selected Publications and Appearances**
 
 [Design Disciplin](https://www.designdisciplin.com/)
 : Video Podcast, Website
