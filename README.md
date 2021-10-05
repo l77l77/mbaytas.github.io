@@ -18,7 +18,7 @@
 *Ambient Atmospheres*
 
 ![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
-*Azalea*
+[*Azalea*](/research/azalea/)
 
 ![image](https://user-images.githubusercontent.com/1661078/136023073-e2154551-be3a-4ee4-bff8-ef75c935bd53.png)
 *Drone Chi*
