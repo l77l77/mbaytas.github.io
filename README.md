@@ -52,6 +52,9 @@
 
 *2021*
 
+[The Washington Post: Fitness Drones Are Coming](https://www.washingtonpost.com/science/drones-for-exercising/2021/04/16/c459c7fe-882d-11eb-82bc-e58213caa38e_story.html)
+: Press
+
 [Azalea](https://www.baytas.net/research/pub/2021_CHI_Azalea.pdf)
 : Research
 
@@ -60,9 +63,6 @@
 
 [Building Interactions with the Bitcraze Crazyflie and Motion Capture](https://www.baytas.net/crazyflie)
 : Tutorial
-
-[The Washington Post: Fitness Drones Are Coming](https://www.washingtonpost.com/science/drones-for-exercising/2021/04/16/c459c7fe-882d-11eb-82bc-e58213caa38e_story.html)
-: Press
 
 [Human-Drone Interaction Showcase by Qualisys x Chalmers University of Technology](https://www.youtube.com/watch?v=IVMFvLN44Ts)
 : Video
@@ -73,18 +73,17 @@
 
 *2020*
 
+[Hackster.io: Drone + Tai Chi = Drone Chi](https://www.hackster.io/news/drone-tai-chi-drone-chi-410521b6da65)
+: Press
+
 [Drone Chi: Somaesthetic Human-Drone Interaction](research/pub/2020_CHI_Drone_Chi.pdf)
 : Research
-
-[Social Drones as Material for Design and Research](https://youtu.be/V3NFn936gzY)
-: Video
 
 [Conversation with Timmy Ghiurãu on Innovating in Virtual Reality](https://youtu.be/jMaEjm7L_wU)
 : Video
 
-[Hackster.io: Drone + Tai Chi = Drone Chi](https://www.hackster.io/news/drone-tai-chi-drone-chi-410521b6da65)
-: Press
-
+[Social Drones as Material for Design and Research](https://youtu.be/V3NFn936gzY)
+: Video
 
 *2019*
 
