@@ -4,11 +4,20 @@
 
 ![image](https://user-images.githubusercontent.com/1661078/136023073-e2154551-be3a-4ee4-bff8-ef75c935bd53.png)
 
-----
+Drone Chi is a Tai Chi-inspired human-drone interaction experience.
 
-Drone Chi is a Tai Chi-inspired design experiment.
+The experience begins with picking a drone, designed to resemble a flower, from a charging station, designed to resemble a vine. The drone is placed on the ground, takes off, and begins hovering in stillness at waist height. 
 
----
+With the hand pads, when both hands are oriented towards the drone, the drone glows with light. The glow diminishes if the palms point away.
+
+In "lead" mode, the drone slowly flies in a circle. You follow the drone with the hands as the circles grow larger, aiming to keep the light as bright as
+possible. 
+
+In "follow" mode, you now control the drone – but you must do so with slow and focused movements. If you move too quickly, the glow dims, the drone drifts away, and you must recapture it.
+
+Throughout the exercise, movements require coordination and focus. The glow signals the quality of the connection between the hands and the drone.
+
+As a research project, Drone Chi reveals implications for human-drone interaction design and technologies, as well as methodological implications that consolidate elements from product design, experience design, engineering, and a philosophy of somaesthetics.
 
 <div class="gallery" markdown=1>
 
@@ -20,8 +29,6 @@ Drone Chi is a Tai Chi-inspired design experiment.
 
 ![closeup](https://user-images.githubusercontent.com/1661078/136055095-b8fb60e8-d849-4779-9104-8e5fcbb80fa6.png)
 
----
-
 ## **Ethos** + **Methodology**
 
 Meditative Movement  
@@ -29,8 +36,6 @@ Product Design Engineering
 Research through Design  
 Somaesthetics  
 Thematic Analysis
-
----
 
 ## **Credits**
 
@@ -49,8 +54,6 @@ Bitcraze AB
 Monash University  
 RMIT Unviersity  
 Qualisys AB
-
----
 
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
