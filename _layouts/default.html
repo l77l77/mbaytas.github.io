@@ -136,7 +136,22 @@
         .grid {
             grid-template-columns: minmax(1rem, 1fr);
         }
-      }     
+      }
+      
+      .gallery {        
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        margin: var(--leading) 0;
+        padding: 0;
+      }
+      @media (max-width: 1000px) {
+        .gallery {
+            grid-template-columns: minmax(1rem, 1fr);
+        }
+      }
+      
       pre {
         padding: var(--leading);
       }
