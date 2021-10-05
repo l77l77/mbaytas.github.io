@@ -27,9 +27,9 @@
 
 ## **Research Visions**
 
-<div class="gallery" markdown="1">
-
 (Coming soon.)
+
+<div class="gallery" markdown="1">
 
 ![image](https://user-images.githubusercontent.com/1661078/136036949-c7ce5e16-302c-4b2c-9f7e-a2df10c3e238.png)
 
