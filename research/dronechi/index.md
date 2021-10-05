@@ -23,18 +23,18 @@ Thematic Analysis
 
 Joseph La Delfa
 
-Leah Heiss
-Rohit Ashok Khot
-Ben Koder
-Emma Luke
-Florian 'Floyd' Mueller
-Hazel Ngari
-Rakesh Patibanda
-Olivia Wichtowski
+Leah Heiss  
+Rohit Ashok Khot  
+Ben Koder  
+Emma Luke  
+Florian 'Floyd' Mueller  
+Hazel Ngari  
+Rakesh Patibanda  
+Olivia Wichtowski  
 
-Bitcraze AB
-Monash University
-RMIT Unviersity
+Bitcraze AB  
+Monash University  
+RMIT Unviersity  
 Qualisys AB
 
 ---
