@@ -68,8 +68,8 @@ In Proceedings of the 22nd International Conference on Human-Computer Interactio
 
 ![AzaleaExploded](https://user-images.githubusercontent.com/1661078/136050004-52819624-89db-4dd2-8ee0-ee92c3e3948b.png)
 
-![image](https://user-images.githubusercontent.com/1661078/135835910-3d4c4789-72e5-41b5-87d1-996fc660f386.png)
-
 ![image](https://user-images.githubusercontent.com/1661078/136051308-d7365add-1e7a-42aa-826f-3d8ddca6d652.png)
 
-![image](https://user-images.githubusercontent.com/1661078/136051144-0ece09bc-add1-430d-96d0-735a4960a704.png)
+![interaction](https://user-images.githubusercontent.com/1661078/135835910-3d4c4789-72e5-41b5-87d1-996fc660f386.png)
+
+![radiate](https://user-images.githubusercontent.com/1661078/136051144-0ece09bc-add1-430d-96d0-735a4960a704.png)
