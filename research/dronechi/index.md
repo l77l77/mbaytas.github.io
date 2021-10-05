@@ -85,23 +85,11 @@ The Washington Post (2021): [Fitness Drones Are Coming](https://www.washingtonpo
 
 Hackster.io (2020): [Drone + Tai Chi = Drone Chi](https://www.hackster.io/news/drone-tai-chi-drone-chi-410521b6da65)
 
-Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020)  
-**Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
-Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies  
-[\[PDF\]](pub/2020_NordiCHI_WS_HDI.pdf)
+Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020). **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**. Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies. [\[PDF\]](pub/2020_NordiCHI_WS_HDI.pdf)
 
-Joseph La Delfa, Mehmet Aydın Baytaş, Emma Luke, Ben Koder, & Florian ‘Floyd’ Mueller (2020)  
-**Designing Drone Chi: Unpacking the Thinking and Making of Somaesthetic Human-Drone Interaction**  
-In Proceedings of the 2020 Conference on Designing Interactive Systems (DIS ‘20)  
-[\[PDF\]](pub/2020_DIS_Drone_Chi.pdf)
+Joseph La Delfa, Mehmet Aydın Baytaş, Emma Luke, Ben Koder, & Florian ‘Floyd’ Mueller (2020). **Designing Drone Chi: Unpacking the Thinking and Making of Somaesthetic Human-Drone Interaction**. In Proceedings of the 2020 Conference on Designing Interactive Systems (DIS ‘20). [\[PDF\]](pub/2020_DIS_Drone_Chi.pdf)
 
-Joseph La Delfa, Mehmet Aydın Baytaş, Rakesh Patibanda, Hazel Ngari, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2020)  
-**Drone Chi: Somaesthetic Human-Drone Interaction**  
-In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20)  
-**\[Honourable Mention Award\]**  
+Joseph La Delfa, Mehmet Aydın Baytaş, Rakesh Patibanda, Hazel Ngari, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2020). **Drone Chi: Somaesthetic Human-Drone Interaction**. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20). **\[Honourable Mention Award\]**  
 [\[PDF\]](pub/2020_CHI_Drone_Chi.pdf)
 
-Joseph La Delfa, Mehmet Aydın Baytaş, Olivia Wichtowski, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2019)  
-**Are Drones Meditative?**  
-In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA ‘19)  
-[\[PDF\]](pub/2019_CHI_EA_Meditative.pdf)
+Joseph La Delfa, Mehmet Aydın Baytaş, Olivia Wichtowski, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2019). **Are Drones Meditative?**. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA ‘19). [\[PDF\]](pub/2019_CHI_EA_Meditative.pdf)
