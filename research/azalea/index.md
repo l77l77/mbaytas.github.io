@@ -27,7 +27,7 @@ Experience Characterization
 
 ---
 
-## Credits
+## **Credits**
 
 Sjoerd Hendriks  
 Simon Mare  
@@ -42,7 +42,7 @@ RISE Interactive
 
 ---
 
-## Exhibitions and Publications
+## **Exhibitions and Publications**
 
 Dutch Design Week 2020
 
