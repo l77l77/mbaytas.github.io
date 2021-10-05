@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/1661078/136023073-e2154551-be3a-4ee4-bff8-ef75c935bd53.png)
 ---
 
-Drone Chi is an experimental experience design inspired by Tai Chi exercises
+Drone Chi is a Tai Chi-inspired design experiment.
 
 ---
 
