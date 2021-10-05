@@ -125,7 +125,7 @@
       /* Rastersystem */
       /**/
       
-      .grid {        
+      .satzspiegel {        
         display: grid;
         grid-gap: var(--leading);
         grid-template-columns: 1fr minmax(1rem, 4fr);
@@ -134,7 +134,7 @@
         padding: var(--leading) var(--leading);
       }
       @media (max-width: 1000px) {
-        .grid {
+        .satzspiegel {
             grid-template-columns: minmax(1rem, 1fr);
         }
       }
@@ -195,11 +195,15 @@
       /* Misc */
       /**/
       
+      .satzspiegel {
+        border-bottom: 1px solid var(--c-halfforeground);
+      }
+      
       hr {
         border: none;
         height: 0;
         margin: calc(2*var(--leading)) 0;
-        border-top: 1px solid var(--c-halfforeground)
+        border-top: 1px solid var(--c-halfforeground);
       }
       
       dl dd,
@@ -318,7 +322,7 @@
   </head>
   <body>
     
-    <div class="grid">
+    <div class="satzspiegel">
       
         <nav>
           
@@ -344,7 +348,7 @@
           
         </article>
       
-    </div><!-- .container -->  
+    </div><!-- .satzspiegel -->  
     
     <script>
       var toc = document.getElementById("markdown-toc");
