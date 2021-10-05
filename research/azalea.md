@@ -1,24 +1,24 @@
 # **Azalea**
 
-*Co-experience in Remote Conversations via Diminished Reality + Somaesthetic Interaction Design*
+*Enriching Remote Conversations with Co-experience via Diminished Reality + Somaesthetic Interaction Design*
 
 ![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 
-In response to social distancing due to the pandemic, we sought new ways to create a sense of "togetherness” while physically distant. The result was Azalea: a smartphone-based design that consist of a bespoke app and a tactile cushion which envelops the phone.
+Responding to social distancing brought about by the pandemic, we sought new ways to create a sense of "togetherness” while physically distant. The result was Azalea: a smartphone-based design comprising a bespoke app and a tactile cushion which envelops the phone.
 
-A pair of Azaleas can be used by two people to enrich a phone call. The artifact is brought to life by inserting the phone, running the Azalea app, into the cushion. Doing so, the user "sacrifices" the phone, invoking a "magical" communication experience where the mediating hardware is out of sight.
+A pair of Azaleas can be used by two people to enrich a phone call. The artifact is brought to life by inserting the phone into the cushion while running the Azalea app. Doing so, the user "sacrifices" the phone, invoking a "magical" communication experience where the mediating hardware is out of sight.
 
-The design uses the phone's flash to project light, through cut-out shapes on the back of the cushion, into the user’s environment. The phone's screen glows in color through the pattern on the front, reacting to the intensity of the speech. A shared soundscape of crackling fire, ocean waves, and singing bowls frames the conversation, driven by subtle motions of the artifacts held in the users' hands.
+The design activates the phone's flash to project light, through laser-cut shapes on the back of the cushion, into the user’s environment. The phone's screen glows in color through the pattern on the front, reacting to the intensity of the conversation. A shared soundscape of crackling fire, ocean waves, and singing bowls frames the conversation, driven by subtle motions of the artifacts held in the users' hands.
 
-Most designs for enriching remote conversations increase the quantity and fidelity of what is communicated. Azalea follows a different design ethos we called "diminished reality" – it removes and obfuscates signals as well as distractions, creating space so we can focus on what really matters.
+Most designs for enriching remote conversations increase the quantity and fidelity of what is communicated. Azalea follows a different design ethos we call "diminished reality" – it removes and obfuscates signals as well as distractions, creating space to focus on what really matters.
 
-Through Azalea, we aim to inspire fellow designers to creatively leverage the – often untapped – capabilities that can be found in our smartphones, and to build on "diminished reality" as a design ethos.
+As a research-through-desig project, Azalea demonstrates how we can leverage the often untapped capabilities of everyday computational artifacts – like smartphones – in symbiosis with physical product design, instantiates "diminished reality" as a design ethos, and expands the "somaesthetic design" approach to novel ground.
 
 ![image](https://user-images.githubusercontent.com/1661078/135835100-006f1bc1-da5f-4547-94a6-7c567cceed35.png)
 
 ---
 
-## Methodology
+## **Ethos** + **Methodology**
 
 Diminished Reality  
 Research through Design  
