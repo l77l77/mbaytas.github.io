@@ -27,7 +27,7 @@
         --textfont: neue-haas-grotesk-text, "Helvetica Neue", "Helvetica", sans-serif;
         --dispfont: neue-haas-grotesk-display, "Helvetica Neue", "Helvetica", sans-serif;
         --monofont: 'Space Mono', monospace;
-        --width: 1000px;
+        --max-width: 1200px;
       }
       
       body {
@@ -129,19 +129,19 @@
       .satzspiegel {        
         display: grid;
         grid-gap: var(--leading);
-        grid-template-columns: 1fr minmax(1rem, 4fr);
-        max-width: var(--width);
+        grid-template-columns: 1fr 2fr;
+        max-width: var(--max-width);
         margin: var(--leading) auto;
         padding: var(--leading) var(--leading);
       }
-      @media (max-width: var(--width)) {
+      @media (max-width: 900px) {
         .satzspiegel {
             grid-template-columns: minmax(1rem, 1fr);
         }
       }
       
       .footer {        
-        max-width: var(--width);
+        max-width: var(--max-width);
         margin: var(--leading) auto;
         padding: 0 var(--leading);
         padding-bottom: calc(2*var(--leading));
