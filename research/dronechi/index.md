@@ -1,4 +1,4 @@
-# Drone Chi
+# **Drone Chi**
 
 *Meditative Movement with a Drone*
 
@@ -6,6 +6,36 @@
 ---
 
 Drone Chi is a Tai Chi-inspired design experiment.
+
+---
+
+## **Ethos** + **Methodology**
+
+Meditative Movement
+Product Design Engineering
+Research through Design
+Somaesthetics
+Thematic Analysis
+
+---
+
+## **Credits**
+
+Joseph La Delfa
+
+Leah Heiss
+Rohit Ashok Khot
+Ben Koder
+Emma Luke
+Florian 'Floyd' Mueller
+Hazel Ngari
+Rakesh Patibanda
+Olivia Wichtowski
+
+Bitcraze AB
+Monash University
+RMIT Unviersity
+Qualisys AB
 
 ---
 
