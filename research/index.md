@@ -2,7 +2,7 @@
 title: Research | Mehmet Aydın Baytaş
 ---
 
-# Bio
+# **Bio**
 
 Dr. Mehmet Aydın Baytaş conducts research in design and computer science.
 
@@ -14,7 +14,7 @@ Dr. Mehmet Aydın Baytaş conducts research in design and computer science.
 
 ---
 
-# Publications
+# **Publications**
 
 Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021)  
 **Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**  
