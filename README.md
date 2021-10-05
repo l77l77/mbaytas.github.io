@@ -1,6 +1,6 @@
 # Mehmet Aydın Baytaş &mdash; <br> **Designer** + **Computer Scientist**
 
-*[Twitter](http://twitter.com/doctorBaytas)* | *[LinkedIn](https://www.linkedin.com/in/doctorbaytas/)* | *[Google Scholar](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)* | *[GitHub](https://github.com/mbaytas/)*
+*[Twitter](http://twitter.com/doctorBaytas)* \| *[LinkedIn](https://www.linkedin.com/in/doctorbaytas/)* \| *[Google Scholar](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)* \| *[GitHub](https://github.com/mbaytas/)*
 
 ---
 
