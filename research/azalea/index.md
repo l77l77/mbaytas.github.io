@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 
---
+---
 
 Responding to social distancing brought about by the pandemic, we sought new ways to create a sense of "togetherness” while physically distant. The result was Azalea: a smartphone-based design comprising a bespoke app and a tactile cushion which envelops the phone.
 
@@ -16,7 +16,7 @@ Most designs for enriching remote conversations increase the quantity and fideli
 
 As a research project, Azalea demonstrates how we can leverage the often untapped capabilities of everyday computational artifacts – like smartphones – in symbiosis with physical product design, instantiates "diminished reality" as a design ethos, and expands the "somaesthetic design" approach to novel ground.
 
---
+---
 
 <div class="ratio ratio-16x9 my-3">
 <iframe src="https://www.youtube.com/embed/eefroz8oGX8" allowfullscreen></iframe>
