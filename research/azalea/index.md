@@ -12,7 +12,7 @@ The design activates the phone's flash to project light, through laser-cut shape
 
 Most designs for enriching remote conversations increase the quantity and fidelity of what is communicated. Azalea follows a different design ethos we call "diminished reality" – it removes and obfuscates signals as well as distractions, creating space to focus on what really matters.
 
-As a research-through-desig project, Azalea demonstrates how we can leverage the often untapped capabilities of everyday computational artifacts – like smartphones – in symbiosis with physical product design, instantiates "diminished reality" as a design ethos, and expands the "somaesthetic design" approach to novel ground.
+As a research project, Azalea demonstrates how we can leverage the often untapped capabilities of everyday computational artifacts – like smartphones – in symbiosis with physical product design, instantiates "diminished reality" as a design ethos, and expands the "somaesthetic design" approach to novel ground.
 
 ![image](https://user-images.githubusercontent.com/1661078/135835100-006f1bc1-da5f-4547-94a6-7c567cceed35.png)
 
