@@ -18,10 +18,6 @@ As a research project, Azalea demonstrates leveraging subtle capabilities of eve
 
 ---
 
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/eefroz8oGX8" allowfullscreen></iframe>
-</div>
-
 ![image](https://user-images.githubusercontent.com/1661078/135835100-006f1bc1-da5f-4547-94a6-7c567cceed35.png)
 
 ---
@@ -65,6 +61,10 @@ In Proceedings of the 22nd International Conference on Human-Computer Interactio
 [\[PDF\]](pub/2020_MobileHCI_Azalea.pdf)
 
 ---
+
+<div class="ratio ratio-16x9 my-3">
+<iframe src="https://www.youtube.com/embed/eefroz8oGX8" allowfullscreen></iframe>
+</div>
 
 ![AzaleaExploded](https://user-images.githubusercontent.com/1661078/136050004-52819624-89db-4dd2-8ee0-ee92c3e3948b.png)
 
