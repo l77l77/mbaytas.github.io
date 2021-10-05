@@ -79,7 +79,11 @@ Qualisys AB
 
 ![longex](https://user-images.githubusercontent.com/1661078/136086688-ca929356-a96d-45e2-84f1-8bcec9c3cce4.png)
 
-## **Exhibitions and Publications**
+## **Publications and Press**
+
+The Washington Post (2021): [Fitness Drones Are Coming](https://www.washingtonpost.com/science/drones-for-exercising/2021/04/16/c459c7fe-882d-11eb-82bc-e58213caa38e_story.html)
+
+Hackster.io (2020): [Drone + Tai Chi = Drone Chi](https://www.hackster.io/news/drone-tai-chi-drone-chi-410521b6da65)
 
 Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020)  
 **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
