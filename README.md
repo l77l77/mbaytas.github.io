@@ -1,7 +1,5 @@
 # Mehmet Aydın Baytaş &mdash; <br> **Designer** + **Computer Scientist**
 
-&nbsp;
-
 ---
 
 ## **Selected Design Projects**
