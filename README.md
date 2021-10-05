@@ -6,13 +6,22 @@
 
 ## Selected Design Projects
 
+<div class="gallery" markdown="1">
+
 Coming soon.
+
+</div>
+
 
 ---
 
 ## Research Visions
 
+<div class="gallery" markdown="1">
+
 Coming soon.
+
+</div>
 
 ---
 
