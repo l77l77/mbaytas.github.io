@@ -11,10 +11,10 @@ Drone Chi is a Tai Chi-inspired design experiment.
 
 ## **Ethos** + **Methodology**
 
-Meditative Movement
-Product Design Engineering
-Research through Design
-Somaesthetics
+Meditative Movement  
+Product Design Engineering  
+Research through Design  
+Somaesthetics  
 Thematic Analysis
 
 ---
