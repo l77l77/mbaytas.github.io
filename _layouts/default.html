@@ -27,6 +27,7 @@
         --textfont: neue-haas-grotesk-text, "Helvetica Neue", "Helvetica", sans-serif;
         --dispfont: neue-haas-grotesk-display, "Helvetica Neue", "Helvetica", sans-serif;
         --monofont: 'Space Mono', monospace;
+        --width: 1000px;
       }
       
       body {
@@ -129,14 +130,21 @@
         display: grid;
         grid-gap: var(--leading);
         grid-template-columns: 1fr minmax(1rem, 4fr);
-        max-width: 1000px;
+        max-width: var(--width);
         margin: var(--leading) auto;
         padding: var(--leading) var(--leading);
       }
-      @media (max-width: 1000px) {
+      @media (max-width: var(--width)) {
         .satzspiegel {
             grid-template-columns: minmax(1rem, 1fr);
         }
+      }
+      
+      .footer {        
+        max-width: var(--width);
+        margin: var(--leading) auto;
+        padding: var(--leading);
+        padding-bottom: calc(2*var(--leading));
       }
       
       .gallery {        
@@ -354,10 +362,7 @@
       
     </div><!-- .satzspiegel -->  
     
-    <div class="satzspiegel footer">
-      
-        <p>
-        </p>
+    <div class="footer">
           
         <p>
           <a href="http://twitter.com/doctorBaytas" target="_blank">Twitter</a> 
