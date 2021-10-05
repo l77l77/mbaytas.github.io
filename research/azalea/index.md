@@ -2,7 +2,7 @@
 
 *Enriching Remote Conversations via Diminished Reality + Somaesthetic Interaction Design*
 
-![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
+![inuse](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 
 Responding to social distancing brought about by the pandemic, we sought new ways to create a sense of "togetherness” while physically distant. The result was Azalea: a smartphone-based design comprising a bespoke app and a tactile cushion which envelops the phone.
 
@@ -14,15 +14,6 @@ Most designs for enriching remote conversations increase the quantity and fideli
 
 As a research project, Azalea demonstrates leveraging subtle capabilities of everyday computational artifacts – like smartphones – in symbiosis with physical product design, instantiates "diminished reality" as a design ethos, and expands the "somaesthetic design" approach to novel ground.
 
-![image](https://user-images.githubusercontent.com/1661078/135835100-006f1bc1-da5f-4547-94a6-7c567cceed35.png)
-
-## **Ethos** + **Methodology**
-
-Diminished Reality  
-Research through Design  
-Somaesthetics  
-Experience Characterization
-
 ## **Credits**
 
 Sjoerd Hendriks  
@@ -33,7 +24,24 @@ Mafalda Samuelsson-Gamboa
 Chalmers University of Technology  
 RISE Interactive
 
-![image](https://user-images.githubusercontent.com/1661078/135834888-4d9c2942-4a87-466e-a38d-7a1cfe1c2a08.png)
+## **Ethos** + **Methodology**
+
+Diminished Reality  
+Research through Design  
+Somaesthetics  
+Thematic Analysis
+
+![insert](https://user-images.githubusercontent.com/1661078/135835100-006f1bc1-da5f-4547-94a6-7c567cceed35.png)
+
+![idle](https://user-images.githubusercontent.com/1661078/135834888-4d9c2942-4a87-466e-a38d-7a1cfe1c2a08.png)
+
+<div class="ratio ratio-16x9 my-3">
+<iframe src="https://www.youtube.com/embed/eefroz8oGX8" allowfullscreen></iframe>
+</div>
+
+![radiate](https://user-images.githubusercontent.com/1661078/136051144-0ece09bc-add1-430d-96d0-735a4960a704.png)
+
+![exploded](https://user-images.githubusercontent.com/1661078/136088430-c03ec94f-8e36-4df6-b72e-32ac4a96810f.png)
 
 ## **Exhibitions and Publications**
 
@@ -48,11 +56,3 @@ Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa 
 **Azalea: Co-experiencing Embodied Information in Remote Communication**  
 In Proceedings of the 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2020)  
 [\[PDF\]](pub/2020_MobileHCI_Azalea.pdf)
-
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/eefroz8oGX8" allowfullscreen></iframe>
-</div>
-
-![radiate](https://user-images.githubusercontent.com/1661078/136051144-0ece09bc-add1-430d-96d0-735a4960a704.png)
-
-![AzaleaExploded](https://user-images.githubusercontent.com/1661078/136050004-52819624-89db-4dd2-8ee0-ee92c3e3948b.png)
