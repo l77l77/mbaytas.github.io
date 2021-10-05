@@ -9,16 +9,22 @@
 <div class="gallery" markdown="1">
 
 ![image](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
+*Wisp*
 
 ![image](https://user-images.githubusercontent.com/1661078/136031585-477fdb8f-ebac-4e5a-9ee2-5de4148b0a5d.png)
+*PEP*
 
 ![image](https://user-images.githubusercontent.com/1661078/136030946-a54acaf8-7f6a-4306-bbc2-b1d43f3477eb.png)
+*Ambient Atmospheres*
 
 ![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
+*Azalea*
 
 ![image](https://user-images.githubusercontent.com/1661078/136023073-e2154551-be3a-4ee4-bff8-ef75c935bd53.png)
+*Drone Chi*
 
 ![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
+*Computational Heirlooms*
 
 </div>
 
