@@ -4,6 +4,8 @@
 
 ## **Selected Design** x **Research Projects**
 
+(Coming soon.)
+
 <div class="gallery" markdown="1">
 
 ![image](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
@@ -18,8 +20,6 @@
 
 ![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
 
-Coming soon.
-
 </div>
 
 
@@ -29,7 +29,11 @@ Coming soon.
 
 <div class="gallery" markdown="1">
 
-Coming soon.
+(Coming soon.)
+
+![image](https://user-images.githubusercontent.com/1661078/136036949-c7ce5e16-302c-4b2c-9f7e-a2df10c3e238.png)
+
+![image](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
 
 </div>
 
