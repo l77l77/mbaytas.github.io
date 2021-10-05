@@ -2,7 +2,7 @@
 
 ---
 
-## **Selected Design** + **Research Projects**
+## **Selected Design** x **Research Projects**
 
 <div class="gallery" markdown="1">
 
