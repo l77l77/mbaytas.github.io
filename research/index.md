@@ -67,10 +67,6 @@ Joseph La Delfa, Mehmet Aydın Baytaş, Emma Luke, Ben Koder, & Florian ‘Floyd
 In Proceedings of the 2020 Conference on Designing Interactive Systems (DIS ‘20)  
 [\[PDF\]](pub/2020_DIS_Drone_Chi.pdf)
 
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
-</div>
-
 Joseph La Delfa, Mehmet Aydın Baytaş, Rakesh Patibanda, Hazel Ngari, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2020)  
 **Drone Chi: Somaesthetic Human-Drone Interaction**  
 In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI ’20)  
