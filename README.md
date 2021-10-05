@@ -4,27 +4,25 @@
 
 ## **Selected Design** x **Research Projects**
 
-(Coming soon.)
-
 <div class="gallery" markdown="1">
 
 ![image](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
-*Wisp*
+*Wisp (Coming Soon)*
 
 ![image](https://user-images.githubusercontent.com/1661078/136031585-477fdb8f-ebac-4e5a-9ee2-5de4148b0a5d.png)
-*PEP*
+*PEP (Coming Soon)*
 
 ![image](https://user-images.githubusercontent.com/1661078/136030946-a54acaf8-7f6a-4306-bbc2-b1d43f3477eb.png)
-*Ambient Atmospheres*
+*Ambient Atmospheres (Coming Soon)*
 
 [![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 *Azalea*](/research/azalea/)
 
 ![image](https://user-images.githubusercontent.com/1661078/136023073-e2154551-be3a-4ee4-bff8-ef75c935bd53.png)
-*Drone Chi*
+*Drone Chi (Coming Soon)*
 
 ![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
-*Computational Heirlooms*
+*Computational Heirlooms (Coming Soon)*
 
 </div>
 
@@ -33,15 +31,13 @@
 
 ## **Research Visions**
 
-(Coming soon.)
-
 <div class="gallery" markdown="1">
 
 ![image](https://user-images.githubusercontent.com/1661078/136036949-c7ce5e16-302c-4b2c-9f7e-a2df10c3e238.png)
-*Social Drones*
+*Social Drones (Coming Soon)*
 
 ![image](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
-*Digital Preciousness and Longevity*
+*Digital Preciousness and Longevity (Coming Soon)*
 
 </div>
 
