@@ -2,7 +2,7 @@
 
 ---
 
-## **Selected Design** &Cross; **Research Projects**
+## **Selected Design** X **Research Projects**
 
 (Coming soon.)
 
