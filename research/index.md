@@ -16,10 +16,6 @@ Dr. Mehmet Aydın Baytaş conducts research in design and computer science.
 
 # Publications
 
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/eefroz8oGX8" allowfullscreen></iframe>
-</div>
-
 Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021)  
 **Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**  
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
