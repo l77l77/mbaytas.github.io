@@ -26,18 +26,10 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
 [\[PDF\]](pub/2021_CHI?Professional.pdf)
 
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/1mekOd4zGBU" allowfullscreen></iframe>
-</div>
-
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021)  
 **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**  
 Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI)  
 [\[PDF\]](pub/2021_HRI_Wisp.pdf)
-  
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
-</div>
 
 Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa (2020)  
 **Azalea: Co-experiencing Embodied Information in Remote Communication**  
@@ -48,10 +40,6 @@ Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2
 **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**  
 Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies  
 [\[PDF\]](pub/2020_NordiCHI_WS_HDI.pdf)
-
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/VnqyuZm_0IE" allowfullscreen></iframe>
-</div>
 
 Florin-Timotei Ghiurãu, Mehmet Aydın Baytaş, & Casper Wickman (2020)  
 **ARCAR: On-Road Driving in Mixed Reality by Volvo Cars**  
@@ -98,10 +86,6 @@ Mehmet Aydın Baytaş (2019)
 interactions 26:6  
 [\[PDF\]](pub/2019_interactions_Break.pdf)
 
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/RsGIy-dVxzE" allowfullscreen></iframe>
-</div>
-
 Mehmet Aydın Baytaş, Damla Çay, Yuchong Zhang, Mohammad Obaid, Asım Evren Yantaç, & Morten Fjeld (2019)  
 **The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments**  
 In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19)  
@@ -136,10 +120,6 @@ Mehmet Aydın Baytaş (2019)
 PhD thesis submitted to the Koç University Graduate School of Social Sciences and Humanities  
 [\[PDF\]](pub/2019_PhD_Thesis.pdf)
 
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/NUwzHB9GPnk" allowfullscreen></iframe>
-</div>
-
 Mehmet Aydın Baytaş, Aykut Coşkun, Asım Evren Yantaç, & Morten Fjeld (2018)  
 **Towards Materials for Computational Heirlooms: Blockchains and Wristwatches**  
 In Proceedings of the 2018 Conference on Designing Interactive Systems (DIS ‘18)  
@@ -155,10 +135,6 @@ Adviye Ayça Ünlüer, Mehmet Aydın Baytaş, Oğuz Turan Buruk, Zeynep Cemalcı
 **The Effectiveness of Mime‐Based Creative Drama Education for Exploring Gesture‐Based User Interfaces**  
 International Journal of Art & Design Education, 37:3  
 [\[PDF\]](pub/2018_iJADE_Drama.pdf)
-
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/pVLuhdhDazM" allowfullscreen></iframe>
-</div>
 
 Mehmet Aydın Baytaş, Asım Evren Yantaç, & Morten Fjeld (2017)  
 **LabDesignAR: Configuring Multi-camera Motion Capture Systems in Augmented Reality**  
@@ -179,10 +155,6 @@ Mehmet Aydın Baytaş, Tilbe Göksun, & Oğuzhan Özcan (2016)
 **The Perception of Live-sequenced Electronic Music via Hearing and Sight**  
 In Proceedings of the 2016 International Conference on New Interfaces for Musical Expression (NIME ‘16)  
 [\[PDF\]](pub/2016_NIME_Techno.pdf)
-
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/zY2DqQbQCxw" allowfullscreen></iframe>
-</div>
 
 Mehmet Aydın Baytaş, Yücel Yemez, & Oğuzhan Özcan (2014)  
 **Hotspotizer: End-user Authoring of Mid-air Gestural Interactions**  
