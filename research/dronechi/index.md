@@ -58,10 +58,6 @@ Monash University
 RMIT Unviersity  
 Qualisys AB
 
-![suit](https://user-images.githubusercontent.com/1661078/136087140-80e590dd-a3d5-4020-bf5d-de5dcc73c2f9.png)
-
-![shirt](https://user-images.githubusercontent.com/1661078/136087226-1416e980-abe3-4603-bdb9-335c2c4af364.png)
-
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/xFeOfcTa6NM" allowfullscreen></iframe>
 </div>
@@ -77,5 +73,9 @@ Qualisys AB
 <div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/dMjaTtLwhwY" allowfullscreen></iframe>
 </div>
+
+![suit](https://user-images.githubusercontent.com/1661078/136087140-80e590dd-a3d5-4020-bf5d-de5dcc73c2f9.png)
+
+![shirt](https://user-images.githubusercontent.com/1661078/136087226-1416e980-abe3-4603-bdb9-335c2c4af364.png)
 
 ![longex](https://user-images.githubusercontent.com/1661078/136086688-ca929356-a96d-45e2-84f1-8bcec9c3cce4.png)
