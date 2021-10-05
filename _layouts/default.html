@@ -23,6 +23,7 @@
       :root {
         font-size: 100%;
         --leading: 1.61803398875rem;
+        --leading-em: 1.61803398875em;
         --smaller: 0.85410196625em;
         --textfont: neue-haas-grotesk-text, "Helvetica Neue", "Helvetica", sans-serif;
         --dispfont: neue-haas-grotesk-display, "Helvetica Neue", "Helvetica", sans-serif;
@@ -68,12 +69,14 @@
       
       h1 {
         font-size: 2rem;
-        line-height: calc(2*var(--leading));
+        line-height: var(--leading-em);
+        min-height: calc(2*var(--leading));
       }
       
       h2 {
         font-size: var(--leading);
-        line-height: calc(2*var(--leading));
+        line-height: var(--leading-em);
+        min-height: calc(2*var(--leading));
       }
       
       em,
