@@ -45,14 +45,8 @@ Thematic Analysis
 
 ## **Exhibitions and Publications**
 
-Dutch Design Week 2020
+[Dutch Design Week 2020](https://ddw.nl/en/programme/2835/azalea)
 
-Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021)  
-**Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**  
-In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)  
-[\[PDF\]](pub/2021_CHI_Azalea.pdf)
+Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021). **Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21). [\[PDF\]](pub/2021_CHI_Azalea.pdf)
 
-Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa (2020)  
-**Azalea: Co-experiencing Embodied Information in Remote Communication**  
-In Proceedings of the 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2020)  
-[\[PDF\]](pub/2020_MobileHCI_Azalea.pdf)
+Simon Mare, Sjoerd Hendriks, Mehmet Aydın Baytaş, & Mafalda Samuelsson-Gamboa (2020). **Azalea: Co-experiencing Embodied Information in Remote Communication**. In Proceedings of the 22nd International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI 2020). [\[PDF\]](pub/2020_MobileHCI_Azalea.pdf)
