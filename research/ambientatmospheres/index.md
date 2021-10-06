@@ -1,6 +1,6 @@
 # **Ambient Atmospheres**
 
-*Experiments in Light, Space, Algorithms, and Memories*
+*Experiments in Light, Materials, Algorithms, and Memories*
 
 ![panorama](https://user-images.githubusercontent.com/1661078/136187547-0304da60-47a8-4f7e-83c9-e8612cbb82f6.png)
 
