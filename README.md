@@ -8,22 +8,28 @@
 
 <div class="gallery" markdown="1">
 
-![image](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
+![wisp](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
 *Wisp (Coming Soon)*
 
-![image](https://user-images.githubusercontent.com/1661078/136031585-477fdb8f-ebac-4e5a-9ee2-5de4148b0a5d.png)
+![pep](https://user-images.githubusercontent.com/1661078/136031585-477fdb8f-ebac-4e5a-9ee2-5de4148b0a5d.png)
 *PEP (Coming Soon)*
 
-[![image](https://user-images.githubusercontent.com/1661078/136030946-a54acaf8-7f6a-4306-bbc2-b1d43f3477eb.png)
+[![ambientatmospheres](https://user-images.githubusercontent.com/1661078/136030946-a54acaf8-7f6a-4306-bbc2-b1d43f3477eb.png)
 *Ambient Atmospheres*](/research/ambientatmospheres/)
 
-[![image](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
+![pola](https://user-images.githubusercontent.com/1661078/136205737-f9e6a939-fefa-4fb3-b152-387ad25223e2.png)
+*Pola (Coming Soon)*
+
+![opal](https://user-images.githubusercontent.com/1661078/136206304-a43ad864-39e2-436a-ba2c-a92e226c82a2.png)
+*Opal (Coming Soon)*
+
+[![azalea](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 *Azalea*](/research/azalea/)
 
-[![image](https://user-images.githubusercontent.com/1661078/136023073-e2154551-be3a-4ee4-bff8-ef75c935bd53.png)
+[![dronechi](https://user-images.githubusercontent.com/1661078/136023073-e2154551-be3a-4ee4-bff8-ef75c935bd53.png)
 *Drone Chi*](/research/dronechi/)
 
-[![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
+[![computationalheirlooms](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
 *Computational Heirlooms*](/research/computationalheirlooms/)
 
 </div>
