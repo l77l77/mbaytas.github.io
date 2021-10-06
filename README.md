@@ -23,8 +23,8 @@
 [![image](https://user-images.githubusercontent.com/1661078/136023073-e2154551-be3a-4ee4-bff8-ef75c935bd53.png)
 *Drone Chi*](/research/dronechi/)
 
-![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
-*Computational Heirlooms (Coming Soon)*
+[![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
+*Computational Heirlooms*](/research/computationalheirlooms/)
 
 </div>
 
