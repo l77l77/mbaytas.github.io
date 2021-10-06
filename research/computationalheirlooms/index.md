@@ -3,7 +3,7 @@
 *Longevity and Long-term Value in Computers and Software*
 
 ![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
-*Product design sketches for a wearable cryptographic key. By Özgün Kılıç.*
+*Product design sketches for a wearable cryptographic key by Özgün Kılıç*
 
 I buy a new computer every two years, and a new smartphone every five years.
 
