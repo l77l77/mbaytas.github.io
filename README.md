@@ -48,7 +48,7 @@
 ## **Selected Publications and Appearances**
 
 [Design Disciplin](https://www.designdisciplin.com/)
-: Video Podcast, Website
+:   
 
 *2021*
 
