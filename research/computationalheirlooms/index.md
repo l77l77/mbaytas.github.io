@@ -1,4 +1,4 @@
-# Computational Heirlooms
+# **Computational Heirlooms**
 
 *Longevity and Long-term Value in Computers and Software*
 
