@@ -33,18 +33,18 @@ Many machines and technologies -- operating with various levels of autonomy and 
 Mafalda Samuelsson-Gamboa  
 Ziming Wang
 
-Morten Fjeld
-Sara Ljungblad
-Yemao Man
-Florian 'Floyd' Mueller
-Mohammad Obaid
+Morten Fjeld  
+Sara Ljungblad  
+Yemao Man  
+Florian 'Floyd' Mueller  
+Mohammad Obaid  
 
-Bitcraze AB
-Chalmers University of Technology
-Monash University
-University of Gothenburg
-Qualisys AB
-Visual Arena Lindholmen
+Bitcraze AB  
+Chalmers University of Technology  
+Monash University  
+University of Gothenburg  
+Qualisys AB  
+Visual Arena Lindholmen  
 
 ## **Publications**
 
