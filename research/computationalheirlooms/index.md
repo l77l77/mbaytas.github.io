@@ -24,11 +24,11 @@ The proposal interweaves an experience-centered commentary on longevity and valu
 
 ## **Credits**
 
-Aykut Coşkun
-Ylva Fernaeus
-Morten Fjeld
-Özgün Kılıç
-Asım Evren Yantaç
+Aykut Coşkun  
+Ylva Fernaeus  
+Morten Fjeld  
+Özgün Kılıç  
+Asım Evren Yantaç  
 
 ![bigdiagram](https://user-images.githubusercontent.com/1661078/136200666-c40ce505-4531-484e-b5c6-97d1796ad3a2.png)
 
