@@ -22,6 +22,12 @@ devices are transposed onto software and electronics. Second, it proposes two "d
 
 The proposal interweaves an experience-centered commentary on longevity and value in product design, technical analyses of "material properties" in software, electronics, and traditional craft, and comparative economics of software and consumer electronics industries vs. "ensouled" luxury craft objects.
 
+## **Ethos** + **Methodology**
+
+Conceptual Design
+Literature Synthesis
+Transdisciplinarity
+
 ## **Credits**
 
 Aykut Coşkun  
@@ -32,13 +38,13 @@ Asım Evren Yantaç
 
 ![bigdiagram](https://user-images.githubusercontent.com/1661078/136200666-c40ce505-4531-484e-b5c6-97d1796ad3a2.png)
 
+![distro](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
+
 ![moser](https://user-images.githubusercontent.com/1661078/136202477-20d4ef44-2bc5-4b88-8827-4383c3bb5c5b.png)
 *Design inspiration: H. Moser & Cie. Swiss Alp Watch Concept Black*
 
 ![haldimann](https://user-images.githubusercontent.com/1661078/136202498-aa5f1d16-4f5c-4719-817d-615c644acb21.png)
 *Design inspiration: Haldimann H8 -- Flying Sculpture*
-
-devices are transposed onto software and electronics. Second, it proposes two "design materials" which are well-suited to embody this ideal: blockchain-based software and mechanical devices built with materials and fabrication practices we see in mechanical wristwatches. Finally, it proposes a particular manifestation of this concept, grounded in a real use case: access and authentication using a mechanical wristwatch-like wearable.
 
 ## **Publications** + **Funded Projects**
 
