@@ -22,6 +22,14 @@ devices are transposed onto software and electronics. Second, it proposes two "d
 
 The proposal interweaves an experience-centered commentary on longevity and value in product design, technical analyses of "material properties" in software, electronics, and traditional craft, and comparative economics of software and consumer electronics industries vs. "ensouled" luxury craft objects.
 
+## **Credits**
+
+Aykut Coşkun
+Ylva Fernaeus
+Morten Fjeld
+Özgün Kılıç
+Asım Evren Yantaç
+
 ![bigdiagram](https://user-images.githubusercontent.com/1661078/136200666-c40ce505-4531-484e-b5c6-97d1796ad3a2.png)
 
 ![moser](https://user-images.githubusercontent.com/1661078/136201691-5f3392d4-0b53-41ca-9c97-4883016bcd7e.png)
