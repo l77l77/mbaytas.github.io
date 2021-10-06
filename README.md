@@ -47,7 +47,7 @@
 
 ## **Selected Publications and Appearances**
 
-[Design Disciplin](https://www.designdisciplin.com/)
+[**Design Disciplin**](https://www.designdisciplin.com/)
 :   
 
 *2021*
