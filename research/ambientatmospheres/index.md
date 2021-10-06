@@ -6,7 +6,7 @@
 
 Ambient Atmospheres began as an open-ended, exploratory research-through-design project and culminated in an exhibition titled Bright Memories.
 
-Building on a philosophical notion of "playful hacking" from scholarly literature on human-computer interaction design, the team created numerous prototypes over six months; experimenting with materials, algorithms, electronics, mechanics, graphic design, lighting design, architectural scale prototyping, and social perceptions.
+Building on a philosophical notion of "playful hacking" from scholarly literature on human-computer interaction design, the team created numerous prototypes over six months; experimenting with materials, algorithms, electronics, mechanics, graphic design, lighting design, architectural scale prototyping, software development, and social perceptions.
 
 The design experiments culminated in a room-scale installation Bright Memories at Gothenburg's A Working Lab, exhibited during the summer of 2021. The focal point of the installation was an interactive centerpiece composed of 7 floating light windows, constructed by "upcycling" parts from discarded LCD monitors. A console and cartridges fabricated from wood provided a tactile means to play back "memories" in the abstract light medium. Flanking the centerpiece, 10 posters opened mysterious windows into the design and research process.
 
