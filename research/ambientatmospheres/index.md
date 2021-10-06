@@ -46,4 +46,4 @@ Threads of Design
 
 Bright Memories exhibition at A Working Lab, Gothenburg, Sweden (2021).
 
-Mattias Hallin & Frederik Max Göbel (2021). **Ambient Atmospheres: Topology of Light**. Master's thesis submitted to Chalmers University, Department of Computer Science and Engineering.
+Mattias Hallin & Frederik Max Göbel (2021). **Ambient Atmospheres: Topology of Light**. Master's thesis submitted to Chalmers University of Technology, Department of Computer Science and Engineering.
