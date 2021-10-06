@@ -47,7 +47,7 @@ Asım Evren Yantaç
 ![haldimann](https://user-images.githubusercontent.com/1661078/136202498-aa5f1d16-4f5c-4719-817d-615c644acb21.png)
 *Design Inspiration: Haldimann H8 -- Flying Sculpture*
 
-## **Publications** + **Funded Projects**
+## **Publications** + **Funding**
 
 Project **Precious Keys: Long-Term User Experiences with End-user Authentication Hardware** (2020 -- 2023) funded by Vetenskapsrådet (Swedish Research Council) – Natural and Engineering Sciences (Grant #2019-04826)
 
