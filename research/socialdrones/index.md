@@ -4,12 +4,20 @@
 
 ![image](https://user-images.githubusercontent.com/1661078/136213121-8c89e4f6-ff2a-42a7-b8cc-6f5df3530ba4.png)
 
+Autonomous drones are on the cusp of becoming ubiquitous in and around our built environments. They are already used widely in contexts including construction, planning, energy, geology, archaeology, military and law enforcement, search and rescue, logistics, forestry, photography and filmmaking, and real estate.
 
-Autonomous drones are poised to become ubiquitous. Drones are already used in both research and practical applications for variety of purposes including construction and maintenance, military and emergency operations, logistics, accessibility, smart homes, sports and exercise, and human-computer interaction (HCI). 
+Most current drone applications involve a pilot using a drone to remotely view or manipulate things in destinations that are not easily accessible for humans. Conversely, there are emerging applications where fully autonomous drones operate in spaces populated by human users or bystanders. We coined the term "social drones" to describe these applications.
 
-Most current drone applications are motivated by maneuverability: a pilot can use a drone to remotely view or manipulate things in environments that are not easily accessible for humans. Conversely, there are emerging applications where fully autonomous drones operate in spaces populated by human users or bystanders. We coined the term "social drones" to describe these applications.
+Social drones and “human-drone interaction” (HDI) are growing topics within human-computer interaction (HCI) and human-robot interaction (HRI) research communities. Situated here, we conduct design research on interactive autonomous drones.
 
-Social drones and “human-drone interaction” (HDI) are growing research topics within HCI and human-robot interaction (HRI) in terms of interest, sophistication, and relevance. Our research on these topics -- primarily design research on interactive autonomous drones -- is broadly consequential, for four reasons:
+Our work develops human-centered knowledge and design experiments around social drones. The foundation of our methodology is "research through design", where we undertake design experiments as follows:
+
+1. We build prototypes for social drones and related systems (e.g. information and interaction), informed by previous research. Our designs are sometimes pragmatic and task-oriented; but more often, they are speculative and playful.
+2. We conduct human-centered empirical design studies to characterize experiences around these inventions.
+3. We analyze and theorize over the results to extract coherent frameworks that can inform future products, services, policy, and research.
+4. We publish our findings, as well as open source software, tools, documentation, and other contributions to support future work.
+
+This work is broadly consequential, for four reasons:
 
 1. The usefulness of current drones in specific work and leisure contexts is indisputable, yet they come with significant usability and user experience limitations for both users and bystanders. Research and experiments to conquer these will serve existing stakeholders and enable novel use cases. 
 2. Drones are already popular, and already capable of harming and disrupting our lives if things go wrong. Social constructs (etiquette, law, policy, education...) are already evolving to cover them, and we would like to support this evolution with research and knowledge. 
@@ -18,14 +26,7 @@ Social drones and “human-drone interaction” (HDI) are growing research topic
 
 Many machines and technologies -- operating with various levels of autonomy and “intelligence” -- are already embedded in the fabric of our societies, and a variety of social patterns (norms, conventions, expectations, etiquette...) accompany them. The busses and automobiles on our streets, the computers on our desks at work, and the tools in our kitchens mediate and influence interpersonal relations and social phenomena. We expect drones to become similarly ubiquitous. A sophisticated understanding of how drones interact with human factors and social order will be key to useful product designs, and to the deft handling of drone-related phenomena in the public sphere. 
 
-Our research creates human-centered knowledge that informs designs for a particular kind of autonomous system, social drones, as well as social constructs and institutions that pertain to it.
 
-The foundation of our methodology is "research through design", where we undertake design experiments by going through the following steps:
-
-1. Build prototypes for social drones and related systems (e.g. information and interaction), informed by previous research.
-2. Conduct human-centered empirical design studies, grounded in prior research, to characterize experiences around social drones in everyday settings.
-3. Analyze and theorize over the results to extract coherent frameworks that can inform future products, services, and policy.
-4. Communicate resulting knowledge to relevant stakeholders, e.g. professionals in design, engineering, law, policy, business, and education, as well as the general public.
 
 ## **Credits**
 
@@ -47,7 +48,7 @@ Visual Arena Lindholmen
 
 ## **Publications**
 
-Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Mohammad Obaid, & Morten Fjeld (2021). **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21). [\[PDF\]](../pub/2021_CHI?Professional.pdf)
+Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Mohammad Obaid, & Morten Fjeld (2021). **What Matters in Professional Drone Pilots’ Practice? An Interview Study to Understand the Complexity of Their Work and Inform Human-Drone Interaction Research**. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21). [\[PDF\]](../pub/2021_CHI_Professional.pdf)
 
 Mafalda Gamboa, Mehmet Aydın Baytaş and Sara Ljungblad (2021). **Wisp: a Design Case for Temporality in Research through Design in Human-Robot Companionship**. Paper for the HRI '21 Workshop Research Through Design Approaches in Human-Robot Interaction (RTDxHRI). [\[PDF\]](../pub/2021_HRI_Wisp.pdf)
 
