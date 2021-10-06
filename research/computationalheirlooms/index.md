@@ -41,10 +41,10 @@ Asım Evren Yantaç
 ![distro](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
 
 ![moser](https://user-images.githubusercontent.com/1661078/136202477-20d4ef44-2bc5-4b88-8827-4383c3bb5c5b.png)
-*Design inspiration: H. Moser & Cie. Swiss Alp Watch Concept Black*
+*Design Inspiration: H. Moser & Cie. Swiss Alp Watch Concept Black*
 
 ![haldimann](https://user-images.githubusercontent.com/1661078/136202498-aa5f1d16-4f5c-4719-817d-615c644acb21.png)
-*Design inspiration: Haldimann H8 -- Flying Sculpture*
+*Design Inspiration: Haldimann H8 -- Flying Sculpture*
 
 ## **Publications** + **Funded Projects**
 
