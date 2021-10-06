@@ -25,9 +25,9 @@ Kollision
 
 ## **Ethos** + **Methodology**
 
-Playful Hacking
+Playful Hacking  
 Research through Design    
-Thematic Analysis
+Thematic Analysis  
 Threads of Design
 
 ![person](https://user-images.githubusercontent.com/1661078/136030946-a54acaf8-7f6a-4306-bbc2-b1d43f3477eb.png)
