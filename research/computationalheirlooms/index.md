@@ -1,6 +1,6 @@
 # Computational Heirlooms
 
-**
+*Longevity and Long-term Value in Computers and Software*
 
 I buy a new computer every two years, and a new smartphone every five years.
 
