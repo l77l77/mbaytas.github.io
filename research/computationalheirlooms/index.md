@@ -24,9 +24,9 @@ The proposal interweaves an experience-centered commentary on longevity and valu
 
 ## **Ethos** + **Methodology**
 
-Conceptual Design
-Literature Synthesis
-Transdisciplinarity
+Conceptual Design  
+Literature Synthesis  
+Transdisciplinarity  
 
 ## **Credits**
 
