@@ -1,6 +1,6 @@
-# Social Drones
+# **Social Drones**
 
-*This project is funded by the Wallenberg AI, Autonomous Systems and Software Program – Humanities and Society*
+*This project is funded by the Wallenberg AI, Autonomous Systems and Software Program – Humanities and Society (2020--2024)*
 
 ![image](https://user-images.githubusercontent.com/1661078/136213121-8c89e4f6-ff2a-42a7-b8cc-6f5df3530ba4.png)
 
