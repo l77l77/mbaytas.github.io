@@ -2,6 +2,8 @@
 
 *Longevity and Long-term Value in Computers and Software*
 
+![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
+
 I buy a new computer every two years, and a new smartphone every five years.
 
 *(The average American consumer reportedly replaces their smartphone before spending 2 years with it. I console myself imagining that faster turnover is common for computer scientists and designers.)*
@@ -13,8 +15,22 @@ Computers today can have infinite forms, and infinite functions; but fall short 
 
 Can we design and build computational artifacts today, that are intended to outlast their owners? Can we somehow make computational artifacts that, after decades, will be still as functional and valuable (if not more valuable) as on day one?
 
-Computational Heirlooms is a conceptual design space, constructed through philosophical inquiry and literature synthesis, to provide a foundation for future product designs. It articulates, first, a theoretical user experience, where patterns use, function, and emotion that are innate in many physical, mechanical
-devices are transposed onto software and electronics. Second, it proposes a particular manifestation of this concept, grounded in a real use case: access and authentication using a mechanical wristwatch-like wearable.
+Computational Heirlooms is a conceptual design space, constructed through philosophical inquiry and literature synthesis, to provide a foundation for future product designs.
+
+It articulates, first, a theoretical user experience, where patterns use, function, and emotion that are innate in many physical, mechanical
+devices are transposed onto software and electronics. Second, it proposes two "design materials" which are well-suited to embody this ideal: blockchain-based software and mechanical devices built with materials and fabrication practices we see in mechanical wristwatches. Finally, it proposes a particular manifestation of this concept, grounded in a real use case: access and authentication using a mechanical wristwatch-like wearable.
+
+The proposal interweaves an experience-centered commentary on longevity and value in product design, technical analyses of "material properties" in software, electronics, and traditional craft, and comparative economics of software and consumer electronics industries vs. "ensouled" luxury craft objects.
+
+![bigdiagram](https://user-images.githubusercontent.com/1661078/136200666-c40ce505-4531-484e-b5c6-97d1796ad3a2.png)
+
+![moser](https://user-images.githubusercontent.com/1661078/136201691-5f3392d4-0b53-41ca-9c97-4883016bcd7e.png)
+*Design inspiration: H. Moser & Cie. Swiss Alp Watch Concept Black*
+
+![haldimann](https://user-images.githubusercontent.com/1661078/136201760-46197402-549f-4660-82c4-9dc0c332e5ac.png)
+*Design inspiration: Haldimann H8 -- Flying Sculpture*
+
+devices are transposed onto software and electronics. Second, it proposes two "design materials" which are well-suited to embody this ideal: blockchain-based software and mechanical devices built with materials and fabrication practices we see in mechanical wristwatches. Finally, it proposes a particular manifestation of this concept, grounded in a real use case: access and authentication using a mechanical wristwatch-like wearable.
 
 ## **Publications** + **Funded Projects**
 
