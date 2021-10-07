@@ -16,10 +16,10 @@ Morten Fjeld
 Sara Ljungblad  
 Mohammad Obaid
 
-Bitcraze AB
-Chalmers University of Technology
-PLUX Wireless Biosignals SA
-Qualisys AB
+Bitcraze AB  
+Chalmers University of Technology  
+PLUX Wireless Biosignals SA  
+Qualisys AB  
 University of Gothenburg
 
 ## **Ethos** + **Methodology**
