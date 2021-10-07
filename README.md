@@ -1,10 +1,4 @@
-# Mehmet Aydın Baytaş &mdash; <br> **Designer** + **Computer Scientist**
-
-*[Twitter](http://twitter.com/doctorBaytas)* \| *[LinkedIn](https://www.linkedin.com/in/doctorbaytas/)* \| *[Google Scholar](https://scholar.google.com/citations?user=2ZPGfGYAAAAJ)* \| *[GitHub](https://github.com/mbaytas/)*
-
----
-
-## **Selected Design** x **Research Projects**
+# **Selected Design** x **Research Projects**
 
 <div class="gallery" markdown="1">
 
@@ -40,9 +34,8 @@
 
 </div>
 
----
 
-## **Selected Publications and Appearances**
+# **Selected Publications and Appearances**
 
 [**Design Disciplin**](https://www.designdisciplin.com/)
 :   
@@ -102,9 +95,8 @@
 [Hotspotizer: End-user Authoring of Mid-air Gestural Interactions](research/pub/2014_NordiCHI_Hotspotizer.pdf)
 : Research
 
----
 
-## **Research Visions**
+# **Research Visions**
 
 <div class="gallery" markdown="1">
 
