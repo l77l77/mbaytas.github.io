@@ -49,7 +49,7 @@
         text-decoration: none;
       }
       
-      em, small {
+      em, small, .small {
         font-size: var(--smaller);
       }
       
@@ -141,26 +141,24 @@
           grid-template-columns: minmax(1rem, 1fr);
         }
       }
+          
+      nav ul {
+        list-style-type: none;
+      }
+      @media (max-width: 800px) {
+        nav ul li {
+          display: inline-block;
+        }
+        nav ul li + li::before {
+          content: " | ";
+        }
+      }
       
       .footer {        
         max-width: var(--max-width);
         margin: var(--leading) auto;
         padding: 0 var(--leading);
         padding-bottom: calc(2*var(--leading));
-      }
-      
-      nav ul {
-        list-style-type: none;
-      }
-      @media (max-width: 800px) {
-        nav ul:not(#markdown-toc),
-        nav ul li:not(#markdown-toc) {
-          display: inline-block;
-        }
-        nav ul + ul:not(#markdown-toc)::before,
-        nav ul li + li:not(#markdown-toc)::before {
-          content: " | ";
-        }
       }
       
       .gallery {        
@@ -355,13 +353,23 @@
       
         <nav>
           
-          <ul>
-            <li><a href="/">Home</a></li>
-          </ul>
+          <p>
+            Mehmet Aydın Baytaş &mdash; <br>
+            <strong>Designer</strong> + <br>
+            <strong>Computer Scientist</strong>
+          </p>
           
           <ul>
+            <li><a href="/">Home</a></li>
             <li><a href="/bio/">Bio</a></li>
             <li><a href="/research/">Publications</a></li>
+          </ul>
+          
+          <ul class="small">
+            <li><a href="http://twitter.com/doctorBaytas" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/doctorbaytas/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://scholar.google.com/citations?user=2ZPGfGYAAAAJ" target="_blank">Google Scholar</a></li>
+            <li><a href="https://github.com/mbaytas/" target="_blank">GitHub</a></li>
           </ul>
                     
         </nav>
@@ -377,7 +385,7 @@
     </div><!-- .satzspiegel -->  
     
           
-    <p class="footer"><small>
+    <p class="footer small">
       <a href="http://twitter.com/doctorBaytas" target="_blank">Twitter</a> 
       |
       <a href="https://www.linkedin.com/in/doctorbaytas/" target="_blank">LinkedIn</a>
@@ -385,7 +393,7 @@
       <a href="https://scholar.google.com/citations?user=2ZPGfGYAAAAJ" target="_blank">Google Scholar</a>
       |
       <a href="https://github.com/mbaytas/" target="_blank">GitHub</a>
-    </small></p>
+    </p>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
