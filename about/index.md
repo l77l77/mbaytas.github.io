@@ -1,12 +1,8 @@
----
-title: Bio | Mehmet Aydın Baytaş
----
-
 # About
 
-I am a <del>programmer, engineer, economist, academic, musician, writer, strategist, photographer, YouTuber, philosopher, teacher<del> designer + computer scientist born in Turkey, currently based in <del>Istanbul</del> Gothenburg.
+I am a ~~programmer, engineer, economist, academic, musician, writer, strategist, photographer, YouTuber, philosopher, teacher~~ designer + computer scientist born in Turkey, currently based in ~~Istanbul~~ Gothenburg.
 
-In addition to my own research and design practice, I produce and host [Design Disciplin](https://www.designdisciplin.com/) -- a [video](https://www.youtube.com/designdisciplin) [podcast](https://podcast.designdisciplin.com/) and [website]((https://www.designdisciplin.com/)) that seeks to illuminate diverse patches on the vast landscape of "design".
+I also produce and host [Design Disciplin](https://www.designdisciplin.com/) -- a [video](https://www.youtube.com/designdisciplin) [podcast](https://podcast.designdisciplin.com/) and [website]((https://www.designdisciplin.com/)) that seeks to illuminate diverse patches on the vast landscape of "design".
   
 
 # **Academic Bio**
