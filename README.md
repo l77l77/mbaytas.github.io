@@ -32,7 +32,7 @@
 [![computationalheirlooms](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
 *Computational Heirlooms*](/research/computationalheirlooms/)
 
-[![image](https://user-images.githubusercontent.com/1661078/136349312-84083373-5f5d-4995-88f3-223edb414741.png)
+[![hotspotizer](https://user-images.githubusercontent.com/1661078/136349312-84083373-5f5d-4995-88f3-223edb414741.png)
 *Hotspotizer*](/research/hotspotizer/)
 
 </div>
