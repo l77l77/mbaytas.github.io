@@ -41,7 +41,7 @@ Threads of Design
 
 ![places](https://user-images.githubusercontent.com/1661078/136194204-8925ac3f-6c1d-4f7b-af19-46e69ec7b2ad.png)
 
-## **Publications** + **Exhibitions**
+## Publications *+* Exhibitions
 
 Bright Memories exhibition at A Working Lab, Gothenburg, Sweden (2021).
 
