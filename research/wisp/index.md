@@ -24,7 +24,7 @@ University of Gothenburg
 
 ## **Ethos** + **Methodology**
 
-Breathwork
+Breathwork  
 Somaesthetics
 
 ![image](https://user-images.githubusercontent.com/1661078/133905635-a8c8c75d-d044-445e-a5ed-cc29f1b67bbf.png)
