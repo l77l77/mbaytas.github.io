@@ -26,8 +26,6 @@ This work is broadly consequential, for four reasons:
 
 Many machines and technologies -- operating with various levels of autonomy and “intelligence” -- are already embedded in the fabric of our societies, and a variety of social patterns (norms, conventions, expectations, etiquette...) accompany them. The busses and automobiles on our streets, the computers on our desks at work, and the tools in our kitchens mediate and influence interpersonal relations and social phenomena. We expect drones to become similarly ubiquitous. A sophisticated understanding of how drones interact with human factors and social order will be key to useful product designs, and to the deft handling of drone-related phenomena in the public sphere. 
 
-
-
 ## **Credits**
 
 Mafalda Samuelsson-Gamboa  
@@ -45,6 +43,10 @@ Monash University
 University of Gothenburg  
 Qualisys AB  
 Visual Arena Lindholmen  
+
+<div class="ratio ratio-16x9 my-3">
+<iframe src="https://www.youtube.com/embed/V3NFn936gzY" allowfullscreen></iframe>
+</div>
 
 ## **Publications**
 
