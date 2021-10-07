@@ -148,6 +148,18 @@
         padding-bottom: calc(2*var(--leading));
       }
       
+      nav ul {
+        list-style-type: none;
+      }
+      @media (max-width: 800px) {
+        nav ul li {
+          display: inline-block;
+        }
+        nav ul li + li::before {
+          content: " | ";
+        }
+      }
+      
       .gallery {        
         display: grid;
         grid-gap: var(--leading);
@@ -339,16 +351,15 @@
       
         <nav>
           
-          <p>
-            <a href="/">Home</a>
-          </p>
+          <ul>
+            <li><a href="/">Home</a></li>
+          </ul>
           
           
-          <p>
-            <a href="/bio/">Bio</a>
-            <br>
-            <a href="/research/">Publications</a>
-          </p>
+          <ul>
+            <li><a href="/bio/">Bio</a></li>
+            <li><a href="/research/">Publications</a></li>
+          </ul>
                     
         </nav>
       
