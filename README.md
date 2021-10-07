@@ -9,7 +9,7 @@
 *Opal (Coming Soon)*
 
 [![cs](https://user-images.githubusercontent.com/1661078/136353977-dbc44c8c-678a-4a55-9fcb-4e8a6e8f0ae7.png)
-*Citations*](/research/citations/)
+*Citations Collection*](/research/citations/)
 
 [![wisp](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
 *Wisp*](/research/wisp/)
