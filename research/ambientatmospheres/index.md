@@ -14,8 +14,7 @@ As a research project, Ambient Atmospheres demonstrates an archetype for "explor
 
 ## **Credits**
 
-Frederik Göbel  
-Mattias Hallin  
+Frederik Göbel + Mattias Hallin *(Principals)*
 
 Mafalda Samuelsson-Gamboa
 
