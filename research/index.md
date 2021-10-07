@@ -1,4 +1,4 @@
-# **Research Publications**
+# Research Publications
 
 Sjoerd Hendriks, Simon Mare, Mafalda Samuelsson-Gamboa, & Mehmet Aydın Baytaş (2021). **Azalea: Co-experience in Remote Dialog through Diminished Reality and Somaesthetic Interaction Design**. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21). [\[PDF\]](pub/2021_CHI_Azalea.pdf)
 
