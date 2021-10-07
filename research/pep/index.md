@@ -1,4 +1,4 @@
-# **PEP**
+# PEP
 
 *Participatory Speculative Design for Mental Well-Being*
 
@@ -23,7 +23,7 @@ Numerous speculative design concepts were developed from this research, culminat
 
 Our "methodological innovation" fusing human-centered and speculative elements was successful: our audience showed heightened engagement with the topics we meant to call attention to; and appreciated elements of the speculative approach as we expected.
 
-## **Credits**
+## Credits
 
 Jens Hulteberg + Vendela Stenson *(Principals)*
 
@@ -32,7 +32,7 @@ Mafalda Samuelsson-Gamboa
 Chalmers University of Technology  
 RISE Research Institutes of Sweden
 
-## **Ethos** + **Methodology**
+## Ethos + Methodology
 
 Human-Centered Speculative Design  
 Thematic Analysis
@@ -55,6 +55,6 @@ Thematic Analysis
 
 ![party](https://user-images.githubusercontent.com/1661078/136343357-58e7d7b4-0389-4f02-bee8-b5d0c82e3aa6.png)
 
-## **Publications**
+## Publications
 
 Jens Hulteberg & Vendela Stenson (2021). **The PEP: Creating and evaluating a user centered speculative design that aims to trigger discussion around the consequences of technology on mental health**. Master’s thesis submitted to the joint Department of Computer Science and Engineering at Chalmers University of Technology and University of Gothenburg.
