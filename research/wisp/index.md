@@ -29,11 +29,11 @@ Somaesthetics
 
 ![image](https://user-images.githubusercontent.com/1661078/133905635-a8c8c75d-d044-445e-a5ed-cc29f1b67bbf.png)
 
-![image](https://user-images.githubusercontent.com/1661078/133905716-d94cf82b-4945-4aab-a3fb-4b31a2e94cc7.png)
-
 <div class="ratio ratio-16x9 my-3">
 <iframe src="https://www.youtube.com/embed/1mekOd4zGBU" allowfullscreen></iframe>
 </div>
+
+![image](https://user-images.githubusercontent.com/1661078/133905716-d94cf82b-4945-4aab-a3fb-4b31a2e94cc7.png)
 
 ## **Publications** + **Open Source**
 
