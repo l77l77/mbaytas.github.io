@@ -8,7 +8,7 @@
 
 *Notice: The NFTs are currently under development. If you are interested in updates about this project, you can [follow me on Twitter](https://twitter.com/doctorBaytas) where I will publish details when the project is ready for commercial debut.*
 
-Citations is a collection of piece-unique NFTs representing works in computer science whose impact has re-shaped the material and cultural world we inhabit.
+Citations is a collection of piece-unique NFTs representing important works in computer science, whose impact has re-shaped our material and cultural world.
 
 Reciprocating to the classical recording system of scholarly publishing, Citations expresses these canonical works on a contemporary recording system: the blockchain.
 
