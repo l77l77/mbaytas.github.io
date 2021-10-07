@@ -12,7 +12,7 @@ Hotspotizer allows everyone -- designers, hobbyists, students... -- to integrate
 
 While open source Hotspotizer app is tailored to work specifically on Windows, with the Microsoft Kinect sensor; the UI design concept "space discretization" can be adapted for many different 3D motion and position sensors like Leap Motion and general-purpose motion capture, as well as to robot path programming.
 
-## **Ethos** + **Methodology**
+## Ethos *+* Methodology
 
 Human-centered Design  
 Space Discretization
