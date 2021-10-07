@@ -16,7 +16,7 @@ As a research project, Azalea demonstrates leveraging subtle capabilities of eve
 
 ## **Credits**
 
-Sjoerd Hendriks, Simon Mare *(Principals)*
+Sjoerd Hendriks + Simon Mare *(Principals)*
 
 Mafalda Samuelsson-Gamboa
 
