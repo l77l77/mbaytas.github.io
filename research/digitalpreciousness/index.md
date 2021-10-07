@@ -1,4 +1,4 @@
-# **Digital Preciousness**
+# Digital Preciousness
 
 *This project is funded by Vetenskapsrådet (The Swedish Research Council) – Natural and Engineering Sciences Grant #2019-04826 (2020--2023)*
 
@@ -18,13 +18,13 @@ Concurrently, blockchain technology has seen immense developments and adoption i
 
 Our work investigates materials, processes, forms, and interaction designs that address these challenges and opportunities. We do this through theoretical and user-centered research, as well as through design experiments and first-person participation in the relevant ecosystems.
 
-## **Ethos** + **Methodology**
+## Ethos *+* Methodology
 
 Ensoulment  
 Research through Design  
 Transdisciplinarity  
 
-## **Credits**
+## Credits
 
 Ylva Fernaeus  
 Andreas Lindegren  
@@ -46,7 +46,7 @@ KTH Royal Institute of Technology
 ![haldimann](https://user-images.githubusercontent.com/1661078/136202498-aa5f1d16-4f5c-4719-817d-615c644acb21.png)
 *Design Inspiration: Haldimann H8 -- Flying Sculpture*
 
-## **Publications** + **Funding** + **Products**
+## Publications *+* Grants *+* Products
 
 [Citations Collection NFTs](https://opensea.io/citations)
 
