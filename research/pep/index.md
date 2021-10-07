@@ -57,4 +57,4 @@ Thematic Analysis
 
 ## **Publications**
 
-Jens Hulteberg & Vendela Stenson (2021). The PEP: Creating and evaluating a user centered speculative design that aims to trigger discussion around the consequences of technology on mental health. Master’s thesis submitted to the joint Department of Computer Science and Engineering at Chalmers University of Technology and University of Gothenburg.
+Jens Hulteberg & Vendela Stenson (2021). **The PEP: Creating and evaluating a user centered speculative design that aims to trigger discussion around the consequences of technology on mental health**. Master’s thesis submitted to the joint Department of Computer Science and Engineering at Chalmers University of Technology and University of Gothenburg.
