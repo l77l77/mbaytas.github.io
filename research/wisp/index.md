@@ -29,7 +29,7 @@ Somaesthetics
 
 ![image](https://user-images.githubusercontent.com/1661078/133905635-a8c8c75d-d044-445e-a5ed-cc29f1b67bbf.png)
 
-<div class="ratio ratio-16x9 my-3">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/1mekOd4zGBU" allowfullscreen></iframe>
 </div>
 
