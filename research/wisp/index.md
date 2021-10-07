@@ -10,7 +10,7 @@ The experience design is inspired and informed by how breathwork teachers work w
 
 ## **Credits**
 
-Mafalda Samuelsson-Gamboa (Principal)
+Mafalda Samuelsson-Gamboa *(Principal)*
 
 Morten Fjeld  
 Sara Ljungblad  
