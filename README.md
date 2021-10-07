@@ -8,14 +8,14 @@
 
 <div class="gallery" markdown="1">
 
-![cs](https://user-images.githubusercontent.com/1661078/136353977-dbc44c8c-678a-4a55-9fcb-4e8a6e8f0ae7.png)
-*Citations (Coming Soon)*
-
 ![pola](https://user-images.githubusercontent.com/1661078/136205737-f9e6a939-fefa-4fb3-b152-387ad25223e2.png)
 *Pola (Coming Soon)*
 
 ![opal](https://user-images.githubusercontent.com/1661078/136336068-1910239a-b2fc-4559-a2c5-071477912d23.png)
 *Opal (Coming Soon)*
+
+[![cs](https://user-images.githubusercontent.com/1661078/136353977-dbc44c8c-678a-4a55-9fcb-4e8a6e8f0ae7.png)
+*Citations*](/research/citations)
 
 [![wisp](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
 *Wisp*](/research/wisp/)
@@ -109,9 +109,9 @@
 <div class="gallery" markdown="1">
 
 [![image](https://user-images.githubusercontent.com/1661078/136036949-c7ce5e16-302c-4b2c-9f7e-a2df10c3e238.png)
-*Social Drones*](/research/socialdrones)
+*Social Drones*](/research/socialdrones/)
 
-![image](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
-*Digital Preciousness and Longevity (Coming Soon)*
+[![image](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
+*Digital Preciousness and Longevity*](/research/digitalpreciousness/)
 
 </div>
