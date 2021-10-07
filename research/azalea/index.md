@@ -1,4 +1,4 @@
-# **Azalea**
+# Azalea
 
 *Enriching Remote Conversations via Diminished Reality + Somaesthetic Interaction Design*
 
@@ -14,7 +14,7 @@ Most designs for enriching remote conversations increase the quantity and fideli
 
 As a research project, Azalea demonstrates leveraging subtle capabilities of everyday computational artifacts – like smartphones – in symbiosis with physical product design, instantiates "diminished reality" as a design ethos, and expands the "somaesthetic design" approach to novel ground.
 
-## **Credits**
+## Credits
 
 Sjoerd Hendriks + Simon Mare *(Principals)*
 
@@ -23,7 +23,7 @@ Mafalda Samuelsson-Gamboa
 Chalmers University of Technology  
 RISE Interactive
 
-## **Ethos** + **Methodology**
+## Ethos *+* Methodology
 
 Diminished Reality  
 Research through Design  
@@ -46,7 +46,7 @@ Thematic Analysis
 
 ![radiate](https://user-images.githubusercontent.com/1661078/136051144-0ece09bc-add1-430d-96d0-735a4960a704.png)
 
-## **Publications** + **Exhibitions**
+## Publications *+* Exhibitions
 
 [Dutch Design Week 2020](https://ddw.nl/en/programme/2835/azalea)
 
