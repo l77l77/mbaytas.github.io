@@ -42,7 +42,7 @@ Thematic Analysis
 
 ![radiate](https://user-images.githubusercontent.com/1661078/136051144-0ece09bc-add1-430d-96d0-735a4960a704.png)
 
-## **Exhibitions** + **Publications**
+## **Publications** + **Exhibitions**
 
 [Dutch Design Week 2020](https://ddw.nl/en/programme/2835/azalea)
 
