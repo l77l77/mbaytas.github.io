@@ -1,4 +1,4 @@
-# **Drone Chi**
+# Drone Chi
 
 *Meditative Movement with a Drone*
 
@@ -19,7 +19,7 @@ Throughout the exercise, movements require coordination and focus. The glow sign
 
 As a research project, Drone Chi reveals implications for human-drone interaction design and technologies, as well as methodological implications that consolidate elements from product design, experience design, engineering, and a philosophy of somaesthetics.
 
-## **Ethos** + **Methodology**
+## Ethos *+* Methodology
 
 Meditative Movement  
 Product Design Engineering  
@@ -27,7 +27,7 @@ Research through Design
 Somaesthetics  
 Thematic Analysis
 
-## **Credits**
+## Credits
 
 Joseph La Delfa *(Principal)*
 
@@ -79,11 +79,15 @@ Qualisys AB
 
 ![longex](https://user-images.githubusercontent.com/1661078/136086688-ca929356-a96d-45e2-84f1-8bcec9c3cce4.png)
 
-## **Publications** + **Press**
+## Publications *+* Press
 
 The Washington Post (2021): [Fitness Drones Are Coming](https://www.washingtonpost.com/science/drones-for-exercising/2021/04/16/c459c7fe-882d-11eb-82bc-e58213caa38e_story.html)
 
 Hackster.io (2020): [Drone + Tai Chi = Drone Chi](https://www.hackster.io/news/drone-tai-chi-drone-chi-410521b6da65)
+
+RMIT University News (2020): [Using drones to combat the pandemic](https://www.rmit.edu.au/news/all-news/2020/may/using-drones-in-the-pandemic)
+
+RMIT University News (2020): [We have lift off: When meditation meets drones](https://www.rmit.edu.au/news/all-news/2020/april/meditation-meets-drones)
 
 Joseph La Delfa, Mehmet Aydın Baytaş, Nick Huppert, & Ian Peake, Leah Heiss (2020). **Using Pose Estimation for Cultivating Subtleties in Human-Drone Interaction**. Paper for the NordiCHI ‘20 workshop Programming for Moving Bodies. [\[PDF\]](../pub/2020_NordiCHI_WS_HDI.pdf)
 
