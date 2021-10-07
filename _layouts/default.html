@@ -153,12 +153,12 @@
         list-style-type: none;
       }
       @media (max-width: 800px) {
-        nav ul:not(markdown-toc),
-        nav ul li:not(markdown-toc) {
+        nav ul:not(#markdown-toc),
+        nav ul li:not(#markdown-toc) {
           display: inline-block;
         }
-        nav ul + ul:not(markdown-toc)::before,
-        nav ul li + li:not(markdown-toc)::before {
+        nav ul + ul:not(#markdown-toc)::before,
+        nav ul li + li:not(#markdown-toc)::before {
           content: " | ";
         }
       }
