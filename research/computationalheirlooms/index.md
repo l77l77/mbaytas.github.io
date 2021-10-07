@@ -18,10 +18,10 @@ Can we design and build computational artifacts today, that are intended to outl
 
 Computational Heirlooms is a conceptual design space, constructed through philosophical inquiry and literature synthesis, to provide a foundation for future product designs.
 
-It articulates, first, a theoretical user experience, where patterns use, function, and emotion that are innate in many physical, mechanical
-devices are transposed onto software and electronics. Second, it proposes two "design materials" which are well-suited to embody this ideal: blockchain-based software and mechanical devices built with materials and fabrication practices we see in mechanical wristwatches. Finally, it proposes a particular manifestation of this concept, grounded in a real use case: access and authentication using a mechanical wristwatch-like wearable.
+It articulates, first, an ethos and theory for user experience, where patterns of use, function, and emotion that are innate in many physical, mechanical
+devices are transposed onto software and electronics. Second, it identifies two "design materials" which are well-suited to embody this ideal: blockchain-based software and mechanical devices built with materials and fabrication practices we see in mechanical wristwatches. Finally, it proposes a particular manifestation of this concept, grounded in a real use case: access and authentication using a mechanical wristwatch-like wearable.
 
-The proposal interweaves an experience-centered commentary on longevity and value in product design, technical analyses of "material properties" in software, electronics, and traditional craft, and comparative economics of software and consumer electronics industries vs. "ensouled" luxury craft objects.
+The project interweaves an experience-centered commentary on longevity and value in product design, technical analyses of "material properties" in software, electronics, and traditional craft, and comparative economics of software and consumer electronics industries vs. "ensouled" luxury craft objects.
 
 ## **Ethos** + **Methodology**
 
