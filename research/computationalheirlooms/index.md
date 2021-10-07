@@ -1,4 +1,4 @@
-# **Computational Heirlooms**
+# Computational Heirlooms
 
 *Longevity and Long-term Value in Computers and Software*
 
@@ -23,7 +23,7 @@ devices are transposed onto software and electronics. Second, it identifies two 
 
 The project interweaves experience-centered research on value and sustainability in product design + technical analyses of "material properties" in software, electronics, and traditional craft + comparative economics of software and consumer electronics industries vs. "ensouled" luxury craft objects.
 
-## **Ethos** + **Methodology**
+## Ethos *+* Methodology
 
 Conceptual Design  
 Ensoulment  
@@ -52,7 +52,7 @@ Asım Evren Yantaç
 ![haldimann](https://user-images.githubusercontent.com/1661078/136202498-aa5f1d16-4f5c-4719-817d-615c644acb21.png)
 *Design Inspiration: Haldimann H8 -- Flying Sculpture*
 
-## **Publications** + **Funding**
+## Publications *+* Funding
 
 Project **Precious Keys: Long-Term User Experiences with End-user Authentication Hardware** (2020 -- 2023) funded by Vetenskapsrådet (Swedish Research Council) – Natural and Engineering Sciences (Grant #2019-04826)
 
