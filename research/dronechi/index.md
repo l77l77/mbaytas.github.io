@@ -29,7 +29,7 @@ Thematic Analysis
 
 ## **Credits**
 
-Joseph La Delfa
+Joseph La Delfa *(Principal)*
 
 Leah Heiss  
 Rohit Ashok Khot  
