@@ -20,7 +20,7 @@
 ![pola](https://user-images.githubusercontent.com/1661078/136205737-f9e6a939-fefa-4fb3-b152-387ad25223e2.png)
 *Pola (Coming Soon)*
 
-![opal](https://user-images.githubusercontent.com/1661078/136206304-a43ad864-39e2-436a-ba2c-a92e226c82a2.png)
+![opal](https://user-images.githubusercontent.com/1661078/136336068-1910239a-b2fc-4559-a2c5-071477912d23.png)
 *Opal (Coming Soon)*
 
 [![azalea](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
