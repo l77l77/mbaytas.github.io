@@ -35,7 +35,7 @@
 [![computationalheirlooms](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
 *Computational Heirlooms*](/research/computationalheirlooms/)
 
-[![hotspotizer](https://user-images.githubusercontent.com/1661078/136349312-84083373-5f5d-4995-88f3-223edb414741.png)
+[![image](https://user-images.githubusercontent.com/1661078/136369278-9845ad86-bf6d-4120-bb7e-a8e77a7dd6ff.png)
 *Hotspotizer*](/research/hotspotizer/)
 
 </div>
