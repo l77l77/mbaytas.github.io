@@ -1,4 +1,4 @@
-# **Citations**
+# Citations Collection
 
 *NFT Collection Honoring Important Publications in Computer Science*
 
@@ -16,7 +16,7 @@ Citations honors computer science research at large; at the same time, it is int
 
 Each Citations collectible bears a reference to an important publication in computer science, in full academic citation format; as well as a bespoke illustration based on the visual communication devices (figures, graphs, equations, tables) that appear in the original work. The text and figures are typeset with utmost attention to detail, and properties embedded in the NFT record provide information on the typefaces utilized in the design.
 
-## **Ethos** + **Methodology**
+## Ethos *+* Methodology
 
 Business Model Innovation  
 Research through Design  
@@ -32,6 +32,6 @@ Graphic Design
 ![image](https://user-images.githubusercontent.com/1661078/136367973-556510d4-7c7e-49e6-af9f-6b404ab0eb8a.png)
 
 
-## **Products**
+## Products
 
 OpenSea: [Citations Collection NFTs](https://opensea.io/citations)
