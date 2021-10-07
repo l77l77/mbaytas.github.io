@@ -34,7 +34,7 @@ RISE Research Institutes of Sweden
 
 ## **Ethos** + **Methodology**
 
-Human-Centered Speculative Design
+Human-Centered Speculative Design  
 Thematic Analysis
 
 ![jens](https://user-images.githubusercontent.com/1661078/136342893-d97d5dfb-512c-4e28-8119-bf655e5f7f2c.png)
