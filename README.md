@@ -34,21 +34,6 @@
 
 </div>
 
-
----
-
-## **Research Visions**
-
-<div class="gallery" markdown="1">
-
-[![image](https://user-images.githubusercontent.com/1661078/136036949-c7ce5e16-302c-4b2c-9f7e-a2df10c3e238.png)
-*Social Drones*](/research/socialdrones)
-
-![image](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
-*Digital Preciousness and Longevity (Coming Soon)*
-
-</div>
-
 ---
 
 ## **Selected Publications and Appearances**
@@ -110,3 +95,17 @@
 
 [Hotspotizer: End-user Authoring of Mid-air Gestural Interactions](research/pub/2014_NordiCHI_Hotspotizer.pdf)
 : Research
+
+---
+
+## **Research Visions**
+
+<div class="gallery" markdown="1">
+
+[![image](https://user-images.githubusercontent.com/1661078/136036949-c7ce5e16-302c-4b2c-9f7e-a2df10c3e238.png)
+*Social Drones*](/research/socialdrones)
+
+![image](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
+*Digital Preciousness and Longevity (Coming Soon)*
+
+</div>
