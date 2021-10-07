@@ -38,6 +38,10 @@ Thematic Analysis
 <iframe src="https://www.youtube.com/embed/eefroz8oGX8" allowfullscreen></iframe>
 </div>
 
+<div class="ratio ratio-16x9 my-3">
+<iframe src="https://www.youtube.com/embed/b2keE_tbTKI" allowfullscreen></iframe>
+</div>
+
 ![exploded](https://user-images.githubusercontent.com/1661078/136088430-c03ec94f-8e36-4df6-b72e-32ac4a96810f.png)
 
 ![radiate](https://user-images.githubusercontent.com/1661078/136051144-0ece09bc-add1-430d-96d0-735a4960a704.png)
