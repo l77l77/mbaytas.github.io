@@ -37,11 +37,11 @@ Morten Fjeld
 Özgün Kılıç  
 Asım Evren Yantaç  
 
+![bigdiagram](https://user-images.githubusercontent.com/1661078/136200666-c40ce505-4531-484e-b5c6-97d1796ad3a2.png)
+
 <div class="ratio ratio-16x9 my-3">
 <iframe src="https://www.youtube.com/embed/NUwzHB9GPnk" allowfullscreen></iframe>
 </div>
-
-![bigdiagram](https://user-images.githubusercontent.com/1661078/136200666-c40ce505-4531-484e-b5c6-97d1796ad3a2.png)
 
 ![distro](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
 
