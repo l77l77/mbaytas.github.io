@@ -36,16 +36,6 @@ KTH Royal Institute of Technology
 
 ![bigdiagram](https://user-images.githubusercontent.com/1661078/136200666-c40ce505-4531-484e-b5c6-97d1796ad3a2.png)
 
-<div class="ratio ratio-16x9 my-3">
-<iframe src="https://www.youtube.com/embed/NUwzHB9GPnk" allowfullscreen></iframe>
-</div>
-
-![moser](https://user-images.githubusercontent.com/1661078/136202477-20d4ef44-2bc5-4b88-8827-4383c3bb5c5b.png)
-*Design Inspiration: H. Moser & Cie. Swiss Alp Watch Concept Black*
-
-![haldimann](https://user-images.githubusercontent.com/1661078/136202498-aa5f1d16-4f5c-4719-817d-615c644acb21.png)
-*Design Inspiration: Haldimann H8 -- Flying Sculpture*
-
 ## Publications *+* Grants *+* Products
 
 [Citations Collection NFTs](https://opensea.io/citations)
