@@ -8,20 +8,20 @@
 
 <div class="gallery" markdown="1">
 
-![wisp](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
-*Wisp (Coming Soon)*
+![pola](https://user-images.githubusercontent.com/1661078/136205737-f9e6a939-fefa-4fb3-b152-387ad25223e2.png)
+*Pola (Coming Soon)*
+
+![opal](https://user-images.githubusercontent.com/1661078/136336068-1910239a-b2fc-4559-a2c5-071477912d23.png)
+*Opal (Coming Soon)*
+
+[![wisp](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
+*Wisp*](/research/wisp/)
 
 [![pep](https://user-images.githubusercontent.com/1661078/136336488-478a88cf-c52b-4af7-8bd1-c12a224ce6d9.png)
 *PEP*](/research/pep/)
 
 [![ambientatmospheres](https://user-images.githubusercontent.com/1661078/136030946-a54acaf8-7f6a-4306-bbc2-b1d43f3477eb.png)
 *Ambient Atmospheres*](/research/ambientatmospheres/)
-
-![pola](https://user-images.githubusercontent.com/1661078/136205737-f9e6a939-fefa-4fb3-b152-387ad25223e2.png)
-*Pola (Coming Soon)*
-
-![opal](https://user-images.githubusercontent.com/1661078/136336068-1910239a-b2fc-4559-a2c5-071477912d23.png)
-*Opal (Coming Soon)*
 
 [![azalea](https://user-images.githubusercontent.com/1661078/135835277-60bc0f1c-0e44-4931-8195-e4c21774a3c3.png)
 *Azalea*](/research/azalea/)
