@@ -432,3 +432,9 @@ Mehmet Aydın Baytaş, Damla Çay, Yuchong Zhang, Mohammad Obaid, Asım Evren Ya
 Joseph La Delfa, Mehmet Aydın Baytaş, Olivia Wichtowski, Rohit Ashok Khot, & Florian ‘Floyd’ Mueller (2019). **Are Drones Meditative?**. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA ‘19). [\[PDF\]](pub/2019_CHI_EA_Meditative.pdf)
 
 Mehmet Aydın Baytaş, Mohammad Obaid, Joseph La Delfa, Asım Evren Yantaç, & Morten Fjeld (2019). **Integrated Apparatus for Empirical Studies with Embodied Autonomous Social Drones**. In Proceedings of the International Workshop on Human-Drone Interaction (iHDI). [\[PDF\]](pub/2019_CHI_WS_iHDI_Apparatus.pdf)
+
+<script>
+var toc = document.getElementById("markdown-toc");
+var nav = document.getElementsByTagName("nav")[0];
+nav.appendChild(toc); 
+</script>
