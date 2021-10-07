@@ -1,4 +1,8 @@
-# **Selected Design** x **Research Projects**
+---
+title: Mehmet Aydın Baytaş
+---
+
+# Selected Design *x* Research Projects
 
 <div class="gallery" markdown="1">
 
@@ -35,7 +39,7 @@
 </div>
 
 
-# **Selected Publications and Appearances**
+# Selected Publications *+* Appearances
 
 [**Design Disciplin**](https://www.designdisciplin.com/)
 :   
@@ -96,7 +100,7 @@
 : Research
 
 
-# **Research Visions**
+# Research Visions
 
 <div class="gallery" markdown="1">
 
