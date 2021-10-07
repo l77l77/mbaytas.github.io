@@ -407,7 +407,7 @@
     
     <!-- Highlight current nav item -->
     <script>
-      $('nav a[href*="'+location.pathname+'"]').classList.add('current');
+      document.getElementById('nav a[href*="'+location.pathname+'"]').classList.add('current');
     </script>
     
     {% if site.google_analytics %}
