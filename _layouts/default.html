@@ -123,10 +123,6 @@
         color: var(--c-foreground);
       }
       
-      nav p {
-        color: var(--c-halfforeground);
-      }
-      
       /**/
       /* Rastersystem */
       /**/
@@ -361,11 +357,11 @@
       
         <nav>
           
-          <p class="">
+          <p class=""><a href="/">
             Mehmet Aydın Baytaş &mdash; <br>
             <strong>Designer</strong> + <br>
             <strong>Computer Scientist</strong>
-          </p>
+          </a></p>
           
           <ul>
             <li><a href="/">Home</a></li>
@@ -408,7 +404,7 @@
     
     <!-- Highlight current nav item -->
     <script>
-      document.querySelector('nav a[href*="'+location.pathname+'"]').classList.add('current');
+      document.querySelector('nav li a[href*="'+location.pathname+'"]').classList.add('current');
     </script>
     
   </body>
