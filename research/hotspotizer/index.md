@@ -1,4 +1,4 @@
-# **Hotspotizer**
+# Hotspotizer
 
 *Graphical 3D Gesture Programming*
 
@@ -25,7 +25,7 @@ Space Discretization
 <iframe src="https://www.youtube.com/embed/zY2DqQbQCxw" allowfullscreen></iframe>
 </div>
 
-## **Publications** + **Press** + **Open Source**
+## Publications *+* Press *+* Open Source
 
 [github.com/mbaytas/Hotspotizer](https://github.com/mbaytas/Hotspotizer)
 
