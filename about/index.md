@@ -1,6 +1,6 @@
 # About
 
-I am a ~~programmer, engineer, economist, academic, musician, writer, strategist, photographer, YouTuber, philosopher, teacher~~ designer + computer scientist born in Turkey, currently based in ~~Istanbul~~ Gothenburg.
+I am a ~~programmer + engineer + economist + academic + musician + writer + strategist + photographer + YouTuber + philosopher + teacher~~ designer + computer scientist born in Turkey, currently based in ~~Istanbul~~ Gothenburg.
 
 I also produce and host [Design Disciplin](https://www.designdisciplin.com/) -- a [video](https://www.youtube.com/designdisciplin) [podcast](https://podcast.designdisciplin.com/) and [website]((https://www.designdisciplin.com/)) that seeks to illuminate diverse patches on the vast landscape of "design".
   
