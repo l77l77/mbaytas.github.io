@@ -11,8 +11,8 @@
 ![wisp](https://user-images.githubusercontent.com/1661078/136032424-62a6bf03-0f13-43d5-818b-be457547af57.png)
 *Wisp (Coming Soon)*
 
-![pep](https://user-images.githubusercontent.com/1661078/136031585-477fdb8f-ebac-4e5a-9ee2-5de4148b0a5d.png)
-*PEP (Coming Soon)*
+[![pep](https://user-images.githubusercontent.com/1661078/136336488-478a88cf-c52b-4af7-8bd1-c12a224ce6d9.png)
+*PEP*](/research/pep/)
 
 [![ambientatmospheres](https://user-images.githubusercontent.com/1661078/136030946-a54acaf8-7f6a-4306-bbc2-b1d43f3477eb.png)
 *Ambient Atmospheres*](/research/ambientatmospheres/)
