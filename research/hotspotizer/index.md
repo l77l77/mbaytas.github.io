@@ -1,6 +1,6 @@
 # **Hotspotizer**
 
-**Graphical 3D Gesture Programming**
+*Graphical 3D Gesture Programming*
 
 ![hotspotizer](https://user-images.githubusercontent.com/1661078/136349312-84083373-5f5d-4995-88f3-223edb414741.png)
 
