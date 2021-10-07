@@ -1,4 +1,4 @@
-# **Wisp**
+# Wisp
 
 *Drone-guided Breathwork*
 
@@ -8,7 +8,7 @@ Wisp is a product and experience design experiment built on a [Bitcraze Crazyfli
 
 The experience design is inspired and informed by how breathwork teachers work with children.
 
-## **Credits**
+## Credits
 
 Mafalda Samuelsson-Gamboa *(Principal)*
 
@@ -22,7 +22,7 @@ PLUX Wireless Biosignals SA
 Qualisys AB  
 University of Gothenburg
 
-## **Ethos** + **Methodology**
+## Ethos *+* Methodology
 
 Breathwork  
 Somaesthetics
@@ -35,7 +35,7 @@ Somaesthetics
 
 ![image](https://user-images.githubusercontent.com/1661078/133905716-d94cf82b-4945-4aab-a3fb-4b31a2e94cc7.png)
 
-## **Publications** + **Open Source**
+## Publications *+* Open Source
 
 [github.com/socialdrones/wisp](https://github.com/socialdrones/wisp)
 
