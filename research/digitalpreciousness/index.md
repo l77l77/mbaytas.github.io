@@ -2,8 +2,7 @@
 
 *This project is funded by Vetenskapsrådet (The Swedish Research Council) – Natural and Engineering Sciences Grant #2019-04826 (2020--2023)*
 
-![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
-*Product design sketches for a wearable cryptographic key by Özgün Kılıç*
+![distro](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
 
 This project was initiated by frustration over the fact that modern electronic devices are not as resilient and reliable as mechanical ones, and our digital imprints are not cherished like physical ones.
 
@@ -32,13 +31,14 @@ Andreas Lindegren
 
 KTH Royal Institute of Technology
 
+![image](https://user-images.githubusercontent.com/1661078/136034982-eebd8726-a76b-4baa-b418-7a5f8d3d5976.png)
+*Product design sketches for a wearable cryptographic key by Özgün Kılıç*
+
 ![bigdiagram](https://user-images.githubusercontent.com/1661078/136200666-c40ce505-4531-484e-b5c6-97d1796ad3a2.png)
 
 <div class="ratio ratio-16x9 my-3">
 <iframe src="https://www.youtube.com/embed/NUwzHB9GPnk" allowfullscreen></iframe>
 </div>
-
-![distro](https://user-images.githubusercontent.com/1661078/136037326-2e0e24e9-df62-4c72-954b-cdcd3d77bdf6.png)
 
 ![moser](https://user-images.githubusercontent.com/1661078/136202477-20d4ef44-2bc5-4b88-8827-4383c3bb5c5b.png)
 *Design Inspiration: H. Moser & Cie. Swiss Alp Watch Concept Black*
