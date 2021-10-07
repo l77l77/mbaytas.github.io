@@ -4,8 +4,11 @@ I am a ~~programmer + engineer + economist + academic + musician + writer + stra
 
 I'm currently teaching at the joint Department of Computer Science and Engineering at Chalmers University of Technology and University of Gothenburg, and working on two strands of research:
 
-- "[Social Drones](https://www.baytas.net/research/socialdrones/)" :: informing and creating designs for interactive autonomous drones, mainly for leisure and wellness applications. *This work is sponsored by Qualisys AB, and funded by a Wallenberg AI, Autonomous Systems and Software Program – Humanities and Society grant hosted at Chalmers University of Technology.*
-- "[Digital Preciousness](https://www.baytas.net/research/digitalpreciousness/)" :: experimenting with product and user interface designs that embody longevity and value. *This work is funded by Vetenskapsrådet (The Swedish Research Council) via a Natural and Engineering Sciences Grant hosted at KTH Royal Institute of Technology.*
+- "[Social Drones](https://www.baytas.net/research/socialdrones/)" :: informing and creating designs for interactive autonomous drones, mainly for leisure and wellness applications.  
+- *This work is sponsored by Qualisys AB, and funded by a Wallenberg AI, Autonomous Systems and Software Program – Humanities and Society grant hosted at Chalmers University of Technology.*
+
+- "[Digital Preciousness](https://www.baytas.net/research/digitalpreciousness/)" :: experimenting with product and user interface designs that embody longevity and value.  
+*This work is funded by Vetenskapsrådet (The Swedish Research Council) via a Natural and Engineering Sciences Grant hosted at KTH Royal Institute of Technology.*
 
 I also produce and host [Design Disciplin](https://www.designdisciplin.com/) -- a [video](https://www.youtube.com/designdisciplin) [podcast](https://podcast.designdisciplin.com/) and [website]((https://www.designdisciplin.com/)) that seeks to illuminate diverse patches on the vast landscape of "design".
   
