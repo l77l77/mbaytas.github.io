@@ -25,7 +25,7 @@ Our "methodological innovation" fusing human-centered and speculative elements w
 
 ## **Credits**
 
-Jens Hulteberg, Vendela Stenson *(Principals)*
+Jens Hulteberg + Vendela Stenson *(Principals)*
 
 Mafalda Samuelsson-Gamboa
 
