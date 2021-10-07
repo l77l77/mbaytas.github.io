@@ -22,13 +22,15 @@ Business Model Innovation
 Research through Design  
 Graphic Design  
 
-![image](https://user-images.githubusercontent.com/1661078/136367281-3f622583-5fa3-4c69-9c2e-0cbbf5b0b7cc.png)
 
-![image](https://user-images.githubusercontent.com/1661078/136367306-2dfffbac-7332-46f4-b5ea-39d13ec12bc9.png)
+![image](https://user-images.githubusercontent.com/1661078/136367937-8e171d8c-bf32-4282-8473-0d80e19b4407.png)
 
-![image](https://user-images.githubusercontent.com/1661078/136367329-025fcf8d-d1d3-4c74-8ae8-f0abd9cf062a.png)
+![image](https://user-images.githubusercontent.com/1661078/136367945-3d11c07a-470a-4507-80fd-149746edd628.png)
 
-![image](https://user-images.githubusercontent.com/1661078/136367337-17882c6c-b3d8-436a-8c7f-4a2f430aa0c9.png)
+![image](https://user-images.githubusercontent.com/1661078/136367961-88cc3ae3-8655-4b20-ab28-c825e83f1a71.png)
+
+![image](https://user-images.githubusercontent.com/1661078/136367973-556510d4-7c7e-49e6-af9f-6b404ab0eb8a.png)
+
 
 ## **Products**
 
