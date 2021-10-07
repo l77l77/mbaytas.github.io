@@ -12,7 +12,9 @@ The experience design is inspired and informed by how breathwork teachers work w
 
 Mafalda Samuelsson-Gamboa (Principal)
 
-Sara Ljungblad
+Morten Fjeld  
+Sara Ljungblad  
+Mohammad Obaid
 
 Bitcraze AB
 Chalmers University of Technology
