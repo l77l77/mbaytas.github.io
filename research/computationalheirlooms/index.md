@@ -21,7 +21,7 @@ Computational Heirlooms is a conceptual design space, constructed through philos
 It articulates, first, an ethos and theory for user experience, where patterns of use, function, and emotion that are innate in many physical, mechanical
 devices are transposed onto software and electronics. Second, it identifies two "design materials" which are well-suited to embody this ideal: blockchain-based software and mechanical devices built with materials and fabrication practices we see in mechanical wristwatches. Finally, it proposes a particular manifestation of this concept, grounded in a real use case: access and authentication using a mechanical wristwatch-like wearable.
 
-The project interweaves an experience-centered commentary on longevity and value in product design, technical analyses of "material properties" in software, electronics, and traditional craft, and comparative economics of software and consumer electronics industries vs. "ensouled" luxury craft objects.
+The project interweaves experience-centered research on value and sustainability in product design + technical analyses of "material properties" in software, electronics, and traditional craft + comparative economics of software and consumer electronics industries vs. "ensouled" luxury craft objects.
 
 ## **Ethos** + **Methodology**
 
