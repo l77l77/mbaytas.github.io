@@ -152,9 +152,11 @@
         list-style-type: none;
       }
       @media (max-width: 800px) {
+        nav ul,
         nav ul li {
           display: inline-block;
         }
+        nav ul + ul::before,
         nav ul li + li::before {
           content: " | ";
         }
