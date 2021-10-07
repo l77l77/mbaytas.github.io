@@ -26,6 +26,7 @@ The project interweaves experience-centered research on value and sustainability
 ## **Ethos** + **Methodology**
 
 Conceptual Design  
+Ensoulment  
 Literature Synthesis  
 Transdisciplinarity  
 
