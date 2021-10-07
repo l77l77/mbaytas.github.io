@@ -1,4 +1,4 @@
-# **Ambient Atmospheres**
+# Ambient Atmospheres
 
 *Experiments in Light, Materials, Algorithms, and Memories*
 
@@ -6,13 +6,13 @@
 
 Ambient Atmospheres began as an open-ended, exploratory research-through-design project and culminated in an exhibition titled Bright Memories.
 
-Building on a philosophical notion of "playful hacking" from scholarly literature on human-computer interaction design, the team created numerous prototypes over six months; experimenting with materials, algorithms, electronics, mechanics, graphic design, lighting design, architectural scale prototyping, software development, and social perceptions.
+Building on a philosophy of "playful hacking", the team created numerous prototypes over six months; experimenting with materials, algorithms, electronics, mechanics, graphic design, lighting design, architectural scale prototyping, software development, and social perceptions.
 
 The design experiments culminated in a room-scale installation Bright Memories at Gothenburg's A Working Lab, exhibited during the summer of 2021. The focal point of the installation: an interactive centerpiece composed of 7 floating light windows, constructed by "upcycling" parts from discarded LCD monitors. A wooden console and cartridges present a tactile means to play back "memories" in the abstract light medium. Flanking the centerpiece, 10 posters open mysterious windows into the design and research process.
 
 As a research project, Ambient Atmospheres demonstrates an archetype for "exploratory research through design" and proposes "threads of design" as a form of analysis and knowledge creation via constructive design research – in addition to revealing a wealth of tactical pointers for fabrication, integrated interaction design and engineering, and lighting design.
 
-## **Credits**
+## Credits
 
 Frederik Göbel + Mattias Hallin *(Principals)*
 
@@ -22,7 +22,7 @@ A Working Lab
 Chalmers University of Technology  
 Kollision  
 
-## **Ethos** + **Methodology**
+## Ethos *+* Methodology
 
 Playful Hacking  
 Research through Design    
