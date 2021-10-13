@@ -12,7 +12,7 @@ Sara Ljungblad, Yemao Man, Mehmet Aydın Baytaş, Mafalda Samuelsson-Gamboa, Moh
 
 Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (2020). **iHDI 2020: Interdisciplinary Workshop on Human-Drone Interaction**. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA ‘20). [\[PDF\]](pub/2020_CHI_EA_iHDI.pdf)
 
-Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (eds.) (2020). **Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction**. [\[Proceedings\]](http://ceur-ws.org/Vol-2617/)
+Mehmet Aydın Baytaş, Markus Funk, Sara Ljungblad, Jérémie Garcia, Joseph La Delfa, & Florian ‘Floyd’ Mueller (eds.) (2020). **Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020)**. [\[Proceedings\]](http://ceur-ws.org/Vol-2617/)
 
 Mehmet Aydın Baytaş, Sara Ljungblad, Joseph La Delfa, & Morten Fjeld (2020). **Agent Archetypes for Human-Drone Interaction: Social Robots or Objects with Intent?**. In Proceedings of the Interdisciplinary Workshop on Human-Drone Interaction (iHDI 2020). [\[PDF\]](pub/2020_iHDI_Agent.pdf)
 
